@@ -170,6 +170,7 @@ html[lang="fa"] .sort select{background-position:left 14px center}
 /* Currency symbol chip */
 .currency{display:flex;align-items:baseline;gap:8px}.currency+.currency{margin-top:6px}
 .currency-symbol{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-inline-size:28px;block-size:22px;padding-inline:6px;border-radius:6px;background:#eef3f6;color:#24435a;font-size:12px;font-weight:700;line-height:1;white-space:nowrap;unicode-bidi:isolate;transform:translateY(-1px)}
+.nowrap{white-space:nowrap}
 /* Spacing system: 4px grid; section rhythm and card fixes */
 .topbar{padding-block:24px}.hero{padding-block:48px 56px}.controls{padding-block:24px 16px}.directory{padding-block:40px 64px}.notes{padding-block:40px}.footer{padding-block:32px}
 .notes-inner{gap:48px}.section-head{margin-bottom:24px}.load-area{margin-top:32px}.end-note{margin-top:32px}
@@ -207,7 +208,8 @@ const escapeHTML=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<'
 let countryNames,currencyNames;
 try{countryNames=new Intl.DisplayNames(['fa'],{type:'region'});currencyNames=new Intl.DisplayNames(['fa'],{type:'currency'});}catch{}
 const faName=c=>countryNames?.of(c.code)||c.name;
-const faCurrency=c=>currencyNames?.of(c.code)||c.name;
+const faCurrencyFallback={ZWG:'طلای زیمبابوه (زیگ)',SLE:'لئونه سیرالئون',VES:'بولیوار سوبرانو ونزوئلا',MRU:'اوگوئیای موریتانی',STN:'دوبرای سائوتومه و پرنسیپ',KID:'دلار کیریباتی',TVD:'دلار تووالو'};
+const faCurrency=c=>{const n=currencyNames?.of(c.code);return n&&n!==c.code?n:faCurrencyFallback[c.code]||c.name};
 const searchable=COUNTRIES.map(c=>({...c,...COUNTRY_FACTS[c.code],haystack:plain([c.name,faName(c),c.code,c.capital,c.region,regionFa[c.region],...c.cities,...c.currencies.flatMap(v=>[v.name,v.code,faCurrency(v)]),...COUNTRY_FACTS[c.code].languages.flatMap(v=>[v.en,v.fa]),COUNTRY_FACTS[c.code].languageNote.en,COUNTRY_FACTS[c.code].languageNote.fa].join(' '))}));
 let activeRegion='All regions',limit=24,lang='en';
 const fa=()=>lang==='fa';
@@ -264,9 +266,14 @@ function religionValue(c){
  const share=r.share===null?'':`<span class="rel-share">${fmt.format(r.share)}${t('%','٪')}</span>`;
  return `<div class="rel-head"><span class="rel-name">${escapeHTML(fa()?r.fa:r.en)}</span><span class="rel-badge">${t('No state religion','بدون دین رسمی')}</span></div>${bar}<div class="rel-meta">${share}<span>${kind} · ${r.share===null?'':t('estimate ','برآورد ')}${year}</span></div>${noteHTML}`;
 }
+function currencyName(name,code){
+ const i=name.lastIndexOf(' ');
+ const tail=`<span class="nowrap">${escapeHTML(name.slice(i+1))} <bdi class="code-inline">${escapeHTML(code)}</bdi></span>`;
+ return i<0?tail:`${escapeHTML(name.slice(0,i))} ${tail}`;
+}
 function card(c){
  const religionLabel=c.religion.official?t('Official religion / denomination','دین و مذهب رسمی'):c.populationReligion.group==='Religiously_unaffiliated'?t('Predominant affiliation','گرایش غالب مردم'):t('Predominant religion','دین غالب مردم');
- return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}"><div class="card-top"><span class="flag" role="img" aria-label="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}">${c.flag}</span><div class="identity"><h3>${escapeHTML(fa()?faName(c):c.name)}</h3><div class="country-meta"><span class="region-tag" data-region="${c.region}">${escapeHTML(fa()?regionFa[c.region]:c.region)}</span><bdi class="country-code" title="${t('ISO country code','کد ایزوی کشور')}" aria-label="${t('Country code: ','کد کشور: ')}${c.code}">${c.code}</bdi></div></div></div><dl class="details"><div class="detail detail-capital"><dt class="label">${t('Capital','پایتخت')}</dt><dd class="value source-value" lang="en">${escapeHTML(c.capital)}</dd></div><div class="detail"><dt class="label">${t('Key cities','شهرهای مهم')}</dt><dd class="value cities source-value" lang="en">${escapeHTML(c.cities.join(' · '))}</dd></div><div class="detail"><dt class="label">${t('Currency','واحد پول')}</dt><dd class="value">${c.currencies.map(v=>`<span class="currency"><bdi class="currency-symbol" aria-hidden="true">${escapeHTML(CURRENCY_SYMBOLS[v.code]||v.code)}</bdi><span>${escapeHTML(fa()?faCurrency(v):v.name)} <bdi class="code-inline">${escapeHTML(v.code)}</bdi></span></span>`).join('')}</dd></div><div class="detail detail-culture"><dt class="label">${t('Official Languages','زبان‌های رسمی')}</dt><dd class="value">${languageValue(c)}</dd></div><div class="detail detail-religion" data-kind="${c.religion.official?'official':'population'}"><dt class="label">${religionLabel}</dt><dd class="value">${religionValue(c)}</dd></div></dl></article>`;
+ return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}"><div class="card-top"><span class="flag" role="img" aria-label="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}">${c.flag}</span><div class="identity"><h3>${escapeHTML(fa()?faName(c):c.name)}</h3><div class="country-meta"><span class="region-tag" data-region="${c.region}">${escapeHTML(fa()?regionFa[c.region]:c.region)}</span><bdi class="country-code" title="${t('ISO country code','کد ایزوی کشور')}" aria-label="${t('Country code: ','کد کشور: ')}${c.code}">${c.code}</bdi></div></div></div><dl class="details"><div class="detail detail-capital"><dt class="label">${t('Capital','پایتخت')}</dt><dd class="value source-value" lang="en">${escapeHTML(c.capital)}</dd></div><div class="detail"><dt class="label">${t('Key cities','شهرهای مهم')}</dt><dd class="value cities source-value" lang="en">${escapeHTML(c.cities.join(' · '))}</dd></div><div class="detail"><dt class="label">${t('Currency','واحد پول')}</dt><dd class="value">${c.currencies.map(v=>`<span class="currency"><bdi class="currency-symbol" aria-hidden="true">${escapeHTML(CURRENCY_SYMBOLS[v.code]||v.code)}</bdi><span>${currencyName(fa()?faCurrency(v):v.name,v.code)}</span></span>`).join('')}</dd></div><div class="detail detail-culture"><dt class="label">${t('Official Languages','زبان‌های رسمی')}</dt><dd class="value">${languageValue(c)}</dd></div><div class="detail detail-religion" data-kind="${c.religion.official?'official':'population'}"><dt class="label">${religionLabel}</dt><dd class="value">${religionValue(c)}</dd></div></dl></article>`;
 }
 function render({more=false,updateURL=true}={}){
  const query=plain(search.value.trim());
