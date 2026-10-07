@@ -17,7 +17,7 @@ Ocean navy, sand and earth accents appear only in the header and footer. The dir
 
 ## Persian version
 
-Use the فارسی / English switch in the header. The Persian view uses RTL layout and embedded Vazirmatn, including offline use. Interface text, country names, currency names, official languages and religion are localized; capitals and cities retain their source spelling. Hosted Persian entry: `?lang=fa`. Searches accept Persian and English country and currency names.
+Use the فارسی / English switch in the header. The Persian view uses RTL layout and embedded Vazirmatn, including offline use. Interface text, country names, currency names, official languages and religion are localized; capitals and key cities have curated Persian names. Hosted Persian entry: `?lang=fa`. Searches accept Persian and English country and currency names.
 
 Vazirmatn: https://github.com/rastikerdar/vazirmatn, licensed under SIL OFL 1.1; see `Vazirmatn-OFL.txt`. The license is also embedded in the HTML.
 
@@ -62,3 +62,7 @@ For 149 countries without a state religion, the largest of Pew’s seven affilia
 Andorra, Antigua and Barbuda, Dominica, Saint Kitts and Nevis, Marshall Islands, Nauru, Palau and San Marino are outside that dataset. Their predominant Christianity is supported by country-specific 2023 U.S. Department of State religious freedom reports, cited in the JSON. Cards show “Report 2023” without a percentage; the underlying censuses and estimates have different dates. No denomination is inferred from Pew’s broad categories.
 
 Cards use a separate flag tile, stable continent tag and ISO badge, divided fact rows, an emphasized capital and a subtly shaded religion panel. Long language lists retain keyboard-accessible expansion. Persian and English layouts share the same hierarchy and adapt to narrow screens.
+
+## Persian capitals and key cities
+
+`capitalFa` and `citiesFa` in `data/country-facts.json` contains a curated Persian rendering of every existing capital and key-city field, including multi-capital roles and qualifications. The Persian view uses these RTL values; the English view retains the original strings. Search accepts either language in either view. The embed script checks all 195 translations for Persian text and accidental Latin leftovers. City-list order and all English source strings are preserved.

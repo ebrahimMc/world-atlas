@@ -7,6 +7,10 @@ p=root/'index.html';text=p.read_text();data=json.loads((root/'data/country-facts
 countries=json.loads(re.search(r'const COUNTRIES\s*=\s*(\[.*?\]);',text).group(1))
 assert set(data)=={c['code'] for c in countries}, 'Country coverage differs'
 for code,facts in data.items():
+ assert re.search(r'[\u0600-\u06ff]',facts['capitalFa']) and not re.search(r'[A-Za-z]',facts['capitalFa']), f'{code}: missing Persian capital'
+ cities=facts['citiesFa']
+ original=next(c for c in countries if c['code']==code)['cities']
+ assert len(cities)==len(original) and all(re.search(r'[\u0600-\u06ff]',v) and not re.search(r'[A-Za-z]',v) for v in cities), f'{code}: missing Persian cities'
  assert facts['sources'], f'{code}: missing source'
  for language in facts['languages']:
   assert language['en'] and re.search(r'[\u0600-\u06ff]',language['fa']), f'{code}: missing translation'

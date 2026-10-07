@@ -34,6 +34,12 @@
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/afghanistan/"
       }
+    ],
+    "capitalFa": "کابل",
+    "citiesFa": [
+      "کابل",
+      "هرات",
+      "مزارشریف"
     ]
   },
   "AL": {
@@ -76,7 +82,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تیرانا",
+    "citiesFa": [
+      "تیرانا",
+      "دورس",
+      "ولوره"
+    ]
   },
   "DZ": {
     "languages": [
@@ -108,6 +120,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Algeria_2020?lang=en"
       }
+    ],
+    "capitalFa": "الجزیره",
+    "citiesFa": [
+      "الجزیره",
+      "وهران",
+      "قسنطینه"
     ]
   },
   "AD": {
@@ -150,7 +168,12 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/andorra/"
-    }
+    },
+    "capitalFa": "آندورا لا ولا",
+    "citiesFa": [
+      "آندورا لا ولا",
+      "لس اسکالدس"
+    ]
   },
   "AO": {
     "languages": [
@@ -192,7 +215,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لوآندا",
+    "citiesFa": [
+      "لوآندا",
+      "هوامبو",
+      "لوبیتو"
+    ]
   },
   "AG": {
     "languages": [
@@ -234,7 +263,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/antigua-and-barbuda/"
-    }
+    },
+    "capitalFa": "سنت جانز",
+    "citiesFa": [
+      "سنت جانز"
+    ]
   },
   "AR": {
     "languages": [],
@@ -271,7 +304,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بوئنوس آیرس",
+    "citiesFa": [
+      "بوئنوس آیرس",
+      "کوردوبا",
+      "روساریو"
+    ]
   },
   "AM": {
     "languages": [
@@ -313,7 +352,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ایروان",
+    "citiesFa": [
+      "ایروان",
+      "گیومری",
+      "وانادزور"
+    ]
   },
   "AU": {
     "languages": [],
@@ -350,7 +395,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کانبرا",
+    "citiesFa": [
+      "کانبرا",
+      "سیدنی",
+      "ملبورن"
+    ]
   },
   "AT": {
     "languages": [
@@ -392,7 +443,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "وین",
+    "citiesFa": [
+      "وین",
+      "گراتس",
+      "لینتس"
+    ]
   },
   "AZ": {
     "languages": [
@@ -434,7 +491,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "باکو",
+    "citiesFa": [
+      "باکو",
+      "سومقاییت",
+      "گنجه"
+    ]
   },
   "BS": {
     "languages": [
@@ -476,7 +539,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ناسائو",
+    "citiesFa": [
+      "ناسائو",
+      "لوکایا",
+      "فری‌پورت"
+    ]
   },
   "BH": {
     "languages": [
@@ -504,6 +573,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bahrain_2017?lang=en"
       }
+    ],
+    "capitalFa": "منامه",
+    "citiesFa": [
+      "منامه",
+      "محرق",
+      "رفاع"
     ]
   },
   "BD": {
@@ -532,6 +607,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bangladesh_2018?lang=en"
       }
+    ],
+    "capitalFa": "داکا",
+    "citiesFa": [
+      "داکا",
+      "چیتاگونگ",
+      "گازی‌پور"
     ]
   },
   "BB": {
@@ -574,7 +655,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بریج‌تاون",
+    "citiesFa": [
+      "بریج‌تاون"
+    ]
   },
   "BY": {
     "languages": [
@@ -620,7 +705,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مینسک",
+    "citiesFa": [
+      "مینسک",
+      "گومل",
+      "گرودنو"
+    ]
   },
   "BE": {
     "languages": [
@@ -670,7 +761,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بروکسل",
+    "citiesFa": [
+      "بروکسل",
+      "آنتورپ",
+      "خنت"
+    ]
   },
   "BZ": {
     "languages": [
@@ -712,7 +809,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بلموپان",
+    "citiesFa": [
+      "بلموپان",
+      "بلیزسیتی",
+      "سن ایگناسیو"
+    ]
   },
   "BJ": {
     "languages": [
@@ -754,7 +857,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورتو نووو (رسمی)؛ کوتونو (مقر دولت)",
+    "citiesFa": [
+      "پورتو نووو",
+      "کوتونو",
+      "آبومی کالوی"
+    ]
   },
   "BT": {
     "languages": [
@@ -796,7 +905,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تیمفو",
+    "citiesFa": [
+      "تیمفو",
+      "فونتشولینگ",
+      "تسیرانگ"
+    ]
   },
   "BO": {
     "languages": [
@@ -991,7 +1106,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سوکره (قانون اساسی)؛ لاپاز (مقر دولت)",
+    "citiesFa": [
+      "سوکره",
+      "لاپاز",
+      "سانتا کروس دلا سیرا"
+    ]
   },
   "BA": {
     "languages": [
@@ -1041,7 +1162,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سارایوو",
+    "citiesFa": [
+      "سارایوو",
+      "بانیا لوکا",
+      "زنیتسا"
+    ]
   },
   "BW": {
     "languages": [
@@ -1083,7 +1210,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "گابورون",
+    "citiesFa": [
+      "گابورون",
+      "فرانسیس‌تاون",
+      "موگودیتشانه"
+    ]
   },
   "BR": {
     "languages": [
@@ -1125,7 +1258,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "برازیلیا",
+    "citiesFa": [
+      "برازیلیا",
+      "سائوپائولو",
+      "ریو دو ژانیرو"
+    ]
   },
   "BN": {
     "languages": [
@@ -1153,6 +1292,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Brunei_2006?lang=en"
       }
+    ],
+    "capitalFa": "بندر سری بگاوان",
+    "citiesFa": [
+      "بندر سری بگاوان",
+      "کوالا بلایت",
+      "سریا"
     ]
   },
   "BG": {
@@ -1195,7 +1340,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "صوفیه",
+    "citiesFa": [
+      "صوفیه",
+      "پلوودیو",
+      "وارنا"
+    ]
   },
   "BF": {
     "languages": [
@@ -1242,7 +1393,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "واگادوگو",
+    "citiesFa": [
+      "واگادوگو",
+      "بوبو دیولاسو",
+      "کودوگو"
+    ]
   },
   "BI": {
     "languages": [
@@ -1297,7 +1454,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "گیتگا",
+    "citiesFa": [
+      "گیتگا",
+      "بوجومبورا",
+      "نگوزی"
+    ]
   },
   "KH": {
     "languages": [
@@ -1325,6 +1488,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cambodia_2008?lang=en"
       }
+    ],
+    "capitalFa": "پنوم‌پن",
+    "citiesFa": [
+      "پنوم‌پن",
+      "تاکئو",
+      "سیم ریپ"
     ]
   },
   "CM": {
@@ -1371,7 +1540,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "یائونده",
+    "citiesFa": [
+      "یائونده",
+      "دوآلا",
+      "بامندا"
+    ]
   },
   "CA": {
     "languages": [
@@ -1417,7 +1592,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "اتاوا",
+    "citiesFa": [
+      "اتاوا",
+      "تورنتو",
+      "مونترآل"
+    ]
   },
   "CV": {
     "languages": [
@@ -1459,7 +1640,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پرایا",
+    "citiesFa": [
+      "پرایا",
+      "میندلو",
+      "اسپارگوس"
+    ]
   },
   "CF": {
     "languages": [
@@ -1505,7 +1692,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بانگی",
+    "citiesFa": [
+      "بانگی",
+      "بیمبو",
+      "بگوا"
+    ]
   },
   "TD": {
     "languages": [
@@ -1551,7 +1744,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "انجامنا",
+    "citiesFa": [
+      "انجامنا",
+      "موندو",
+      "آبشه"
+    ]
   },
   "CL": {
     "languages": [],
@@ -1588,7 +1787,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سانتیاگو",
+    "citiesFa": [
+      "سانتیاگو",
+      "والپارایسو",
+      "کونسپسیون"
+    ]
   },
   "CN": {
     "languages": [
@@ -1630,7 +1835,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پکن",
+    "citiesFa": [
+      "پکن",
+      "شانگهای",
+      "گوانگ‌ژو"
+    ]
   },
   "CO": {
     "languages": [
@@ -1672,7 +1883,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بوگوتا",
+    "citiesFa": [
+      "بوگوتا",
+      "کالی",
+      "مدئین"
+    ]
   },
   "KM": {
     "languages": [
@@ -1708,6 +1925,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Comoros_2018?lang=en"
       }
+    ],
+    "capitalFa": "مورونی",
+    "citiesFa": [
+      "مورونی",
+      "موتسامودو",
+      "فومبونی"
     ]
   },
   "CG": {
@@ -1750,7 +1973,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "برازاویل",
+    "citiesFa": [
+      "برازاویل",
+      "پوآنت نوآر",
+      "دولیزی"
+    ]
   },
   "CR": {
     "languages": [
@@ -1778,6 +2007,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Costa_Rica_2020?lang=en"
       }
+    ],
+    "capitalFa": "سن خوزه",
+    "citiesFa": [
+      "سن خوزه",
+      "آلاخوئلا",
+      "کارتاگو"
     ]
   },
   "HR": {
@@ -1820,7 +2055,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "زاگرب",
+    "citiesFa": [
+      "زاگرب",
+      "اسپلیت",
+      "رییکا"
+    ]
   },
   "CU": {
     "languages": [
@@ -1862,7 +2103,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "هاوانا",
+    "citiesFa": [
+      "هاوانا",
+      "سانتیاگو د کوبا",
+      "کاماگوی"
+    ]
   },
   "CY": {
     "languages": [
@@ -1908,7 +2155,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "نیکوزیا",
+    "citiesFa": [
+      "نیکوزیا",
+      "لیماسول",
+      "لارناکا"
+    ]
   },
   "CZ": {
     "languages": [
@@ -1950,7 +2203,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پراگ",
+    "citiesFa": [
+      "پراگ",
+      "برنو",
+      "اوستراوا"
+    ]
   },
   "DK": {
     "languages": [
@@ -1978,6 +2237,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Denmark_1953?lang=en"
       }
+    ],
+    "capitalFa": "کپنهاگ",
+    "citiesFa": [
+      "کپنهاگ",
+      "آرهوس",
+      "اودنسه"
     ]
   },
   "DJ": {
@@ -2010,6 +2275,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Djibouti_2010?lang=en"
       }
+    ],
+    "capitalFa": "جیبوتی",
+    "citiesFa": [
+      "جیبوتی",
+      "بلبالا",
+      "علی صبیح"
     ]
   },
   "DM": {
@@ -2052,7 +2323,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/dominica/"
-    }
+    },
+    "capitalFa": "روسو",
+    "citiesFa": [
+      "روسو"
+    ]
   },
   "DO": {
     "languages": [
@@ -2085,6 +2360,12 @@
         "fa": "گزارش آزادی دینی ۲۰۲۳",
         "url": "https://2021-2025.state.gov/wp-content/uploads/2024/04/547499-DOMINICAN-REPUBLIC-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
       }
+    ],
+    "capitalFa": "سانتو دومینگو",
+    "citiesFa": [
+      "سانتو دومینگو",
+      "سانتیاگو د لوس کابایروس",
+      "لا رومانا"
     ]
   },
   "CD": {
@@ -2127,7 +2408,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کینشاسا",
+    "citiesFa": [
+      "کینشاسا",
+      "لوبومباشی",
+      "مبوجی مایی"
+    ]
   },
   "EC": {
     "languages": [
@@ -2169,7 +2456,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کیتو",
+    "citiesFa": [
+      "کیتو",
+      "گوایاکیل",
+      "کوئنکا"
+    ]
   },
   "EG": {
     "languages": [
@@ -2197,6 +2490,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Egypt_2019?lang=en"
       }
+    ],
+    "capitalFa": "قاهره",
+    "citiesFa": [
+      "قاهره",
+      "اسکندریه",
+      "جیزه"
     ]
   },
   "SV": {
@@ -2239,7 +2538,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سان سالوادور",
+    "citiesFa": [
+      "سان سالوادور",
+      "سویاپانگو",
+      "سان میگل"
+    ]
   },
   "GQ": {
     "languages": [
@@ -2289,7 +2594,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سیوداد دلا پاز",
+    "citiesFa": [
+      "سیوداد دلا پاز",
+      "مالابو",
+      "باتا"
+    ]
   },
   "ER": {
     "languages": [],
@@ -2326,7 +2637,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "اسمره",
+    "citiesFa": [
+      "اسمره",
+      "کرن",
+      "هیمورا"
+    ]
   },
   "EE": {
     "languages": [
@@ -2368,7 +2685,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تالین",
+    "citiesFa": [
+      "تالین",
+      "تارتو",
+      "ناروا"
+    ]
   },
   "SZ": {
     "languages": [
@@ -2414,7 +2737,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "امبابانه (اداری)؛ لوبامبا (قانون‌گذاری و سلطنتی)",
+    "citiesFa": [
+      "لوبامبا",
+      "مانزینی",
+      "امبابانه"
+    ]
   },
   "ET": {
     "languages": [],
@@ -2456,7 +2785,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آدیس آبابا",
+    "citiesFa": [
+      "آدیس آبابا",
+      "جیجیگا",
+      "گوندار"
+    ]
   },
   "FJ": {
     "languages": [
@@ -2506,7 +2841,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سووا",
+    "citiesFa": [
+      "سووا",
+      "ناسینو",
+      "لائوتوکا"
+    ]
   },
   "FI": {
     "languages": [
@@ -2552,7 +2893,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "هلسینکی",
+    "citiesFa": [
+      "هلسینکی",
+      "اسپو",
+      "تامپره"
+    ]
   },
   "FR": {
     "languages": [
@@ -2594,7 +2941,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پاریس",
+    "citiesFa": [
+      "پاریس",
+      "مارسی",
+      "لیون"
+    ]
   },
   "GA": {
     "languages": [
@@ -2636,7 +2989,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لیبرویل",
+    "citiesFa": [
+      "لیبرویل",
+      "پورت ژانتی",
+      "فرانسویل"
+    ]
   },
   "GM": {
     "languages": [
@@ -2678,7 +3037,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بانجول",
+    "citiesFa": [
+      "بانجول",
+      "سرکوندا",
+      "بریکاما"
+    ]
   },
   "GE": {
     "languages": [
@@ -2720,7 +3085,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تفلیس",
+    "citiesFa": [
+      "تفلیس",
+      "باتومی",
+      "کوتائیسی"
+    ]
   },
   "DE": {
     "languages": [
@@ -2762,7 +3133,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "برلین",
+    "citiesFa": [
+      "برلین",
+      "هامبورگ",
+      "مونیخ"
+    ]
   },
   "GH": {
     "languages": [
@@ -2804,7 +3181,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آکرا",
+    "citiesFa": [
+      "آکرا",
+      "کوماسی",
+      "تاماله"
+    ]
   },
   "GR": {
     "languages": [
@@ -2832,6 +3215,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Greece_2019?lang=en"
       }
+    ],
+    "capitalFa": "آتن",
+    "citiesFa": [
+      "آتن",
+      "تسالونیکی",
+      "پاتراس"
     ]
   },
   "GD": {
@@ -2874,7 +3263,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سنت جورجز",
+    "citiesFa": [
+      "سنت جورجز"
+    ]
   },
   "GT": {
     "languages": [
@@ -2916,7 +3309,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "گواتمالاسیتی",
+    "citiesFa": [
+      "گواتمالاسیتی",
+      "وییا نوئوا",
+      "میکسکو"
+    ]
   },
   "GN": {
     "languages": [
@@ -2958,7 +3357,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کوناکری",
+    "citiesFa": [
+      "کوناکری",
+      "کاماین",
+      "نزره‌کوره"
+    ]
   },
   "GW": {
     "languages": [
@@ -3000,7 +3405,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بیسائو",
+    "citiesFa": [
+      "بیسائو",
+      "گابو",
+      "بافاتا"
+    ]
   },
   "GY": {
     "languages": [
@@ -3042,7 +3453,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "جورج‌تاون",
+    "citiesFa": [
+      "جورج‌تاون",
+      "لیندن",
+      "نیو آمستردام"
+    ]
   },
   "HT": {
     "languages": [
@@ -3088,7 +3505,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورتو پرنس",
+    "citiesFa": [
+      "پورتو پرنس",
+      "کاپ هائیتین",
+      "ژاکمل"
+    ]
   },
   "HN": {
     "languages": [
@@ -3130,7 +3553,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تگوسیگالپا",
+    "citiesFa": [
+      "تگوسیگالپا",
+      "سن پدرو سولا",
+      "دانلی"
+    ]
   },
   "HU": {
     "languages": [
@@ -3172,7 +3601,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بوداپست",
+    "citiesFa": [
+      "بوداپست",
+      "دبرتسن",
+      "سگد"
+    ]
   },
   "IS": {
     "languages": [
@@ -3200,6 +3635,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Iceland_2013?lang=en"
       }
+    ],
+    "capitalFa": "ریکیاویک",
+    "citiesFa": [
+      "ریکیاویک",
+      "کوپاووگور",
+      "هافنارفیوردور"
     ]
   },
   "IN": {
@@ -3246,7 +3687,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دهلی نو",
+    "citiesFa": [
+      "دهلی نو",
+      "بمبئی",
+      "بنگلور"
+    ]
   },
   "ID": {
     "languages": [
@@ -3288,7 +3735,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "جاکارتا",
+    "citiesFa": [
+      "جاکارتا",
+      "سورابایا",
+      "بکاسی"
+    ]
   },
   "IR": {
     "languages": [
@@ -3316,6 +3769,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Iran_1989?lang=en"
       }
+    ],
+    "capitalFa": "تهران",
+    "citiesFa": [
+      "تهران",
+      "مشهد",
+      "اصفهان"
     ]
   },
   "IQ": {
@@ -3348,6 +3807,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Iraq_2005?lang=en"
       }
+    ],
+    "capitalFa": "بغداد",
+    "citiesFa": [
+      "بغداد",
+      "موصل",
+      "بصره"
     ]
   },
   "IE": {
@@ -3394,7 +3859,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دوبلین",
+    "citiesFa": [
+      "دوبلین",
+      "کورک",
+      "گالوی"
+    ]
   },
   "IL": {
     "languages": [
@@ -3441,7 +3912,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بیت‌المقدس",
+    "citiesFa": [
+      "بیت‌المقدس",
+      "تل‌آویو",
+      "حیفا"
+    ]
   },
   "IT": {
     "languages": [
@@ -3483,7 +3960,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "رم",
+    "citiesFa": [
+      "رم",
+      "میلان",
+      "ناپل"
+    ]
   },
   "CI": {
     "languages": [
@@ -3525,7 +4008,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "یاموسوکرو (رسمی)؛ آبیجان (اداری)",
+    "citiesFa": [
+      "یاموسوکرو",
+      "آبیجان",
+      "آبوبو"
+    ]
   },
   "JM": {
     "languages": [
@@ -3567,7 +4056,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کینگستون",
+    "citiesFa": [
+      "کینگستون",
+      "مونتگو بی",
+      "اسپانیش تاون"
+    ]
   },
   "JP": {
     "languages": [],
@@ -3604,7 +4099,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "توکیو",
+    "citiesFa": [
+      "توکیو",
+      "اوساکا",
+      "یوکوهاما"
+    ]
   },
   "JO": {
     "languages": [
@@ -3632,6 +4133,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Jordan_2016?lang=en"
       }
+    ],
+    "capitalFa": "امان",
+    "citiesFa": [
+      "امان",
+      "زرقاء",
+      "اربد"
     ]
   },
   "KZ": {
@@ -3678,7 +4185,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آستانه",
+    "citiesFa": [
+      "آستانه",
+      "آلماتی",
+      "شیمکنت"
+    ]
   },
   "KE": {
     "languages": [
@@ -3724,7 +4237,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "نایروبی",
+    "citiesFa": [
+      "نایروبی",
+      "مومباسا",
+      "کیسومو"
+    ]
   },
   "KI": {
     "languages": [
@@ -3770,7 +4289,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تاراوای جنوبی",
+    "citiesFa": [
+      "تاراوای جنوبی"
+    ]
   },
   "KW": {
     "languages": [
@@ -3798,6 +4321,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Kuwait_1992?lang=en"
       }
+    ],
+    "capitalFa": "کویت",
+    "citiesFa": [
+      "کویت",
+      "حولی",
+      "الاحمدی"
     ]
   },
   "KG": {
@@ -3844,7 +4373,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بیشکک",
+    "citiesFa": [
+      "بیشکک",
+      "اوش",
+      "ماناس"
+    ]
   },
   "LA": {
     "languages": [
@@ -3886,7 +4421,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "وینتیان",
+    "citiesFa": [
+      "وینتیان",
+      "ساواناخت",
+      "تاخک"
+    ]
   },
   "LV": {
     "languages": [
@@ -3928,7 +4469,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ریگا",
+    "citiesFa": [
+      "ریگا",
+      "داوگاوپیلس",
+      "لیپایا"
+    ]
   },
   "LB": {
     "languages": [
@@ -3970,7 +4517,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بیروت",
+    "citiesFa": [
+      "بیروت",
+      "طرابلس",
+      "صیدا"
+    ]
   },
   "LS": {
     "languages": [
@@ -4028,7 +4581,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ماسرو",
+    "citiesFa": [
+      "ماسرو",
+      "ماپوتسوه",
+      "موهالس هوک"
+    ]
   },
   "LR": {
     "languages": [
@@ -4070,7 +4629,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مونروویا",
+    "citiesFa": [
+      "مونروویا",
+      "گبارنگا",
+      "بوکانان"
+    ]
   },
   "LY": {
     "languages": [
@@ -4098,6 +4663,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Libya_2011?lang=en"
       }
+    ],
+    "capitalFa": "طرابلس",
+    "citiesFa": [
+      "طرابلس",
+      "بنغازی",
+      "مصراته"
     ]
   },
   "LI": {
@@ -4126,6 +4697,10 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Liechtenstein_2020?lang=en"
       }
+    ],
+    "capitalFa": "فادوتس",
+    "citiesFa": [
+      "فادوتس"
     ]
   },
   "LT": {
@@ -4168,7 +4743,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ویلنیوس",
+    "citiesFa": [
+      "ویلنیوس",
+      "کاوناس",
+      "کلایپدا"
+    ]
   },
   "LU": {
     "languages": [
@@ -4218,7 +4799,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لوکزامبورگ",
+    "citiesFa": [
+      "لوکزامبورگ",
+      "اش سور آلزت",
+      "دودلانژ"
+    ]
   },
   "MG": {
     "languages": [
@@ -4264,7 +4851,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آنتاناناریوو",
+    "citiesFa": [
+      "آنتاناناریوو",
+      "تواماسینا",
+      "آنتسیرابه"
+    ]
   },
   "MW": {
     "languages": [
@@ -4306,7 +4899,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لیلونگوه",
+    "citiesFa": [
+      "لیلونگوه",
+      "بلانتایر",
+      "مزوزو"
+    ]
   },
   "MY": {
     "languages": [
@@ -4334,6 +4933,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Malaysia_2025?lang=en"
       }
+    ],
+    "capitalFa": "کوالالامپور (رسمی)؛ پوتراجایا (اداری)",
+    "citiesFa": [
+      "کوالالامپور",
+      "جورج‌تاون",
+      "جوهور بهرو"
     ]
   },
   "MV": {
@@ -4362,6 +4967,10 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Maldives_2008?lang=en"
       }
+    ],
+    "capitalFa": "ماله",
+    "citiesFa": [
+      "ماله"
     ]
   },
   "ML": {
@@ -4457,7 +5066,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "باماکو",
+    "citiesFa": [
+      "باماکو",
+      "سیکاسو",
+      "کوتیالا"
+    ]
   },
   "MT": {
     "languages": [
@@ -4489,6 +5104,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Malta_2016?lang=en"
       }
+    ],
+    "capitalFa": "والتا",
+    "citiesFa": [
+      "والتا",
+      "سن پاول ایل بهار",
+      "بیرکیرکارا"
     ]
   },
   "MH": {
@@ -4535,7 +5156,12 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/marshall-islands/"
-    }
+    },
+    "capitalFa": "ماجورو",
+    "citiesFa": [
+      "ماجورو",
+      "دالاپ اولیگا دوریت"
+    ]
   },
   "MR": {
     "languages": [
@@ -4563,6 +5189,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Mauritania_2012?lang=en"
       }
+    ],
+    "capitalFa": "نواکشوت",
+    "citiesFa": [
+      "نواکشوت",
+      "نواذیبو",
+      "کیفا"
     ]
   },
   "MU": {
@@ -4600,7 +5232,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورت لوئیس",
+    "citiesFa": [
+      "پورت لوئیس",
+      "واکواس",
+      "بو باسن رز هیل"
+    ]
   },
   "MX": {
     "languages": [
@@ -4642,7 +5280,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مکزیکوسیتی",
+    "citiesFa": [
+      "مکزیکوسیتی",
+      "گوادالاخارا",
+      "مونتری"
+    ]
   },
   "FM": {
     "languages": [
@@ -4684,7 +5328,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پالیکیر",
+    "citiesFa": [
+      "پالیکیر"
+    ]
   },
   "MD": {
     "languages": [
@@ -4726,7 +5374,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کیشیناو",
+    "citiesFa": [
+      "کیشیناو",
+      "تیراسپول",
+      "بالتسی"
+    ]
   },
   "MC": {
     "languages": [
@@ -4754,6 +5408,11 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Monaco_2002?lang=en"
       }
+    ],
+    "capitalFa": "موناکو",
+    "citiesFa": [
+      "موناکو",
+      "مونت‌کارلو"
     ]
   },
   "MN": {
@@ -4796,7 +5455,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "اولان‌باتور",
+    "citiesFa": [
+      "اولان‌باتور",
+      "اردنت",
+      "دارخان"
+    ]
   },
   "ME": {
     "languages": [
@@ -4838,7 +5503,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پودگوریتسا",
+    "citiesFa": [
+      "پودگوریتسا",
+      "نیکشیچ",
+      "هرتسگ نووی"
+    ]
   },
   "MA": {
     "languages": [
@@ -4870,6 +5541,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Morocco_2011?lang=en"
       }
+    ],
+    "capitalFa": "رباط",
+    "citiesFa": [
+      "رباط",
+      "کازابلانکا",
+      "فاس"
     ]
   },
   "MZ": {
@@ -4912,7 +5589,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ماپوتو",
+    "citiesFa": [
+      "ماپوتو",
+      "ماتولا",
+      "نامپولا"
+    ]
   },
   "MM": {
     "languages": [
@@ -4954,7 +5637,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "نایپیداو",
+    "citiesFa": [
+      "نایپیداو",
+      "یانگون",
+      "ماندالی"
+    ]
   },
   "NA": {
     "languages": [
@@ -4996,7 +5685,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ویندهوک",
+    "citiesFa": [
+      "ویندهوک",
+      "روندو",
+      "والویس بی"
+    ]
   },
   "NR": {
     "languages": [
@@ -5042,7 +5737,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/nauru/"
-    }
+    },
+    "capitalFa": "یارن (در عمل؛ بدون پایتخت رسمی)",
+    "citiesFa": [
+      "یارن"
+    ]
   },
   "NP": {
     "languages": [
@@ -5084,7 +5783,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کاتماندو",
+    "citiesFa": [
+      "کاتماندو",
+      "پوکارا",
+      "بهاراتپور"
+    ]
   },
   "NL": {
     "languages": [
@@ -5131,7 +5836,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آمستردام (قانون اساسی)؛ لاهه (مقر دولت)",
+    "citiesFa": [
+      "آمستردام",
+      "روتردام",
+      "لاهه"
+    ]
   },
   "NZ": {
     "languages": [
@@ -5186,7 +5897,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ولینگتون",
+    "citiesFa": [
+      "ولینگتون",
+      "اوکلند",
+      "کرایست‌چرچ"
+    ]
   },
   "NI": {
     "languages": [
@@ -5228,7 +5945,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ماناگوئه",
+    "citiesFa": [
+      "ماناگوئه",
+      "لئون",
+      "ماسایا"
+    ]
   },
   "NE": {
     "languages": [],
@@ -5275,7 +5998,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "نیامی",
+    "citiesFa": [
+      "نیامی",
+      "مارادی",
+      "زیندر"
+    ]
   },
   "NG": {
     "languages": [
@@ -5317,7 +6046,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آبوجا",
+    "citiesFa": [
+      "آبوجا",
+      "لاگوس",
+      "کانو"
+    ]
   },
   "KP": {
     "languages": [
@@ -5359,7 +6094,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پیونگ‌یانگ",
+    "citiesFa": [
+      "پیونگ‌یانگ",
+      "هامهونگ",
+      "نامپو"
+    ]
   },
   "MK": {
     "languages": [
@@ -5401,7 +6142,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "اسکوپیه",
+    "citiesFa": [
+      "اسکوپیه",
+      "کومانوفو",
+      "پریلپ"
+    ]
   },
   "NO": {
     "languages": [
@@ -5451,7 +6198,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "اسلو",
+    "citiesFa": [
+      "اسلو",
+      "برگن",
+      "تروندهایم"
+    ]
   },
   "OM": {
     "languages": [
@@ -5479,6 +6232,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Oman_2011?lang=en"
       }
+    ],
+    "capitalFa": "مسقط",
+    "citiesFa": [
+      "مسقط",
+      "سیب",
+      "بوشر"
     ]
   },
   "PK": {
@@ -5511,6 +6270,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Pakistan_2018?lang=en"
       }
+    ],
+    "capitalFa": "اسلام‌آباد",
+    "citiesFa": [
+      "اسلام‌آباد",
+      "کراچی",
+      "لاهور"
     ]
   },
   "PW": {
@@ -5557,7 +6322,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/palau/"
-    }
+    },
+    "capitalFa": "نگرولمود",
+    "citiesFa": [
+      "نگرولمود"
+    ]
   },
   "PS": {
     "languages": [
@@ -5585,6 +6354,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Palestine_2005?lang=en"
       }
+    ],
+    "capitalFa": "بیت‌المقدس شرقی (ادعاشده)؛ رام‌الله (مرکز اداری)",
+    "citiesFa": [
+      "بیت‌المقدس شرقی",
+      "رام‌الله",
+      "شهر غزه"
     ]
   },
   "PA": {
@@ -5627,7 +6402,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پاناماسیتی",
+    "citiesFa": [
+      "پاناماسیتی",
+      "سن میگلیتو",
+      "خوان دیاس"
+    ]
   },
   "PG": {
     "languages": [
@@ -5686,7 +6467,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورت مورسبی",
+    "citiesFa": [
+      "پورت مورسبی",
+      "لائه",
+      "آراوا"
+    ]
   },
   "PY": {
     "languages": [
@@ -5732,7 +6519,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آسونسیون",
+    "citiesFa": [
+      "آسونسیون",
+      "سیوداد دل استه",
+      "سن لورنزو"
+    ]
   },
   "PE": {
     "languages": [
@@ -5782,7 +6575,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لیما",
+    "citiesFa": [
+      "لیما",
+      "کایائو",
+      "آرکیپا"
+    ]
   },
   "PH": {
     "languages": [
@@ -5828,7 +6627,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مانیل",
+    "citiesFa": [
+      "مانیل",
+      "کویزون‌سیتی",
+      "داوائو"
+    ]
   },
   "PL": {
     "languages": [
@@ -5870,7 +6675,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ورشو",
+    "citiesFa": [
+      "ورشو",
+      "کراکوف",
+      "وروتسواف"
+    ]
   },
   "PT": {
     "languages": [
@@ -5912,7 +6723,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لیسبون",
+    "citiesFa": [
+      "لیسبون",
+      "پورتو",
+      "براگا"
+    ]
   },
   "QA": {
     "languages": [
@@ -5940,6 +6757,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Qatar_2003?lang=en"
       }
+    ],
+    "capitalFa": "دوحه",
+    "citiesFa": [
+      "دوحه",
+      "الریان",
+      "لوسیل"
     ]
   },
   "RO": {
@@ -5982,7 +6805,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بخارست",
+    "citiesFa": [
+      "بخارست",
+      "کلوژ ناپوکا",
+      "یاش"
+    ]
   },
   "RU": {
     "languages": [
@@ -6024,7 +6853,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مسکو",
+    "citiesFa": [
+      "مسکو",
+      "سن‌پترزبورگ",
+      "نووسیبیرسک"
+    ]
   },
   "RW": {
     "languages": [
@@ -6083,7 +6918,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کیگالی",
+    "citiesFa": [
+      "کیگالی",
+      "گیسنی",
+      "موسانزه"
+    ]
   },
   "KN": {
     "languages": [
@@ -6125,7 +6966,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saint-kitts-and-nevis/"
-    }
+    },
+    "capitalFa": "باستر",
+    "citiesFa": [
+      "باستر"
+    ]
   },
   "LC": {
     "languages": [
@@ -6167,7 +7012,12 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کاستریس",
+    "citiesFa": [
+      "کاستریس",
+      "گروس ایلت"
+    ]
   },
   "VC": {
     "languages": [
@@ -6209,7 +7059,12 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کینگزتاون",
+    "citiesFa": [
+      "کینگزتاون",
+      "کالیاکوا"
+    ]
   },
   "WS": {
     "languages": [
@@ -6241,6 +7096,10 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Samoa_2025?lang=en"
       }
+    ],
+    "capitalFa": "آپیا",
+    "citiesFa": [
+      "آپیا"
     ]
   },
   "SM": {
@@ -6283,7 +7142,11 @@
       "year": 2023,
       "majority": true,
       "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/san-marino/"
-    }
+    },
+    "capitalFa": "شهر سان مارینو",
+    "citiesFa": [
+      "سان مارینو"
+    ]
   },
   "SA": {
     "languages": [
@@ -6311,6 +7174,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2013?lang=en"
       }
+    ],
+    "capitalFa": "ریاض",
+    "citiesFa": [
+      "ریاض",
+      "جده",
+      "مکه"
     ]
   },
   "SN": {
@@ -6353,7 +7222,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "داکار",
+    "citiesFa": [
+      "داکار",
+      "پیکین",
+      "توبا"
+    ]
   },
   "RS": {
     "languages": [
@@ -6395,7 +7270,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بلگراد",
+    "citiesFa": [
+      "بلگراد",
+      "نیش",
+      "نووی ساد"
+    ]
   },
   "SC": {
     "languages": [
@@ -6445,7 +7326,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "ویکتوریا",
+    "citiesFa": [
+      "ویکتوریا"
+    ]
   },
   "SL": {
     "languages": [
@@ -6487,7 +7372,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "فری‌تاون",
+    "citiesFa": [
+      "فری‌تاون",
+      "کنما",
+      "بو"
+    ]
   },
   "SG": {
     "languages": [
@@ -6541,7 +7432,11 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سنگاپور",
+    "citiesFa": [
+      "سنگاپور"
+    ]
   },
   "SK": {
     "languages": [
@@ -6583,7 +7478,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "براتیسلاوا",
+    "citiesFa": [
+      "براتیسلاوا",
+      "کوشیتسه",
+      "نیترا"
+    ]
   },
   "SI": {
     "languages": [
@@ -6625,7 +7526,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لیوبلیانا",
+    "citiesFa": [
+      "لیوبلیانا",
+      "ماریبور",
+      "تسلیه"
+    ]
   },
   "SB": {
     "languages": [
@@ -6667,7 +7574,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "هونیارا",
+    "citiesFa": [
+      "هونیارا",
+      "پاناتینا",
+      "نگوسی"
+    ]
   },
   "SO": {
     "languages": [
@@ -6699,6 +7612,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Somalia_2012?lang=en"
       }
+    ],
+    "capitalFa": "موگادیشو",
+    "citiesFa": [
+      "موگادیشو",
+      "هرگیسا",
+      "کیسمایو"
     ]
   },
   "ZA": {
@@ -6790,7 +7709,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پرتوریا، بلومفونتین، کیپ‌تاون",
+    "citiesFa": [
+      "پرتوریا",
+      "ژوهانسبورگ",
+      "کیپ‌تاون"
+    ]
   },
   "KR": {
     "languages": [
@@ -6832,7 +7757,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سئول",
+    "citiesFa": [
+      "سئول",
+      "بوسان",
+      "اینچئون"
+    ]
   },
   "SS": {
     "languages": [
@@ -6874,7 +7805,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "جوبا",
+    "citiesFa": [
+      "جوبا",
+      "وینجوک",
+      "یی"
+    ]
   },
   "ES": {
     "languages": [
@@ -6916,7 +7853,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مادرید",
+    "citiesFa": [
+      "مادرید",
+      "بارسلونا",
+      "والنسیا"
+    ]
   },
   "LK": {
     "languages": [
@@ -6962,7 +7905,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سری جایاواردنپورا کوته (قانون‌گذاری)؛ کلمبو (اجرایی و قضایی)",
+    "citiesFa": [
+      "کلمبو",
+      "کندی",
+      "جافنا"
+    ]
   },
   "SD": {
     "languages": [
@@ -7008,7 +7957,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "خارطوم",
+    "citiesFa": [
+      "خارطوم",
+      "ام‌درمان",
+      "خارطوم شمالی"
+    ]
   },
   "SR": {
     "languages": [
@@ -7050,7 +8005,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پاراماریبو",
+    "citiesFa": [
+      "پاراماریبو",
+      "للی‌دورپ",
+      "نیو نیکری"
+    ]
   },
   "SE": {
     "languages": [
@@ -7092,7 +8053,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "استکهلم",
+    "citiesFa": [
+      "استکهلم",
+      "گوتنبرگ",
+      "مالمو"
+    ]
   },
   "CH": {
     "languages": [
@@ -7146,7 +8113,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "برن",
+    "citiesFa": [
+      "برن",
+      "زوریخ",
+      "ژنو"
+    ]
   },
   "SY": {
     "languages": [
@@ -7188,7 +8161,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دمشق",
+    "citiesFa": [
+      "دمشق",
+      "حلب",
+      "حمص"
+    ]
   },
   "ST": {
     "languages": [
@@ -7230,7 +8209,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "سائوتومه",
+    "citiesFa": [
+      "سائوتومه"
+    ]
   },
   "TJ": {
     "languages": [
@@ -7272,7 +8255,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دوشنبه",
+    "citiesFa": [
+      "دوشنبه",
+      "اسفره",
+      "استروشن"
+    ]
   },
   "TZ": {
     "languages": [
@@ -7318,7 +8307,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دودوما",
+    "citiesFa": [
+      "دودوما",
+      "دارالسلام",
+      "موانزا"
+    ]
   },
   "TH": {
     "languages": [
@@ -7360,7 +8355,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "بانکوک",
+    "citiesFa": [
+      "بانکوک",
+      "چیانگ‌مای",
+      "پاتایا"
+    ]
   },
   "TL": {
     "languages": [
@@ -7406,7 +8407,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "دیلی",
+    "citiesFa": [
+      "دیلی",
+      "مالیانا",
+      "سوای"
+    ]
   },
   "TG": {
     "languages": [
@@ -7448,7 +8455,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لومه",
+    "citiesFa": [
+      "لومه",
+      "سوکوده",
+      "کارا"
+    ]
   },
   "TO": {
     "languages": [
@@ -7494,7 +8507,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "نوکوآلوفا",
+    "citiesFa": [
+      "نوکوآلوفا"
+    ]
   },
   "TT": {
     "languages": [
@@ -7536,7 +8553,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورت آو اسپین",
+    "citiesFa": [
+      "پورت آو اسپین",
+      "چاگواناس",
+      "مون رپو"
+    ]
   },
   "TN": {
     "languages": [
@@ -7578,7 +8601,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تونس",
+    "citiesFa": [
+      "تونس",
+      "صفاقس",
+      "سوسه"
+    ]
   },
   "TM": {
     "languages": [
@@ -7620,7 +8649,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "عشق‌آباد",
+    "citiesFa": [
+      "عشق‌آباد",
+      "ترکمن‌آباد",
+      "داش‌اغوز"
+    ]
   },
   "TV": {
     "languages": [
@@ -7657,6 +8692,10 @@
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/tuvalu/"
       }
+    ],
+    "capitalFa": "فونافوتی",
+    "citiesFa": [
+      "فونافوتی"
     ]
   },
   "TR": {
@@ -7699,7 +8738,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "آنکارا",
+    "citiesFa": [
+      "آنکارا",
+      "استانبول",
+      "ازمیر"
+    ]
   },
   "UG": {
     "languages": [
@@ -7745,7 +8790,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کامپالا",
+    "citiesFa": [
+      "کامپالا",
+      "گولو",
+      "مبارارا"
+    ]
   },
   "UA": {
     "languages": [
@@ -7787,7 +8838,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کی‌یف",
+    "citiesFa": [
+      "کی‌یف",
+      "خارکیف",
+      "اودسا"
+    ]
   },
   "AE": {
     "languages": [
@@ -7815,6 +8872,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/United_Arab_Emirates_2009?lang=en"
       }
+    ],
+    "capitalFa": "ابوظبی",
+    "citiesFa": [
+      "ابوظبی",
+      "دبی",
+      "شارجه"
     ]
   },
   "GB": {
@@ -7857,7 +8920,13 @@
       "year": 2020,
       "majority": false,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "لندن",
+    "citiesFa": [
+      "لندن",
+      "بیرمنگام",
+      "گلاسگو"
+    ]
   },
   "US": {
     "languages": [
@@ -7904,7 +8973,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "واشینگتن دی‌سی",
+    "citiesFa": [
+      "واشینگتن دی‌سی",
+      "نیویورک",
+      "لس‌آنجلس"
+    ]
   },
   "UY": {
     "languages": [],
@@ -7941,7 +9016,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "مونته‌ویدئو",
+    "citiesFa": [
+      "مونته‌ویدئو",
+      "سالتو",
+      "مالدونادو"
+    ]
   },
   "UZ": {
     "languages": [
@@ -7983,7 +9064,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "تاشکند",
+    "citiesFa": [
+      "تاشکند",
+      "سمرقند",
+      "نمنگان"
+    ]
   },
   "VU": {
     "languages": [
@@ -8033,7 +9120,11 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "پورت ویلا",
+    "citiesFa": [
+      "پورت ویلا"
+    ]
   },
   "VA": {
     "languages": [
@@ -8061,6 +9152,10 @@
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.vaticanstate.va/en/state-and-government/general-informations.html"
       }
+    ],
+    "capitalFa": "واتیکان",
+    "citiesFa": [
+      "واتیکان"
     ]
   },
   "VE": {
@@ -8103,7 +9198,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "کاراکاس",
+    "citiesFa": [
+      "کاراکاس",
+      "ماراکایبو",
+      "والنسیا"
+    ]
   },
   "VN": {
     "languages": [
@@ -8145,7 +9246,13 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "هانوی",
+    "citiesFa": [
+      "هانوی",
+      "هوشی‌مین",
+      "دا نانگ"
+    ]
   },
   "YE": {
     "languages": [
@@ -8173,6 +9280,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Yemen_2001?lang=en"
       }
+    ],
+    "capitalFa": "صنعا",
+    "citiesFa": [
+      "صنعا",
+      "عدن",
+      "تعز"
     ]
   },
   "ZM": {
@@ -8201,6 +9314,12 @@
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Zambia_2016?lang=en"
       }
+    ],
+    "capitalFa": "لوساکا",
+    "citiesFa": [
+      "لوساکا",
+      "کیتوه",
+      "ندولا"
     ]
   },
   "ZW": {
@@ -8303,6 +9422,12 @@
       "year": 2020,
       "majority": true,
       "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
-    }
+    },
+    "capitalFa": "هراره",
+    "citiesFa": [
+      "هراره",
+      "بولاوایو",
+      "موتاره"
+    ]
   }
 }
