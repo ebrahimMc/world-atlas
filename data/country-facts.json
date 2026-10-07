@@ -20,7 +20,8 @@
       "note": {
         "en": "Taliban authorities apply Hanafi jurisprudence; the former constitution is suspended.",
         "fa": "مقامات طالبان فقه حنفی را اجرا می‌کنند؛ قانون اساسی پیشین تعلیق شده است."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -52,15 +53,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Albania_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 74.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "DZ": {
     "languages": [
@@ -83,7 +99,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -110,15 +127,30 @@
       "note": {
         "en": "The Catholic Church has a special constitutional relationship with the state.",
         "fa": "کلیسای کاتولیک با دولت رابطه ویژه‌ای در قانون اساسی دارد."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Andorra_1993?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/andorra/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/andorra/"
+    }
   },
   "AO": {
     "languages": [
@@ -137,15 +169,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Angola_2010?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 93.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AG": {
     "languages": [
@@ -164,15 +211,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Antigua_and_Barbuda_1981?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/antigua-and-barbuda/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/antigua-and-barbuda/"
+    }
   },
   "AR": {
     "languages": [],
@@ -186,15 +248,30 @@
       "note": {
         "en": "The federal constitution provides support for the Roman Catholic faith.",
         "fa": "قانون اساسی حمایت دولت فدرال از مذهب کاتولیک رومی را مقرر می‌کند."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Argentina_1994?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AM": {
     "languages": [
@@ -213,15 +290,30 @@
       "note": {
         "en": "The Armenian Apostolic Church has a constitutionally recognized national role.",
         "fa": "نقش ملی کلیسای حواری ارمنی در قانون اساسی به رسمیت شناخته شده است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Armenia_2020?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AU": {
     "languages": [],
@@ -235,15 +327,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Australia_1985?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 46.8,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AT": {
     "languages": [
@@ -262,15 +369,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Austria_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 68.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AZ": {
     "languages": [
@@ -289,15 +411,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Azerbaijan_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 94.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BS": {
     "languages": [
@@ -316,15 +453,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bahamas_1973?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BH": {
     "languages": [
@@ -343,7 +495,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -370,7 +523,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -397,15 +551,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Barbados_2026?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 77.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BY": {
     "languages": [
@@ -428,15 +597,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Belarus_2004?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 85.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BE": {
     "languages": [
@@ -463,15 +647,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Belgium_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 51.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BZ": {
     "languages": [
@@ -490,15 +689,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Belize_2022?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 74.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BJ": {
     "languages": [
@@ -517,15 +731,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Benin_1990?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 53.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BT": {
     "languages": [
@@ -544,15 +773,30 @@
       "note": {
         "en": "Buddhism is constitutionally recognized as the spiritual heritage.",
         "fa": "بودیسم در قانون اساسی میراث معنوی شناخته شده است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bhutan_2008?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 74.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BO": {
     "languages": [
@@ -719,7 +963,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -731,8 +976,22 @@
         "en": "Bolivian Sign Language — 2025 law",
         "fa": "قانون ۲۰۲۵ زبان اشاره بولیوی",
         "url": "https://www.minsalud.gob.bo/9504-dia-nacional-de-la-lengua-de-senas-boliviana"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BA": {
     "languages": [
@@ -759,15 +1018,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bosnia_Herzegovina_2009?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 53.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BW": {
     "languages": [
@@ -786,15 +1060,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Botswana_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 82.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BR": {
     "languages": [
@@ -813,15 +1102,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Brazil_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 80.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BN": {
     "languages": [
@@ -840,7 +1144,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -867,15 +1172,30 @@
       "note": {
         "en": "Eastern Orthodox Christianity is the constitutionally recognized traditional religion.",
         "fa": "مسیحیت ارتدوکس شرقی در قانون اساسی دین سنتی شناخته شده است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Bulgaria_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 79.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BF": {
     "languages": [
@@ -894,7 +1214,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -906,8 +1227,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.conseil-constitutionnel.gov.bf/fileadmin/user_upload/decision_2024-01-cc_sur_la_verification_du_respect_de_la_procedure_de_revision_de_la_constitution_pour_l_adoption_de_la_loi_constituttionnlle_n___45_alt_du_30_12_03_portant_revision_de_la_constituttion.pdf"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 67.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "BI": {
     "languages": [
@@ -934,7 +1269,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -946,8 +1282,22 @@
         "en": "Language Status Act 1/30 of 2014 — Senate register",
         "fa": "قانون وضعیت زبان‌ها ۱/۳۰ سال ۲۰۱۴ — فهرست سنا",
         "url": "https://senat.bi/lan-2014/"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 95.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KH": {
     "languages": [
@@ -966,7 +1316,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -997,15 +1348,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cameroon_2008?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 69.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CA": {
     "languages": [
@@ -1028,15 +1394,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Canada_2011?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 53.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CV": {
     "languages": [
@@ -1055,15 +1436,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cape_Verde_1992?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 78.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CF": {
     "languages": [
@@ -1086,15 +1482,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Central_African_Republic_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 90.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TD": {
     "languages": [
@@ -1117,15 +1528,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Chad_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 56.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CL": {
     "languages": [],
@@ -1139,15 +1565,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Chile_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 68.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CN": {
     "languages": [
@@ -1166,15 +1607,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/China_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 89.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CO": {
     "languages": [
@@ -1193,15 +1649,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Colombia_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 86.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KM": {
     "languages": [
@@ -1228,7 +1699,8 @@
       "note": {
         "en": "The constitution identifies Sunni Islam as the basis of national identity.",
         "fa": "قانون اساسی، اسلام سنی را مبنای هویت ملی می‌داند."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -1255,15 +1727,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Congo_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 92.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CR": {
     "languages": [
@@ -1282,7 +1769,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -1309,15 +1797,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Croatia_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 90.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CU": {
     "languages": [
@@ -1336,15 +1839,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cuba_2019?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 60.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CY": {
     "languages": [
@@ -1367,15 +1885,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cyprus_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 67.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CZ": {
     "languages": [
@@ -1394,15 +1927,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Czech_Republic_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 72.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "DK": {
     "languages": [
@@ -1421,7 +1969,8 @@
       "note": {
         "en": "Established national church.",
         "fa": "کلیسای ملیِ رسمی."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -1452,7 +2001,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -1479,15 +2029,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Dominica_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/dominica/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/dominica/"
+    }
   },
   "DO": {
     "languages": [
@@ -1501,18 +2066,24 @@
       "fa": ""
     },
     "religion": {
-      "en": "No official state religion",
-      "fa": "دین رسمی دولتی ندارد",
+      "en": "Roman Catholic Christianity",
+      "fa": "مسیحیت کاتولیک رومی",
       "note": {
-        "en": "",
-        "fa": ""
-      }
+        "en": "The concordat with the Holy See designates Roman Catholicism as the state religion.",
+        "fa": "طبق توافق با سریر مقدس، کاتولیسیسم رومی دین رسمی کشور است."
+      },
+      "official": true
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Dominican_Republic_2015?lang=en"
+      },
+      {
+        "en": "2023 International Religious Freedom Report",
+        "fa": "گزارش آزادی دینی ۲۰۲۳",
+        "url": "https://2021-2025.state.gov/wp-content/uploads/2024/04/547499-DOMINICAN-REPUBLIC-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf"
       }
     ]
   },
@@ -1533,15 +2104,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Democratic_Republic_of_the_Congo_2011?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 96.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "EC": {
     "languages": [
@@ -1560,15 +2146,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Ecuador_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "EG": {
     "languages": [
@@ -1587,7 +2188,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -1614,15 +2216,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/El_Salvador_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 87.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GQ": {
     "languages": [
@@ -1649,15 +2266,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Equatorial_Guinea_2012?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ER": {
     "languages": [],
@@ -1671,15 +2303,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Eritrea_1997?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 51.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "EE": {
     "languages": [
@@ -1698,15 +2345,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Estonia_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 52.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SZ": {
     "languages": [
@@ -1729,15 +2391,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Swaziland_2005?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 93.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ET": {
     "languages": [],
@@ -1751,7 +2428,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -1763,8 +2441,22 @@
         "en": "Federal working language policy (2020 reporting)",
         "fa": "گزارش سیاست زبان‌های کاری فدرال (۲۰۲۰)",
         "url": "https://www.ethiopia-insight.com/2020/10/12/time-to-make-english-a-working-language-of-ethiopias-federal-government/"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 61.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "FJ": {
     "languages": [
@@ -1791,15 +2483,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Fiji_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 69.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "FI": {
     "languages": [
@@ -1822,15 +2529,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Finland_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 72.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "FR": {
     "languages": [
@@ -1849,15 +2571,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/France_2024?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 46.5,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GA": {
     "languages": [
@@ -1876,15 +2613,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Gabon_2011?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 83.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GM": {
     "languages": [
@@ -1903,15 +2655,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Gambia_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 97.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GE": {
     "languages": [
@@ -1930,15 +2697,30 @@
       "note": {
         "en": "The Georgian Orthodox Church has a recognized historical role.",
         "fa": "نقش تاریخی کلیسای ارتدوکس گرجستان به رسمیت شناخته شده است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Georgia_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "DE": {
     "languages": [
@@ -1957,15 +2739,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/German_Federal_Republic_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 56.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GH": {
     "languages": [
@@ -1984,15 +2781,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Ghana_1996?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 71.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GR": {
     "languages": [
@@ -2011,7 +2823,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2038,15 +2851,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Grenada_1992?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 87.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GT": {
     "languages": [
@@ -2065,15 +2893,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Guatemala_1993?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 92.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GN": {
     "languages": [
@@ -2092,15 +2935,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Guinea_2010?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 86.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GW": {
     "languages": [
@@ -2119,15 +2977,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Guinea_Bissau_1996?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 56.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "GY": {
     "languages": [
@@ -2146,15 +3019,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Guyana_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 65.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "HT": {
     "languages": [
@@ -2177,15 +3065,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Haiti_2012?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "HN": {
     "languages": [
@@ -2204,15 +3107,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Honduras_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "HU": {
     "languages": [
@@ -2231,15 +3149,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Hungary_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 72.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "IS": {
     "languages": [
@@ -2258,7 +3191,8 @@
       "note": {
         "en": "Established national church.",
         "fa": "کلیسای ملیِ رسمی."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2289,15 +3223,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/India_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Hinduism",
+      "fa": "هندوئیسم",
+      "group": "Hindus",
+      "share": 79.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ID": {
     "languages": [
@@ -2316,15 +3265,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Indonesia_2002?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 87.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "IR": {
     "languages": [
@@ -2343,7 +3307,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2374,7 +3339,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2405,15 +3371,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Ireland_2019?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 81.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "IL": {
     "languages": [
@@ -2432,7 +3413,8 @@
       "note": {
         "en": "The Basic Laws define Israel as a Jewish and democratic state.",
         "fa": "قوانین بنیادین، اسرائیل را دولتی یهودی و دموکراتیک تعریف می‌کنند."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -2444,8 +3426,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://main.knesset.gov.il/EN/activity/Documents/BasicLawsPDF/BasicLawNationState.pdf"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Judaism",
+      "fa": "یهودیت",
+      "group": "Jews",
+      "share": 77.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "IT": {
     "languages": [
@@ -2464,15 +3460,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Italy_2020?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 80.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CI": {
     "languages": [
@@ -2491,15 +3502,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Cote_DIvoire_2020?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 46.3,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "JM": {
     "languages": [
@@ -2518,15 +3544,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Jamaica_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 68.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "JP": {
     "languages": [],
@@ -2540,15 +3581,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Japan_1946?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 57.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "JO": {
     "languages": [
@@ -2567,7 +3623,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2598,15 +3655,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Kazakhstan_2026?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 77.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KE": {
     "languages": [
@@ -2629,15 +3701,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Kenya_2010?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 85.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KI": {
     "languages": [
@@ -2660,15 +3747,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Kiribati_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KW": {
     "languages": [
@@ -2687,7 +3789,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2718,15 +3821,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Kyrgyz_Republic_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 91.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LA": {
     "languages": [
@@ -2745,15 +3863,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Laos_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 64.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LV": {
     "languages": [
@@ -2772,15 +3905,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Latvia_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 77.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LB": {
     "languages": [
@@ -2799,15 +3947,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Lebanon_2004?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 67.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LS": {
     "languages": [
@@ -2842,15 +4005,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Lesotho_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LR": {
     "languages": [
@@ -2869,15 +4047,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Liberia_1986?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 85.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LY": {
     "languages": [
@@ -2896,7 +4089,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2923,7 +4117,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -2950,15 +4145,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Lithuania_2022?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 92.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LU": {
     "languages": [
@@ -2985,15 +4195,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Luxembourg_2009?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 65.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MG": {
     "languages": [
@@ -3016,15 +4241,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Madagascar_2010?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 74.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MW": {
     "languages": [
@@ -3043,15 +4283,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Malawi_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 87.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MY": {
     "languages": [
@@ -3070,7 +4325,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3097,7 +4353,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3172,7 +4429,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -3184,8 +4442,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.wipo.int/wipolex/fr/text/597994"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 94.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MT": {
     "languages": [
@@ -3208,7 +4480,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3239,15 +4512,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Marshall_Islands_1995?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/marshall-islands/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/marshall-islands/"
+    }
   },
   "MR": {
     "languages": [
@@ -3266,7 +4554,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3288,15 +4577,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Mauritius_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Hinduism",
+      "fa": "هندوئیسم",
+      "group": "Hindus",
+      "share": 48.3,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MX": {
     "languages": [
@@ -3315,15 +4619,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Mexico_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 89.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "FM": {
     "languages": [
@@ -3342,15 +4661,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Micronesia_1990?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 98.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MD": {
     "languages": [
@@ -3369,15 +4703,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Moldova_2024?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 99.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MC": {
     "languages": [
@@ -3396,7 +4745,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3423,15 +4773,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Mongolia_2001?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 51.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ME": {
     "languages": [
@@ -3450,15 +4815,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Montenegro_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 76.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MA": {
     "languages": [
@@ -3481,7 +4861,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3508,15 +4889,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Mozambique_2007?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 61.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MM": {
     "languages": [
@@ -3535,15 +4931,30 @@
       "note": {
         "en": "Buddhism has a special constitutional position.",
         "fa": "بودیسم در قانون اساسی جایگاه ویژه دارد."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Myanmar_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 89.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NA": {
     "languages": [
@@ -3562,15 +4973,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Namibia_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 90.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NR": {
     "languages": [
@@ -3593,15 +5019,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Nauru_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/nauru/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/nauru/"
+    }
   },
   "NP": {
     "languages": [
@@ -3620,15 +5061,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Nepal_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Hinduism",
+      "fa": "هندوئیسم",
+      "group": "Hindus",
+      "share": 81.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NL": {
     "languages": [
@@ -3647,7 +5103,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -3659,8 +5116,22 @@
         "en": "Dutch government — language status",
         "fa": "دولت هلند — وضعیت زبان‌ها",
         "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/erkende-talen/erkende-talen-nederland"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 54.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NZ": {
     "languages": [
@@ -3687,7 +5158,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -3699,8 +5171,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://bills.parliament.nz/v/6/498F22BC-1555-48B8-F468-08DE6D0EB023?Tab=history&lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 51.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NI": {
     "languages": [
@@ -3719,15 +5205,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Nicaragua_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 84.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NE": {
     "languages": [],
@@ -3741,7 +5242,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -3758,8 +5260,22 @@
         "en": "Government explanation of charter article 12",
         "fa": "توضیح دولت درباره ماده ۱۲ منشور",
         "url": "https://www.lesahel.org/entretien-exclusif-accorde-a-la-rtn-par-le-ministre-directeur-de-cabinet-du-president-de-la-republique-porte-parole-du-gouvernement-sur-larticle-12-de-la-charte-de-la-refondation/"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 98.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NG": {
     "languages": [
@@ -3778,15 +5294,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Nigeria_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 56.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KP": {
     "languages": [
@@ -3805,15 +5336,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Peoples_Republic_of_Korea_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 72.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "MK": {
     "languages": [
@@ -3832,15 +5378,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Macedonia_2019?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 64.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "NO": {
     "languages": [
@@ -3867,15 +5428,30 @@
       "note": {
         "en": "The Church of Norway retains constitutional support; it ceased being a state church in 2017.",
         "fa": "کلیسای نروژ حمایت قانون اساسی را حفظ کرده؛ از ۲۰۱۷ از ساختار دولت جدا شده است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Norway_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 71.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "OM": {
     "languages": [
@@ -3894,7 +5470,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3925,7 +5502,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -3956,15 +5534,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Palau_1992?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/palau/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/palau/"
+    }
   },
   "PS": {
     "languages": [
@@ -3983,7 +5576,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -4010,15 +5604,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Panama_2004?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 91.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PG": {
     "languages": [
@@ -4049,7 +5658,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -4061,8 +5671,22 @@
         "en": "PNG sign language — recognition in 2015",
         "fa": "رسمیت زبان اشاره پاپوآ گینه نو در ۲۰۱۵",
         "url": "https://digitalpasifik.org/items/576355"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 99.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PY": {
     "languages": [
@@ -4085,15 +5709,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Paraguay_2011?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 93.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PE": {
     "languages": [
@@ -4120,15 +5759,30 @@
       "note": {
         "en": "The constitution recognizes and cooperates with the Catholic Church.",
         "fa": "قانون اساسی کلیسای کاتولیک را به رسمیت می‌شناسد و همکاری با آن را مقرر می‌کند."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Peru_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 94.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PH": {
     "languages": [
@@ -4151,15 +5805,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Philippines_1987?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 91.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PL": {
     "languages": [
@@ -4178,15 +5847,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Poland_2009?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 91.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "PT": {
     "languages": [
@@ -4205,15 +5889,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Portugal_2005?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 85.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "QA": {
     "languages": [
@@ -4232,7 +5931,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -4259,15 +5959,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Romania_2003?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 98.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "RU": {
     "languages": [
@@ -4286,15 +6001,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Russia_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 69.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "RW": {
     "languages": [
@@ -4325,7 +6055,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -4337,8 +6068,22 @@
         "en": "Rwandan government — official languages",
         "fa": "دولت رواندا — زبان‌های رسمی",
         "url": "https://www.gov.rw/about"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KN": {
     "languages": [
@@ -4357,15 +6102,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/St_Kitts_and_Nevis_1983?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saint-kitts-and-nevis/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/saint-kitts-and-nevis/"
+    }
   },
   "LC": {
     "languages": [
@@ -4384,15 +6144,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/St_Lucia_1978?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 91.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "VC": {
     "languages": [
@@ -4411,15 +6186,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/St_Vincent_and_the_Grenadines_1979?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 86.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "WS": {
     "languages": [
@@ -4442,7 +6232,8 @@
       "note": {
         "en": "The constitution declares Samoa a Christian nation.",
         "fa": "قانون اساسی ساموآ را کشوری مسیحی معرفی می‌کند."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -4469,15 +6260,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Religious freedom report (2023)",
         "fa": "گزارش آزادی ادیان (۲۰۲۳)",
         "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/san-marino/"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/san-marino/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": null,
+      "year": 2023,
+      "majority": true,
+      "source": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/san-marino/"
+    }
   },
   "SA": {
     "languages": [
@@ -4496,7 +6302,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -4523,15 +6330,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Senegal_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 97.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "RS": {
     "languages": [
@@ -4550,15 +6372,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Serbia_2006?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 91.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SC": {
     "languages": [
@@ -4585,15 +6422,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Seychelles_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 94.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SL": {
     "languages": [
@@ -4612,15 +6464,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Sierra_Leone_2022?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 80.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SG": {
     "languages": [
@@ -4651,15 +6518,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Singapore_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 30.8,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SK": {
     "languages": [
@@ -4678,15 +6560,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Slovakia_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 73.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SI": {
     "languages": [
@@ -4705,15 +6602,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Slovenia_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 65.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SB": {
     "languages": [
@@ -4732,15 +6644,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Solomon_Islands_2018?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 95.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SO": {
     "languages": [
@@ -4763,7 +6690,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -4834,7 +6762,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -4846,8 +6775,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.gov.za/documents/constitutional-amendments/constitution-eighteenth-amendment-act-3-2023-english-sesotho-27"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 85.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "KR": {
     "languages": [
@@ -4866,15 +6809,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Republic_of_Korea_1987?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 48.3,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SS": {
     "languages": [
@@ -4893,15 +6851,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/South_Sudan_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 60.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ES": {
     "languages": [
@@ -4920,15 +6893,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Spain_2011?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 69.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "LK": {
     "languages": [
@@ -4951,15 +6939,30 @@
       "note": {
         "en": "Buddhism has the foremost constitutional place and state protection.",
         "fa": "بودیسم در قانون اساسی جایگاه نخست و حمایت دولت را دارد."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Sri_Lanka_2015?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 69.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SD": {
     "languages": [
@@ -4982,15 +6985,30 @@
       "note": {
         "en": "The constitutional framework is contested during the ongoing conflict.",
         "fa": "چارچوب قانون اساسی در جریان درگیری فعلی مورد مناقشه است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Sudan_2019?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 98.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SR": {
     "languages": [
@@ -5009,15 +7027,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Surinam_1992?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 52.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SE": {
     "languages": [
@@ -5036,15 +7069,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Sweden_2012?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 60.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "CH": {
     "languages": [
@@ -5075,15 +7123,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Switzerland_2014?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 61.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "SY": {
     "languages": [
@@ -5102,15 +7165,30 @@
       "note": {
         "en": "The 2025 declaration requires a Muslim president and makes Islamic jurisprudence the principal source of legislation.",
         "fa": "اعلامیه ۲۰۲۵، مسلمان بودن رئیس‌جمهور و فقه اسلامی به‌عنوان منبع اصلی قانون‌گذاری را مقرر می‌کند."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "2025 constitutional declaration (unofficial English translation)",
         "fa": "اعلامیه قانون اساسی ۲۰۲۵ (ترجمه غیررسمی انگلیسی)",
         "url": "https://constitutionnet.org/sites/default/files/2025-03/2025.03.13%20-%20Constitutional%20declaration%20%28English%29.pdf"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 94.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "ST": {
     "languages": [
@@ -5129,15 +7207,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Sao_Tome_and_Principe_2003?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 84.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TJ": {
     "languages": [
@@ -5156,15 +7249,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Tajikistan_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 98.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TZ": {
     "languages": [
@@ -5187,15 +7295,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Tanzania_2005?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 64.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TH": {
     "languages": [
@@ -5214,15 +7337,30 @@
       "note": {
         "en": "The state supports and protects Buddhism and other religions; the monarch must be Buddhist.",
         "fa": "دولت از بودیسم و دیگر ادیان حمایت می‌کند؛ پادشاه باید بودایی باشد."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Thailand_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Buddhism",
+      "fa": "بودیسم",
+      "group": "Buddhists",
+      "share": 94.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TL": {
     "languages": [
@@ -5245,15 +7383,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/East_Timor_2002?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 99.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TG": {
     "languages": [
@@ -5272,15 +7425,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Togo_2024?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 56.9,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TO": {
     "languages": [
@@ -5303,15 +7471,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Tonga_2025?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 97.8,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TT": {
     "languages": [
@@ -5330,15 +7513,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Trinidad_and_Tobago_2007?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 70.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TN": {
     "languages": [
@@ -5357,15 +7555,30 @@
       "note": {
         "en": "The 2022 constitution requires the state to advance the purposes of Islam.",
         "fa": "قانون اساسی ۲۰۲۲ دولت را موظف به تحقق مقاصد اسلام می‌کند."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Tunisia_2022?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 99.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TM": {
     "languages": [
@@ -5384,15 +7597,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Turkmenistan_2016?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 94.3,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "TV": {
     "languages": [
@@ -5415,7 +7643,8 @@
       "note": {
         "en": "The Congregational Christian Church of Tuvalu is the state church.",
         "fa": "کلیسای مسیحی جماعتی تووالو، کلیسای رسمی دولت است."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -5447,15 +7676,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Turkey_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 97.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "UG": {
     "languages": [
@@ -5478,15 +7722,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Uganda_2017?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 87.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "UA": {
     "languages": [
@@ -5505,15 +7764,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Ukraine_2019?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 83.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "AE": {
     "languages": [
@@ -5532,7 +7806,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -5554,7 +7829,8 @@
       "note": {
         "en": "Church of England (Anglican) is established in England; Church of Scotland (Presbyterian) is the national church in Scotland.",
         "fa": "کلیسای انگلستان (انگلیکان) در انگلستان رسمی است؛ کلیسای اسکاتلند (پرسبیتری) کلیسای ملی اسکاتلند است."
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -5566,8 +7842,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.legislation.gov.uk/asp/2025/10/contents"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 49.4,
+      "year": 2020,
+      "majority": false,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "US": {
     "languages": [
@@ -5586,7 +7876,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
@@ -5598,8 +7889,22 @@
         "en": "Status update / government source",
         "fa": "توضیح وضعیت / منبع دولتی",
         "url": "https://www.whitehouse.gov/presidential-actions/2025/03/designating-english-as-the-official-language-of-the-united-states/"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 64.0,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "UY": {
     "languages": [],
@@ -5613,15 +7918,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Uruguay_2004?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 52.4,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "UZ": {
     "languages": [
@@ -5640,15 +7960,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Uzbekistan_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Islam",
+      "fa": "اسلام",
+      "group": "Muslims",
+      "share": 95.6,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "VU": {
     "languages": [
@@ -5675,15 +8010,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Vanuatu_2023?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 83.5,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "VA": {
     "languages": [
@@ -5702,7 +8052,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -5729,15 +8080,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Venezuela_2009?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 88.1,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "VN": {
     "languages": [
@@ -5756,15 +8122,30 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Socialist_Republic_of_Vietnam_2013?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "No religious affiliation",
+      "fa": "بدون وابستگی دینی",
+      "group": "Religiously_unaffiliated",
+      "share": 67.7,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   },
   "YE": {
     "languages": [
@@ -5783,7 +8164,8 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -5810,7 +8192,8 @@
       "note": {
         "en": "The constitutional preamble declares a Christian nation and protects freedom of conscience.",
         "fa": "مقدمه قانون اساسی کشور را مسیحی معرفی می‌کند و آزادی وجدان را تضمین می‌کند."
-      }
+      },
+      "official": true
     },
     "sources": [
       {
@@ -5897,14 +8280,29 @@
       "note": {
         "en": "",
         "fa": ""
-      }
+      },
+      "official": false
     },
     "sources": [
       {
         "en": "Constitution / Basic Laws",
         "fa": "قانون اساسی / قوانین بنیادین",
         "url": "https://www.constituteproject.org/constitution/Zimbabwe_2021?lang=en"
+      },
+      {
+        "en": "Population religious affiliation",
+        "fa": "گرایش دینی جمعیت",
+        "url": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
       }
-    ]
+    ],
+    "populationReligion": {
+      "en": "Christianity",
+      "fa": "مسیحیت",
+      "group": "Christians",
+      "share": 87.2,
+      "year": 2020,
+      "majority": true,
+      "source": "https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/"
+    }
   }
 }

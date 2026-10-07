@@ -12,6 +12,13 @@ for code,facts in data.items():
   assert language['en'] and re.search(r'[\u0600-\u06ff]',language['fa']), f'{code}: missing translation'
  assert facts['languages'] or all(facts['languageNote'].values()), f'{code}: unexplained empty languages'
  assert all(facts['religion'][lang] for lang in ('en','fa')), f'{code}: missing religion'
+ assert isinstance(facts['religion']['official'],bool), f'{code}: missing legal status'
+ if not facts['religion']['official']:
+  population=facts['populationReligion']
+  assert all(population[lang] for lang in ('en','fa')), f'{code}: missing population translation'
+  assert population['year'] in (2020,2023) and population['source'].startswith('https://')
+  assert population['share'] is None or 0<=population['share']<=100
+  assert isinstance(population['majority'],bool)
  assert all(source['url'].startswith('https://') for source in facts['sources'])
 serialized=json.dumps(data,ensure_ascii=False,separators=(',',':'))
 text,n=re.subn(r'const COUNTRY_FACTS = .*?;\n',lambda _:f'const COUNTRY_FACTS = {serialized};\n',text,count=1)

@@ -1,0 +1,150 @@
+code,country,group,share,year
+AL,Albania,Muslims,74.5,2020
+AM,Armenia,Christians,97.3,2020
+AO,Angola,Christians,93.0,2020
+AR,Argentina,Christians,88.5,2020
+AT,Austria,Christians,68.2,2020
+AU,Australia,Christians,46.8,2020
+AZ,Azerbaijan,Muslims,94.7,2020
+BA,Bosnia-Herzegovina,Muslims,53.6,2020
+BB,Barbados,Christians,77.3,2020
+BE,Belgium,Christians,51.0,2020
+BF,Burkina Faso,Muslims,67.4,2020
+BG,Bulgaria,Christians,79.5,2020
+BI,Burundi,Christians,95.0,2020
+BJ,Benin,Christians,53.2,2020
+BO,Bolivia,Christians,88.9,2020
+BR,Brazil,Christians,80.7,2020
+BS,Bahamas,Christians,97.6,2020
+BT,Bhutan,Buddhists,74.7,2020
+BW,Botswana,Christians,82.3,2020
+BY,Belarus,Christians,85.1,2020
+BZ,Belize,Christians,74.4,2020
+CA,Canada,Christians,53.3,2020
+CD,Democratic Republic of the Congo,Christians,96.3,2020
+CF,Central African Republic,Christians,90.7,2020
+CG,Republic of the Congo,Christians,92.2,2020
+CH,Switzerland,Christians,61.6,2020
+CI,Ivory Coast,Muslims,46.3,2020
+CL,Chile,Christians,68.3,2020
+CM,Cameroon,Christians,69.8,2020
+CN,China,Religiously_unaffiliated,89.6,2020
+CO,Colombia,Christians,86.2,2020
+CU,Cuba,Christians,60.7,2020
+CV,Cape Verde,Christians,78.3,2020
+CY,Cyprus,Christians,67.7,2020
+CZ,Czech Republic,Religiously_unaffiliated,72.8,2020
+DE,Germany,Christians,56.2,2020
+EC,Ecuador,Christians,88.5,2020
+EE,Estonia,Christians,52.6,2020
+ER,Eritrea,Muslims,51.7,2020
+ES,Spain,Christians,69.5,2020
+ET,Ethiopia,Christians,61.6,2020
+FI,Finland,Christians,72.3,2020
+FJ,Fiji,Christians,69.5,2020
+FM,Federated States of Micronesia,Christians,98.8,2020
+FR,France,Christians,46.5,2020
+GA,Gabon,Christians,83.7,2020
+GB,United Kingdom,Christians,49.4,2020
+GD,Grenada,Christians,87.5,2020
+GE,Georgia,Christians,88.2,2020
+GH,Ghana,Christians,71.3,2020
+GM,Gambia,Muslims,97.0,2020
+GN,Guinea,Muslims,86.8,2020
+GQ,Equatorial Guinea,Christians,88.7,2020
+GT,Guatemala,Christians,92.0,2020
+GW,Guinea-Bissau,Muslims,56.0,2020
+GY,Guyana,Christians,65.9,2020
+HN,Honduras,Christians,88.5,2020
+HR,Croatia,Christians,90.9,2020
+HT,Haiti,Christians,88.7,2020
+HU,Hungary,Christians,72.4,2020
+ID,Indonesia,Muslims,87.0,2020
+IE,Ireland,Christians,81.2,2020
+IL,Israel,Jews,77.0,2020
+IN,India,Hindus,79.4,2020
+IT,Italy,Christians,80.5,2020
+JM,Jamaica,Christians,68.6,2020
+JP,Japan,Religiously_unaffiliated,57.5,2020
+KE,Kenya,Christians,85.7,2020
+KG,Kyrgyzstan,Muslims,91.7,2020
+KI,Kiribati,Christians,97.6,2020
+KP,North Korea,Religiously_unaffiliated,72.9,2020
+KR,South Korea,Religiously_unaffiliated,48.3,2020
+KZ,Kazakhstan,Muslims,77.9,2020
+LA,Laos,Buddhists,64.2,2020
+LB,Lebanon,Muslims,67.8,2020
+LC,St. Lucia,Christians,91.7,2020
+LK,Sri Lanka,Buddhists,69.6,2020
+LR,Liberia,Christians,85.2,2020
+LS,Lesotho,Christians,97.3,2020
+LT,Lithuania,Christians,92.2,2020
+LU,Luxembourg,Christians,65.9,2020
+LV,Latvia,Christians,77.3,2020
+MD,Moldova,Christians,99.5,2020
+ME,Montenegro,Christians,76.0,2020
+MG,Madagascar,Christians,74.2,2020
+MK,North Macedonia,Christians,64.7,2020
+ML,Mali,Muslims,94.1,2020
+MM,Myanmar,Buddhists,89.1,2020
+MN,Mongolia,Buddhists,51.1,2020
+MU,Mauritius,Hindus,48.3,2020
+MW,Malawi,Christians,87.4,2020
+MX,Mexico,Christians,89.2,2020
+MZ,Mozambique,Christians,61.3,2020
+NA,Namibia,Christians,90.5,2020
+NE,Niger,Muslims,98.1,2020
+NG,Nigeria,Muslims,56.1,2020
+NI,Nicaragua,Christians,84.8,2020
+NL,Netherlands,Religiously_unaffiliated,54.1,2020
+NO,Norway,Christians,71.4,2020
+NP,Nepal,Hindus,81.2,2020
+NZ,New Zealand,Religiously_unaffiliated,51.4,2020
+PA,Panama,Christians,91.2,2020
+PE,Peru,Christians,94.5,2020
+PG,Papua New Guinea,Christians,99.1,2020
+PH,Philippines,Christians,91.5,2020
+PL,Poland,Christians,91.2,2020
+PT,Portugal,Christians,85.1,2020
+PY,Paraguay,Christians,93.5,2020
+RO,Romania,Christians,98.5,2020
+RS,Serbia,Christians,91.5,2020
+RU,Russia,Christians,69.9,2020
+RW,Rwanda,Christians,97.0,2020
+SB,Solomon Islands,Christians,95.0,2020
+SC,Seychelles,Christians,94.0,2020
+SD,Sudan,Muslims,98.9,2020
+SE,Sweden,Christians,60.8,2020
+SG,Singapore,Buddhists,30.8,2020
+SI,Slovenia,Christians,65.4,2020
+SK,Slovakia,Christians,73.7,2020
+SL,Sierra Leone,Muslims,80.1,2020
+SN,Senegal,Muslims,97.6,2020
+SR,Suriname,Christians,52.8,2020
+SS,South Sudan,Christians,60.5,2020
+ST,Sao Tome and Principe,Christians,84.4,2020
+SV,El Salvador,Christians,87.1,2020
+SY,Syria,Muslims,94.2,2020
+SZ,Eswatini,Christians,93.2,2020
+TD,Chad,Muslims,56.4,2020
+TG,Togo,Christians,56.9,2020
+TH,Thailand,Buddhists,94.4,2020
+TJ,Tajikistan,Muslims,98.9,2020
+TL,Timor-Leste,Christians,99.5,2020
+TM,Turkmenistan,Muslims,94.3,2020
+TN,Tunisia,Muslims,99.3,2020
+TO,Tonga,Christians,97.8,2020
+TR,Turkey,Muslims,97.1,2020
+TT,Trinidad and Tobago,Christians,70.0,2020
+TZ,Tanzania,Christians,64.7,2020
+UA,Ukraine,Christians,83.4,2020
+UG,Uganda,Christians,87.7,2020
+US,United States,Christians,64.0,2020
+UY,Uruguay,Religiously_unaffiliated,52.4,2020
+UZ,Uzbekistan,Muslims,95.6,2020
+VC,St. Vincent and the Grenadines,Christians,86.3,2020
+VE,Venezuela,Christians,88.1,2020
+VN,Vietnam,Religiously_unaffiliated,67.7,2020
+VU,Vanuatu,Christians,83.5,2020
+ZA,South Africa,Christians,85.3,2020
+ZW,Zimbabwe,Christians,87.2,2020
