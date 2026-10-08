@@ -183,6 +183,23 @@ html[lang="fa"] .sort select{background-position:left 14px center}
 /* Wide desktop layouts use more of a typical 16:9 screen. */
 @media(min-width:1280px){.shell{width:min(1760px,100%)}}
 @media(min-width:1600px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* A single compact sticky row on mobile; extra controls open only on request. */
+.filter-toggle{display:none}
+@media(max-width:640px){
+ html{scroll-padding-top:96px}.card{scroll-margin-top:96px}
+ .controls{padding-block:12px;max-block-size:calc(100svh - 48px);overflow-y:auto}
+ .search-row{flex-wrap:wrap;gap:8px}.searchbox{flex:1;min-width:0}
+ .filter-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:48px;padding:8px 12px;border:1px solid #c9c9c9;border-radius:8px;background:#fff;color:var(--ocean);font-size:12px;font-weight:600;flex:none}
+ .filter-toggle svg{width:16px;height:16px}.filter-active-count{display:inline-flex;align-items:center;justify-content:center;min-width:16px;height:16px;padding-inline:3px;border-radius:8px;background:var(--ocean);color:white;font-size:10px}
+ .sort,.filters-row{display:none}
+ .controls.is-open .sort{display:flex;order:3;flex-basis:100%;justify-content:space-between;padding-top:12px;margin-top:4px;border-top:1px solid var(--line)}
+ .controls.is-open .sort-label{display:inline;font-size:13px}
+ .controls.is-open .sort select,html[lang="fa"] .controls.is-open .sort select{width:120px;min-height:44px;font-size:13px;padding-inline:12px 32px}
+ .controls.is-open .filters-row{display:block;margin-top:12px}
+ .controls.is-open .reset{display:inline-block;margin-top:4px;font-size:12px;min-height:44px}
+ .controls.is-open .filter-toggle{background:#e8f0f5;border-color:var(--ocean)}
+}
 </style>
 </head>
 <body id="top">
@@ -191,7 +208,7 @@ html[lang="fa"] .sort select{background-position:left 14px center}
 <div class="topbar"><a class="brand" href="./" aria-label="World Atlas home"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="16" cy="16" r="13"/><ellipse cx="16" cy="16" rx="6" ry="13"/><path d="M3 16h26M6 8.5c6 4 14 4 20 0M6 23.5c6-4 14-4 20 0"/></svg>WORLD ATLAS</a><div class="header-actions"><a class="toplink" href="#about">About the atlas ↗</a><button class="language-toggle" id="language" type="button" lang="fa" aria-label="Switch to Persian">فارسی</button></div></div>
 <div class="hero"><div><p class="eyebrow">A pocket guide to the planet</p><h1 id="page-title">Every country.<br><em>A little closer.</em></h1><p class="intro">Flags, capitals, currencies, official languages and religion.<br>Find a familiar place. Discover somewhere new.</p></div><div class="hero-aside" aria-label="195 countries across 5 regions"><svg class="globe" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-width=".8" aria-hidden="true"><circle cx="90" cy="90" r="77"/><ellipse cx="90" cy="90" rx="48" ry="77"/><ellipse cx="90" cy="90" rx="19" ry="77"/><ellipse cx="90" cy="90" rx="77" ry="26"/><path d="M13 90h154M23 53c36 19 98 19 134 0M23 127c36-19 98-19 134 0M90 13v154"/><circle cx="90" cy="90" r="87" stroke-dasharray="1 5" opacity=".5"/></svg><p><strong>195</strong> countries<span> / </span><strong>5</strong> regions</p></div></div></div></header>
 <main>
-<div class="controls-wrap"><div class="shell controls"><div class="search-row"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search the atlas…" aria-label="Search country, capital, city, currency or language" autocomplete="off" spellcheck="false"><button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button></div><label class="sort"><span class="sort-label">Sort</span><select id="sort" aria-label="Sort countries"><option value="asc">A–Z</option><option value="desc">Z–A</option></select></label></div><div class="filters-row"><nav class="filter" aria-label="Filter by region" id="regions"></nav><button id="reset" class="reset" type="button" hidden>Reset filters</button></div></div></div>
+<div class="controls-wrap"><div class="shell controls"><div class="search-row"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search the atlas…" aria-label="Search country, capital, city, currency or language" autocomplete="off" spellcheck="false"><button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button></div><button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="sort-control filter-controls"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="currentColor"/><circle cx="15" cy="17" r="3" fill="currentColor"/></svg><span id="filter-toggle-label">Filters</span><span id="filter-active-count" class="filter-active-count" hidden></span></button><label class="sort" id="sort-control"><span class="sort-label">Sort</span><select id="sort" aria-label="Sort countries"><option value="asc">A–Z</option><option value="desc">Z–A</option></select></label></div><div class="filters-row" id="filter-controls"><nav class="filter" aria-label="Filter by region" id="regions"></nav><button id="reset" class="reset" type="button" hidden>Reset filters</button></div></div></div>
 <section class="shell directory" id="directory" aria-labelledby="directory-title"><div class="section-head"><div><div class="kicker">The country directory</div><h2 id="directory-title">Explore the world</h2></div><p class="result-count" id="count" role="status" aria-live="polite" aria-atomic="true"></p></div><p class="source-note" id="source-note" hidden></p><div class="grid" id="grid"></div><div class="load-area" id="load-area"><button id="load-more" class="load-more" type="button">Show more countries ↓</button><p id="progress"></p></div><p class="end-note" id="end-note" hidden></p></section>
 <noscript><p class="shell noscript">Please enable JavaScript to search and browse the country directory. All country data is included in this page.</p></noscript>
 <section class="notes" id="about" aria-labelledby="about-title"><div class="shell notes-inner"><h2 id="about-title">About the atlas</h2><div><p>Scope: 193 United Nations member states and two UN observer states (the Holy See and the State of Palestine). “Key cities” is a short editorial selection, generally including the capital and other major urban centres. Small states may have only one listed city. Capital descriptions note split roles where useful.</p><p>Country names, flags, capitals and base currencies: <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a>. City data: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0), with editorial corrections. Scope: <a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">United Nations</a>. Recent corrections: <a href="https://www.guineaecuatorialpress.com/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley" target="_blank" rel="noopener">Equatorial Guinea’s capital</a> and <a href="https://www.rbz.co.zw/documents/mps/2024/CONSOLIDATED_MPS_Review_-_August_2024.pdf" target="_blank" rel="noopener">Zimbabwe’s currency</a>. Compiled September 2026; geography and currency details may change.</p><p>Official languages describe national or federal legal status. Religion shows official status where designated; otherwise it shows the largest population affiliation, including unaffiliated people. Population estimates use <a href="https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/" target="_blank" rel="noopener">Pew Research Center’s 2020 dataset</a> and 2023 religious freedom reports for eight small states outside that dataset. A largest group is not necessarily a majority. References are retained in the repository. Continent colors are an atlas key inspired by the five Olympic colors.</p></div></div></section>
@@ -293,14 +310,31 @@ function render({more=false,updateURL=true}={}){
  $('end-note').hidden=!matches.length||shown.length<matches.length;
  $('end-note').textContent=t(`You’re all caught up · ${matches.length} ${matches.length===1?'country':'countries'}`,`همه نتایج نمایش داده شد · ${num(matches.length)} کشور`);
  regions.querySelectorAll('button').forEach(b=>{b.classList.toggle('active',b.dataset.region===activeRegion);b.setAttribute('aria-pressed',String(b.dataset.region===activeRegion));});
+ updateFilterToggle();
  if(updateURL)saveURL();
  if(more&&grid.children[prior])grid.children[prior].focus({preventScroll:true});
 }
-function reset(){search.value='';activeRegion='All regions';sort.value='asc';limit=24;render();search.focus();}
-regions.addEventListener('click',e=>{const b=e.target.closest('button[data-region]');if(!b)return;activeRegion=b.dataset.region;limit=24;render();});
+const filterToggle=$('filter-toggle'),controls=document.querySelector('.controls');
+function updateFilterToggle(){
+ const count=Number(activeRegion!=='All regions')+Number(sort.value!=='asc');
+ $('filter-toggle-label').textContent=t('Filters','فیلترها');
+ $('filter-active-count').textContent=num(count);$('filter-active-count').hidden=!count;
+ const region=fa()?regionFa[activeRegion]:activeRegion==='All regions'?'All countries':activeRegion;
+ filterToggle.setAttribute('aria-label',t(`Filters: ${region}, ${sort.value==='asc'?'A–Z':'Z–A'}`,`فیلترها: ${region}، ${sort.value==='asc'?'الف–ی':'ی–الف'}`));
+}
+function closeFilters({focus=false}={}){
+ if(!matchMedia('(max-width:640px)').matches)return;
+ controls.classList.remove('is-open');filterToggle.setAttribute('aria-expanded','false');
+ if(focus)filterToggle.focus({preventScroll:true});
+}
+filterToggle.addEventListener('click',()=>{const open=controls.classList.toggle('is-open');filterToggle.setAttribute('aria-expanded',String(open));});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&controls.classList.contains('is-open')&&matchMedia('(max-width:640px)').matches){e.preventDefault();e.stopPropagation();closeFilters({focus:true});}},true);
+document.addEventListener('click',e=>{if(!controls.contains(e.target))closeFilters();});
+function reset(){search.value='';activeRegion='All regions';sort.value='asc';limit=24;render();closeFilters();search.focus();}
+regions.addEventListener('click',e=>{const b=e.target.closest('button[data-region]');if(!b)return;activeRegion=b.dataset.region;limit=24;render();closeFilters({focus:true});});
 search.addEventListener('input',()=>{limit=24;render();});
 search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';limit=24;render();}});
-sort.addEventListener('change',()=>{limit=24;render();});
+sort.addEventListener('change',()=>{limit=24;render();closeFilters({focus:true});});
 $('clear-search').addEventListener('click',()=>{search.value='';limit=24;render();search.focus();});
 $('reset').addEventListener('click',reset);
 grid.addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset();});
