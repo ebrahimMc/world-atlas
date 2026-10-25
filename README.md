@@ -101,3 +101,7 @@ Run `python3 scripts/embed-facts.py` after changing region data. It validates th
 ## Motion and accessibility
 
 First-load cards and pointer-initiated Show more results receive a 240ms opacity/8px entrance with up to 120ms stagger and the shared ease-out curve. Buttons provide 130ms press feedback. Search, filters and keyboard-triggered Show more remain immediate. Reduced-motion mode uses a brief opacity change without translation. There is no animation library or runtime network dependency. Controls retain focus rings, mobile form text is at least 16px, and touch targets are at least 44px.
+
+## Compact spacing
+
+Header/hero padding, toolbar gaps, directory spacing, card gutters, title padding, fact-tile padding, chips, source notes and footer spacing use a tighter 4px rhythm. Reserved title heights are removed and fact groups pack toward the top of each card; equal outer card heights remain controlled by the grid. The flag footer retains extra room for long region labels on narrow phones. Interactive touch targets remain at least 44px and mobile form text remains 16px.
