@@ -13,7 +13,7 @@ Open `index.html` in a browser. No build, installation, API key or internet conn
 
 ## Design
 
-Ocean navy, sand and earth accents appear only in the header and footer. The directory uses neutral surfaces and controls. National flags retain their original colors. Responsive layouts support phones, tablets and desktop screens, with keyboard navigation and accessible labels.
+A teal, mist and navy gradient canvas sits behind translucent glass surfaces. Cards, controls and floating pills share rounded corners, light edge highlights and backdrop blur. National flags retain their original colors and proportions. Responsive layouts support phones, tablets and desktop screens, with keyboard navigation and accessible labels.
 
 ## Persian version
 
@@ -61,7 +61,7 @@ For 149 countries without a state religion, the largest of Pew’s seven affilia
 
 Andorra, Antigua and Barbuda, Dominica, Saint Kitts and Nevis, Marshall Islands, Nauru, Palau and San Marino are outside that dataset. Their predominant Christianity is supported by country-specific 2023 U.S. Department of State religious freedom reports, cited in the JSON. Cards show “Report 2023” without a percentage; the underlying censuses and estimates have different dates. No denomination is inferred from Pew’s broad categories.
 
-Cards use a separate flag tile, stable continent tag and ISO badge, divided fact rows, an emphasized capital and a subtly shaded religion panel. Long language lists retain keyboard-accessible expansion. Persian and English layouts share the same hierarchy and adapt to narrow screens.
+Cards use a prominent flag panel with floating continent and ISO pills, divided fact rows, an emphasized capital and a glass religion panel. Long language lists retain keyboard-accessible expansion. Persian and English layouts share the same hierarchy and adapt to narrow screens.
 
 ## Persian capitals and key cities
 
@@ -83,3 +83,9 @@ python3 scripts/embed-facts.py
 The fetch script resolves article names, Wikipedia File markup and Commons redirects. It fails on missing or ambiguous flag fields rather than silently substituting a different flag. Runtime browsing sends no requests to Wikipedia or Commons.
 
 Flag licenses in this snapshot: 194 files are marked public domain by Wikimedia Commons. [Oman's flag](https://commons.wikimedia.org/wiki/File:Flag_of_Oman.svg) is a vector rendering based on [Oman's Royal Decree 53/2004](https://qanoon.om/p/2004/rd2004053/), used under the [Open Government Licence – Oman 1.0](https://www.oman.om/en/home-footer-level/faq/open-government-licence-oman); contributor details are retained in the linked Commons file history. See the manifest for each file's original attribution and source.
+
+## Liquid-glass design
+
+The shared materials use the supplied `--eyr-glass` and `--eyr-glass-strong` light/dark colors, radial background orbs, 1.75rem card corners and 1.125rem inner corners. Each card gives its flag a 200–224px presentation panel with room for its native silhouette; the floating pills occupy a separate lower strip so they do not obscure the artwork. Country names and facts remain on a readable translucent surface below.
+
+System dark mode, reduced motion, reduced transparency, browsers without backdrop-filter, and print have explicit fallbacks. Mobile keeps the compact sticky search/Filters row; controls have at least 44px touch targets and 16px mobile form fields. Hover styling applies only to devices with a fine pointer and hover support.
