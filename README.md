@@ -90,7 +90,7 @@ The original palette is retained: ocean navy `#193d55`, sand `#e4c5a1`, earth `#
 
 Card composition takes inspiration from [Alina Levchenko's Travel Information Cards](https://dribbble.com/shots/26179794-Travel-Information-Cards-UX-UI-Design): a strong visual panel and grouped, compact facts. The artwork remains the locally stored Wikipedia flags, with native proportions preserved. No Dribbble artwork is copied into the website.
 
-Capital, currency, cities, languages and religion each have a soft color, explicit text label and icon. Grid rows share equal height across all displayed cards; expanding languages or loading additional countries recomputes the shared height without clipping content. The compact mobile search/Filters row remains intact.
+Capital, currency, cities, languages and religion each have a soft color, explicit text label and icon. Cards share equal height within each desktop row; expanding languages recomputes only that row’s height without clipping content. Single-column mobile cards fit their own content. The compact mobile search/Filters row remains intact.
 
 ## Geographic regions
 
@@ -104,4 +104,4 @@ First-load cards and pointer-initiated Show more results receive a 240ms opacity
 
 ## Compact spacing
 
-Header/hero padding, toolbar gaps, directory spacing, card gutters, title padding, fact-tile padding, chips, source notes and footer spacing use a tighter 4px rhythm. Reserved title heights are removed and fact groups pack toward the top of each card; equal outer card heights remain controlled by the grid. The flag footer retains extra room for long region labels on narrow phones. Interactive touch targets remain at least 44px and mobile form text remains 16px.
+Header/hero padding, toolbar gaps, directory spacing, card gutters, title padding, fact-tile padding, chips, source notes and footer spacing use a tighter 4px rhythm. Reserved title heights are removed and fact groups pack toward the top of each card; cards match heights within each desktop row, while each row and each mobile card size to their own content. The flag footer retains extra room for long region labels on narrow phones. Interactive touch targets remain at least 44px and mobile form text remains 16px.
