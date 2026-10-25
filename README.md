@@ -105,3 +105,7 @@ First-load cards and pointer-initiated Show more results receive a 240ms opacity
 ## Compact spacing
 
 Header/hero padding, toolbar gaps, directory spacing, card gutters, title padding, fact-tile padding, chips, source notes and footer spacing use a tighter 4px rhythm. Reserved title heights are removed and fact groups stay compact and the religion section anchors to the bottom of each card; cards match heights within each desktop row, while each row and each mobile card size to their own content. The flag footer retains extra room for long region labels on narrow phones. Interactive touch targets remain at least 44px and mobile form text remains 16px.
+
+## Compact capital labels
+
+Multi-capital entries place each city on its own line with a short role label (off., govt., admin., const., leg., exec./jud.) and equivalent concise Persian labels. Full original wording remains searchable and is available on hover, keyboard focus or tap; the source data is unchanged.

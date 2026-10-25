@@ -425,6 +425,14 @@ html[lang="fa"] .country-meta .country-code{left:0;right:auto}
 }
 @media(max-width:360px){.flag-stage{block-size:228px;padding-block-end:64px}.identity{padding-inline:8px}.details{margin-inline:8px;gap:10px 8px}.detail-capital,.detail-money{padding:8px}}
 
+/* Compact multi-capital labels; full wording remains available on hover, focus or tap. */
+.capital-summary{position:relative;display:block;font-size:15px;line-height:1.45;cursor:help;border-radius:4px}
+.capital-entry{display:block}.capital-entry+.capital-entry{margin-top:4px}
+.capital-role{font-size:11px;font-weight:500;color:var(--fact-ink);white-space:normal}
+.capital-summary:focus-visible{outline:2px solid var(--fact-ink);outline-offset:3px}
+.capital-summary:focus::after{content:attr(data-full);position:absolute;z-index:2;inset-inline-start:0;bottom:calc(100% + 8px);width:240px;max-width:calc(100vw - 100px);padding:10px 12px;border-radius:10px;background:#193d55;color:#fff;box-shadow:0 4px 16px #193d5533;font-size:12px;font-weight:400;line-height:1.7;pointer-events:none;text-align:start}
+html[lang="fa"] .capital-summary{line-height:1.65}
+
 </style>
 </head>
 <body id="top">
@@ -520,10 +528,28 @@ function currencyName(name,code){
 }
 const CARD_ICONS={pin:'<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',money:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M16 10h5v5h-5a2.5 2.5 0 0 1 0-5Z"/>',cities:'<path d="M3 21V9h7v12M10 21V3h8v18M18 21v-8h3v8M1 21h22M6 12v2m0 3v1m8-11v2m0 3v2m0 3v1"/>',language:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z"/>',culture:'<path d="M12 6C9 3 5 4 3 5v15c3-2 6-2 9 0 3-2 6-2 9 0V5c-2-1-6-2-9 1Zm0 0v14"/>'};
 function cardIcon(name){return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CARD_ICONS[name]}</svg>`;}
+// Presentation abbreviations only; the complete capital wording stays searchable and accessible.
+const CAPITAL_ROLES={
+ 'official':'off.','seat of government':'govt.','administrative':'admin.',
+ 'constitutional':'const.','legislative and royal':'leg. / royal',
+ 'claimed':'claimed','administrative centre':'admin.',
+ 'legislative':'leg.','executive and judicial':'exec. / jud.',
+ 'de facto; no official capital':'de facto',
+ 'رسمی':'رسمی','مقر دولت':'دولت','اداری':'اداری','قانون اساسی':'ق. اساسی',
+ 'قانون‌گذاری و سلطنتی':'تقنینی / شاهی','ادعاشده':'ادعایی','مرکز اداری':'اداری',
+ 'قانون‌گذاری':'تقنینی','اجرایی و قضایی':'اجرایی / قضایی','در عمل؛ بدون پایتخت رسمی':'در عمل'
+};
+function capitalValue(c){
+ const full=fa()?c.capitalFa:c.capital;
+ const parts=[...full.matchAll(/([^();؛]+)\s*\(([^)]+)\)/g)];
+ if(!parts.length)return escapeHTML(full);
+ const entries=parts.map(([,city,role])=>`<span class="capital-entry"><span>${escapeHTML(city.trim())}</span> <span class="capital-role">· ${escapeHTML(CAPITAL_ROLES[role]||role)}</span></span>`).join('');
+ return `<span class="capital-summary" tabindex="0" title="${escapeHTML(full)}" aria-label="${escapeHTML(full)}" data-full="${escapeHTML(full)}">${entries}</span>`;
+}
 function card(c){
  const religionLabel=c.religion.official?t('Official religion / denomination','دین و مذهب رسمی'):c.populationReligion.group==='Religiously_unaffiliated'?t('Predominant affiliation','گرایش غالب مردم'):t('Predominant religion','دین غالب مردم');
  const cities=fa()?c.citiesFa:c.cities;
- return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}"><div class="card-top"><div class="flag-stage"><span class="flag-caption" aria-hidden="true">${t('NATIONAL FLAG','پرچم کشور')}</span><span class="flag"><img src="${escapeHTML(FLAG_FILES[c.code])}" alt="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}" width="320" height="200" loading="lazy" decoding="async"></span><div class="country-meta"><span class="continent-tag" data-region="${c.region}">${escapeHTML(fa()?regionFa[c.region]:c.region)}</span><span class="region-tag" data-region="${c.region}">${escapeHTML(COUNTRY_REGIONS[c.code][fa()?'fa':'en'])}</span><bdi class="country-code" title="${t('ISO country code','کد ایزوی کشور')}" aria-label="${t('Country code: ','کد کشور: ')}${c.code}">${c.code}</bdi></div></div><div class="identity"><h3>${escapeHTML(fa()?faName(c):c.name)}</h3></div></div><dl class="details"><div class="detail detail-capital"><dt class="label">${cardIcon('pin')}${t('Capital','پایتخت')}</dt><dd class="value${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${escapeHTML(fa()?c.capitalFa:c.capital)}</dd></div><div class="detail detail-money"><dt class="label">${cardIcon('money')}${t('Currency','واحد پول')}</dt><dd class="value">${c.currencies.map(v=>`<span class="currency"><bdi class="currency-symbol" aria-hidden="true">${escapeHTML(CURRENCY_SYMBOLS[v.code]||v.code)}</bdi><span>${currencyName(fa()?faCurrency(v):v.name,v.code)}</span></span>`).join('')}</dd></div><div class="detail detail-cities"><dt class="label">${cardIcon('cities')}${t('Key cities','شهرهای مهم')}</dt><dd class="value cities${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${cities.map(city=>`<span class="city-chip">${escapeHTML(city)}</span>`).join('')}</dd></div><div class="detail detail-culture"><dt class="label">${cardIcon('language')}${t('Official Languages','زبان‌های رسمی')}</dt><dd class="value">${languageValue(c)}</dd></div><div class="detail detail-religion" data-kind="${c.religion.official?'official':'population'}"><dt class="label">${cardIcon('culture')}${religionLabel}</dt><dd class="value">${religionValue(c)}</dd></div></dl></article>`;
+ return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}"><div class="card-top"><div class="flag-stage"><span class="flag-caption" aria-hidden="true">${t('NATIONAL FLAG','پرچم کشور')}</span><span class="flag"><img src="${escapeHTML(FLAG_FILES[c.code])}" alt="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}" width="320" height="200" loading="lazy" decoding="async"></span><div class="country-meta"><span class="continent-tag" data-region="${c.region}">${escapeHTML(fa()?regionFa[c.region]:c.region)}</span><span class="region-tag" data-region="${c.region}">${escapeHTML(COUNTRY_REGIONS[c.code][fa()?'fa':'en'])}</span><bdi class="country-code" title="${t('ISO country code','کد ایزوی کشور')}" aria-label="${t('Country code: ','کد کشور: ')}${c.code}">${c.code}</bdi></div></div><div class="identity"><h3>${escapeHTML(fa()?faName(c):c.name)}</h3></div></div><dl class="details"><div class="detail detail-capital"><dt class="label">${cardIcon('pin')}${t('Capital','پایتخت')}</dt><dd class="value${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${capitalValue(c)}</dd></div><div class="detail detail-money"><dt class="label">${cardIcon('money')}${t('Currency','واحد پول')}</dt><dd class="value">${c.currencies.map(v=>`<span class="currency"><bdi class="currency-symbol" aria-hidden="true">${escapeHTML(CURRENCY_SYMBOLS[v.code]||v.code)}</bdi><span>${currencyName(fa()?faCurrency(v):v.name,v.code)}</span></span>`).join('')}</dd></div><div class="detail detail-cities"><dt class="label">${cardIcon('cities')}${t('Key cities','شهرهای مهم')}</dt><dd class="value cities${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${cities.map(city=>`<span class="city-chip">${escapeHTML(city)}</span>`).join('')}</dd></div><div class="detail detail-culture"><dt class="label">${cardIcon('language')}${t('Official Languages','زبان‌های رسمی')}</dt><dd class="value">${languageValue(c)}</dd></div><div class="detail detail-religion" data-kind="${c.religion.official?'official':'population'}"><dt class="label">${cardIcon('culture')}${religionLabel}</dt><dd class="value">${religionValue(c)}</dd></div></dl></article>`;
 }
 
 function animateCards(start){
