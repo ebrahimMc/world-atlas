@@ -1,10 +1,10 @@
 # World Atlas
 
-A bilingual English/Persian, responsive, self-contained atlas of 195 countries with flags, capitals, key cities, currencies, official languages and official or predominant religion.
+A bilingual English/Persian, responsive, offline-capable atlas of 195 countries with flags, capitals, key cities, currencies, official languages and official or predominant religion.
 
 ## Use
 
-Open `index.html` in a browser. No build, installation, API key or internet connection is needed for browsing the atlas. All data and fonts are embedded in the page.
+Open `index.html` in a browser. No build, installation, API key or internet connection is needed for browsing the atlas. All data and fonts are embedded in the page. Keep the `assets/flags/` directory beside `index.html`; the flag artwork is served locally.
 
 - Search country names, capitals, cities and currency names or codes, and language names in English or Persian.
 - Filter by region and sort A–Z or Z–A.
@@ -33,7 +33,7 @@ Scope: 193 United Nations members and two observer states. See the atlas’s Abo
 
 ## GitHub Pages
 
-Publish `index.html` at the root of a public repository, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages supports this static site on GitHub Free for public repositories. No paid hosting or domain is required.
+Publish `index.html` and `assets/flags/` at the root of a public repository, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages supports this static site on GitHub Free for public repositories. No paid hosting or domain is required.
 
 ## Official languages and religion
 
@@ -66,3 +66,20 @@ Cards use a separate flag tile, stable continent tag and ISO badge, divided fact
 ## Persian capitals and key cities
 
 `capitalFa` and `citiesFa` in `data/country-facts.json` contains a curated Persian rendering of every existing capital and key-city field, including multi-capital roles and qualifications. The Persian view uses these RTL values; the English view retains the original strings. Search accepts either language in either view. The embed script checks all 195 translations for Persian text and accidental Latin leftovers. City-list order and all English source strings are preserved.
+
+## Wikipedia flag artwork
+
+The cards display the first flag selected in each English Wikipedia country article's infobox, rather than platform-dependent emoji. All 195 original SVGs are stored in `assets/flags/`, with their native proportions preserved inside the flag tile. This includes nonrectangular Nepal and square Switzerland/Vatican flags. Wikipedia's current infobox selection is used for Afghanistan and Syria.
+
+`data/wikipedia-flags.json` records each country article, Wikipedia revision ID, selected Commons file, original image URL, file-description URL, retrieval date, license, artist/credit metadata and SHA-256. Wikimedia metadata may contain HTML attribution links. Original SVGs are retained unchanged. The original dataset's emoji field is removed from the embedded country records.
+
+To refresh the Wikipedia snapshot (requires internet), then update the offline page:
+
+```sh
+python3 scripts/fetch-wikipedia-flags.py
+python3 scripts/embed-facts.py
+```
+
+The fetch script resolves article names, Wikipedia File markup and Commons redirects. It fails on missing or ambiguous flag fields rather than silently substituting a different flag. Runtime browsing sends no requests to Wikipedia or Commons.
+
+Flag licenses in this snapshot: 194 files are marked public domain by Wikimedia Commons. [Oman's flag](https://commons.wikimedia.org/wiki/File:Flag_of_Oman.svg) is a vector rendering based on [Oman's Royal Decree 53/2004](https://qanoon.om/p/2004/rd2004053/), used under the [Open Government Licence – Oman 1.0](https://www.oman.om/en/home-footer-level/faq/open-government-licence-oman); contributor details are retained in the linked Commons file history. See the manifest for each file's original attribution and source.
