@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Embed curated bilingual facts in the offline page. No network dependency."""
+"""Generate curated bilingual runtime data for the offline atlas. No network dependency."""
 from pathlib import Path
 import json,re
 root=Path(__file__).resolve().parents[1]
-p=root/'index.html';text=p.read_text();data=json.loads((root/'data/country-facts.json').read_text())
+p=root/'assets/data.js';text=p.read_text();data=json.loads((root/'data/country-facts.json').read_text())
 countries=json.loads(re.search(r'const COUNTRIES\s*=\s*(\[.*?\]);',text).group(1))
 assert set(data)=={c['code'] for c in countries}, 'Country coverage differs'
 for code,facts in data.items():
@@ -24,7 +24,12 @@ for code,facts in data.items():
   assert population['share'] is None or 0<=population['share']<=100
   assert isinstance(population['majority'],bool)
  assert all(source['url'].startswith('https://') for source in facts['sources'])
-serialized=json.dumps(data,ensure_ascii=False,separators=(',',':'))
+# Source records stay in data/ for attribution, not in the browser payload.
+runtime={code:{key:value for key,value in facts.items() if key!='sources'} for code,facts in data.items()}
+for facts in runtime.values():
+ if 'populationReligion' in facts:
+  facts['populationReligion']={key:value for key,value in facts['populationReligion'].items() if key!='source'}
+serialized=json.dumps(runtime,ensure_ascii=False,separators=(',',':'))
 text,n=re.subn(r'const COUNTRY_FACTS = .*?;\n',lambda _:f'const COUNTRY_FACTS = {serialized};\n',text,count=1)
 assert n==1, 'Embedded facts marker missing'
 print(f'Validated {len(data)} country records.')

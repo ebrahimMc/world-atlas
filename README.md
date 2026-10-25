@@ -4,7 +4,7 @@ A bilingual English/Persian, responsive, offline-capable atlas of 195 countries 
 
 ## Use
 
-Open `index.html` in a browser. No build, installation, API key or internet connection is needed for browsing the atlas. All data and fonts are embedded in the page. Keep the `assets/flags/` directory beside `index.html`; the flag artwork is served locally.
+Open `index.html` in a browser. No build, installation, API key or internet connection is needed for browsing the atlas. All data, fonts, styles and scripts are local. Keep the complete `assets/` directory beside `index.html`; the atlas makes no runtime API or CDN requests.
 
 - Search country names, capitals, cities and currency names or codes, and language names in English or Persian.
 - Filter by region and sort A–Z or Z–A.
@@ -17,9 +17,9 @@ The original neutral `#fafafa` canvas sits behind translucent glass surfaces, wi
 
 ## Persian version
 
-Use the فارسی / English switch in the header. The Persian view uses RTL layout and embedded Vazirmatn, including offline use. Interface text, country names, currency names, official languages and religion are localized; capitals and key cities have curated Persian names. Hosted Persian entry: `?lang=fa`. Searches accept Persian and English country and currency names.
+Use the فارسی / English switch in the header. The Persian view uses RTL layout and bundled Vazirmatn, including offline use. Interface text, country names, currency names, official languages and religion are localized; capitals and key cities have curated Persian names. Hosted Persian entry: `?lang=fa`. Searches accept Persian and English country and currency names.
 
-Vazirmatn: https://github.com/rastikerdar/vazirmatn, licensed under SIL OFL 1.1; see `Vazirmatn-OFL.txt`. The license is also embedded in the HTML.
+Vazirmatn: https://github.com/rastikerdar/vazirmatn, licensed under SIL OFL 1.1; see `Vazirmatn-OFL.txt`. The license is also included in the stylesheet.
 
 ## Data and attribution
 
@@ -33,17 +33,17 @@ Scope: 193 United Nations members and two observer states. See the atlas’s Abo
 
 ## GitHub Pages
 
-Publish `index.html` and `assets/flags/` at the root of a public repository, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages supports this static site on GitHub Free for public repositories. No paid hosting or domain is required.
+Publish `index.html` and the complete `assets/` directory at the root of a public repository, then choose **Settings → Pages → Deploy from a branch → main → /(root)**. GitHub Pages supports this static site on GitHub Free for public repositories. No paid hosting or domain is required.
 
 ## Official languages and religion
 
-The bilingual additions are maintained in `data/country-facts.json`, keyed by the 195 ISO alpha-2 country codes already in the atlas. Both English and Persian values are embedded; there is no runtime translation service or data request. Re-embed after editing:
+The bilingual additions are maintained in `data/country-facts.json`, keyed by the 195 ISO alpha-2 country codes already in the atlas. Both English and Persian values are bundled locally; there is no runtime translation service or data request. Re-embed after editing:
 
 ```sh
 python3 scripts/embed-facts.py
 ```
 
-The script verifies country coverage, translation completeness, country-level source links and explanations for countries without a nationally designated official language, then updates the embedded payload in `index.html`.
+The script verifies country coverage, translation completeness, country-level source links and explanations for countries without a nationally designated official language, then updates the browser payload in `assets/data.js`.
 
 Official languages describe national/federal legal status. Religion retains the legal designation where one exists; for the other 157 countries, the card displays the largest population affiliation with a separate label. Religiously unaffiliated people are included, and a plurality is marked “Largest group” rather than described as a majority. The legal status and population affiliation remain separate fields in the data. Notes distinguish working and de facto languages, regional official status, established churches and constitutionally favored religions. A denomination is named only where the cited framework identifies it. Special cases include Afghanistan's suspended constitution/de facto rule, the UK's constituent nations, Tunisia's 2022 constitution, Syria's 2025 declaration, and Sudan's contested transitional framework. Source editions have different dates and are not all current legal consolidations.
 
@@ -71,7 +71,7 @@ Cards use a navy flag panel with floating continent and ISO pills, a bottom-righ
 
 The cards display the first flag selected in each English Wikipedia country article's infobox, rather than platform-dependent emoji. All 195 original SVGs are stored in `assets/flags/`, with their native proportions preserved inside the flag tile. This includes nonrectangular Nepal and square Switzerland/Vatican flags. Wikipedia's current infobox selection is used for Afghanistan and Syria.
 
-`data/wikipedia-flags.json` records each country article, Wikipedia revision ID, selected Commons file, original image URL, file-description URL, retrieval date, license, artist/credit metadata and SHA-256. Wikimedia metadata may contain HTML attribution links. Original SVGs are retained unchanged. The original dataset's emoji field is removed from the embedded country records.
+`data/wikipedia-flags.json` records each country article, Wikipedia revision ID, selected Commons file, original image URL, file-description URL, retrieval date, license, artist/credit metadata and SHA-256. Wikimedia metadata may contain HTML attribution links. Original SVGs are retained unchanged. The original dataset's emoji field is removed from the browser country records.
 
 To refresh the Wikipedia snapshot (requires internet), then update the offline page:
 
@@ -86,7 +86,7 @@ Flag licenses in this snapshot: 194 files are marked public domain by Wikimedia 
 
 ## Card design and typography
 
-The original palette is retained: ocean navy `#193d55`, sand `#e4c5a1`, earth `#ae7e59` and the neutral `#fafafa` page background. Dark mode and background color orbs are removed. Glass blur, translucent surfaces and floating pills remain. Helvetica Neue leads the font stack, with the embedded Vazirmatn available for Persian characters.
+The original palette is retained: ocean navy `#193d55`, sand `#e4c5a1`, earth `#ae7e59` and the neutral `#fafafa` page background. Dark mode and background color orbs are removed. Glass blur, translucent surfaces and floating pills remain. Helvetica Neue leads the font stack, with the bundled Vazirmatn available for Persian characters.
 
 Card composition takes inspiration from [Alina Levchenko's Travel Information Cards](https://dribbble.com/shots/26179794-Travel-Information-Cards-UX-UI-Design): a strong visual panel and grouped, compact facts. The artwork remains the locally stored Wikipedia flags, with native proportions preserved. No Dribbble artwork is copied into the website.
 
@@ -105,3 +105,16 @@ First-load cards and pointer-initiated Show more results receive a 240ms opacity
 ## Compact spacing
 
 Header/hero padding, toolbar gaps, directory spacing, card gutters, title padding, fact-tile padding, chips, source notes and footer spacing use a tighter 4px rhythm. Reserved title heights are removed and fact groups stay compact and the religion section anchors to the bottom of each card; cards match heights within each desktop row, while each row and each mobile card size to their own content. The flag footer retains extra room for long region labels on narrow phones. Interactive touch targets remain at least 44px and mobile form text remains 16px.
+
+## Compact capital labels
+
+Multi-capital entries place each city on its own line with a short role label (off., govt., admin., const., leg., exec./jud.) and equivalent concise Persian labels. Full original wording remains searchable and is available on hover, keyboard focus or tap; the source data is unchanged.
+
+## Code organization and performance
+
+- `index.html`: semantic page structure and deferred local script loading.
+- `assets/styles.css`: existing responsive design and font license; `assets/fonts/Vazirmatn.woff2` preserves the original font bytes without base64 overhead.
+- `assets/data.js`: generated runtime country data. Detailed source records remain in `data/` and are validated by `scripts/embed-facts.py`, but unused attribution metadata is omitted from the browser payload.
+- `assets/app.js`: bilingual rendering, search, filters and interactions. Locale formatters and names are cached, country lists are sorted once per language, and region counts are computed once. Show more appends new cards, preserving existing DOM nodes and expanded language disclosures.
+
+No bundler, package installation or network service is required. After updating curated facts, run `python3 scripts/embed-facts.py`; generated output is deterministic.
