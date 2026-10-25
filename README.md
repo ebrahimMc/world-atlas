@@ -13,7 +13,7 @@ Open `index.html` in a browser. No build, installation, API key or internet conn
 
 ## Design
 
-A teal, mist and navy gradient canvas sits behind translucent glass surfaces. Cards, controls and floating pills share rounded corners, light edge highlights and backdrop blur. National flags retain their original colors and proportions. Responsive layouts support phones, tablets and desktop screens, with keyboard navigation and accessible labels.
+The original neutral `#fafafa` canvas sits behind translucent glass surfaces, with the original ocean navy masthead and cream/sand accents. Cards, controls and floating pills share rounded corners, light edge highlights and backdrop blur. National flags retain their original colors and proportions. Responsive layouts support phones, tablets and desktop screens, with keyboard navigation and accessible labels.
 
 ## Persian version
 
@@ -61,7 +61,7 @@ For 149 countries without a state religion, the largest of Pew’s seven affilia
 
 Andorra, Antigua and Barbuda, Dominica, Saint Kitts and Nevis, Marshall Islands, Nauru, Palau and San Marino are outside that dataset. Their predominant Christianity is supported by country-specific 2023 U.S. Department of State religious freedom reports, cited in the JSON. Cards show “Report 2023” without a percentage; the underlying censuses and estimates have different dates. No denomination is inferred from Pew’s broad categories.
 
-Cards use a prominent flag panel with floating continent and ISO pills, divided fact rows, an emphasized capital and a glass religion panel. Long language lists retain keyboard-accessible expansion. Persian and English layouts share the same hierarchy and adapt to narrow screens.
+Cards use a navy flag panel with floating continent and ISO pills, a bottom-right geographic-region pill, color-coded capital/currency tiles, city/language chips and a glass religion panel. Long language lists retain keyboard-accessible expansion. Persian and English layouts share the same hierarchy and adapt to narrow screens.
 
 ## Persian capitals and key cities
 
@@ -84,8 +84,20 @@ The fetch script resolves article names, Wikipedia File markup and Commons redir
 
 Flag licenses in this snapshot: 194 files are marked public domain by Wikimedia Commons. [Oman's flag](https://commons.wikimedia.org/wiki/File:Flag_of_Oman.svg) is a vector rendering based on [Oman's Royal Decree 53/2004](https://qanoon.om/p/2004/rd2004053/), used under the [Open Government Licence – Oman 1.0](https://www.oman.om/en/home-footer-level/faq/open-government-licence-oman); contributor details are retained in the linked Commons file history. See the manifest for each file's original attribution and source.
 
-## Liquid-glass design
+## Card design and typography
 
-The shared materials use the supplied `--eyr-glass` and `--eyr-glass-strong` light/dark colors, radial background orbs, 1.75rem card corners and 1.125rem inner corners. Each card gives its flag a 200–224px presentation panel with room for its native silhouette; the floating pills occupy a separate lower strip so they do not obscure the artwork. Country names and facts remain on a readable translucent surface below.
+The original palette is retained: ocean navy `#193d55`, sand `#e4c5a1`, earth `#ae7e59` and the neutral `#fafafa` page background. Dark mode and background color orbs are removed. Glass blur, translucent surfaces and floating pills remain. Helvetica Neue leads the font stack, with the embedded Vazirmatn available for Persian characters.
 
-System dark mode, reduced motion, reduced transparency, browsers without backdrop-filter, and print have explicit fallbacks. Mobile keeps the compact sticky search/Filters row; controls have at least 44px touch targets and 16px mobile form fields. Hover styling applies only to devices with a fine pointer and hover support.
+Card composition takes inspiration from [Alina Levchenko's Travel Information Cards](https://dribbble.com/shots/26179794-Travel-Information-Cards-UX-UI-Design): a strong visual panel and grouped, compact facts. The artwork remains the locally stored Wikipedia flags, with native proportions preserved. No Dribbble artwork is copied into the website.
+
+Capital, currency, cities, languages and religion each have a soft color, explicit text label and icon. Grid rows share equal height across all displayed cards; expanding languages or loading additional countries recomputes the shared height without clipping content. The compact mobile search/Filters row remains intact.
+
+## Geographic regions
+
+`data/country-regions.json` covers all 195 countries with English and Persian labels from the [UN M49 geographic classification](https://unstats.un.org/unsd/methodology/m49/overview/), retrieved 2026-10-25. The most specific intermediate region is used where present (such as South America or East Africa); otherwise the subregion is used (such as Southeast Asia or Southern Europe). Concise English labels retain the same grouping, and source names, M49 codes and source URL are preserved in the JSON. These are UN statistical groupings. The specific region appears in the glass pill at the physical bottom-right of the flag in both languages. The continent remains below the country name; the existing five continent colors and filters are retained. Search accepts the new region labels in either language.
+
+Run `python3 scripts/embed-facts.py` after changing region data. It validates the country set and bilingual coverage, then embeds the region labels beside the country facts and flag paths.
+
+## Motion and accessibility
+
+First-load cards and pointer-initiated Show more results receive a 240ms opacity/8px entrance with up to 120ms stagger and the shared ease-out curve. Buttons provide 130ms press feedback. Search, filters and keyboard-triggered Show more remain immediate. Reduced-motion mode uses a brief opacity change without translation. There is no animation library or runtime network dependency. Controls retain focus rings, mobile form text is at least 16px, and touch targets are at least 44px.
