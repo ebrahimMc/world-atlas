@@ -352,7 +352,7 @@ html[lang="fa"] .card h3{letter-spacing:0;line-height:1.5;font-weight:650}
 
 /* Uniform card grid, labeled fact colors, and restrained feedback. */
 :root{--ease-out:cubic-bezier(.23,1,.32,1)}
-.grid{grid-auto-rows:1fr;align-items:stretch}
+.grid{grid-auto-rows:auto;align-items:stretch}
 .card{height:100%;min-height:0}
 .card-top{flex:none}.identity{min-block-size:134px;display:flex;flex-direction:column;justify-content:center}
 .card-subregion{display:flex;align-items:baseline;gap:7px;flex-wrap:wrap;margin:9px 0 0;color:var(--eyr-ink);font-size:12px;line-height:1.5;font-weight:500}
@@ -392,6 +392,39 @@ html[lang="fa"] .country-meta .country-code{left:0;right:auto}
 .identity{min-block-size:122px}
 @media(max-width:640px){.identity{min-block-size:126px}.continent-tag{font-size:11px;max-inline-size:88px}.country-meta .region-tag{font-size:11px}}
 @media(max-width:360px){.flag-stage{block-size:232px;padding-block-end:64px}}
+/* Compact spacing: retain touch targets and full content, remove reserved blank areas. */
+.topbar{padding-block:16px}.header-actions{gap:16px}
+.hero{padding-block:28px 32px}.eyebrow{margin-bottom:8px}h1{margin-bottom:16px}.hero-aside p{margin-top:12px}
+.controls{padding-block:12px}.searchbox{height:48px}.sort select,html[lang="fa"] .sort select{min-height:48px}
+.filters-row{margin-top:8px;gap:12px}
+.directory{padding-block:24px 36px}.section-head{margin-bottom:16px}.kicker{margin-bottom:4px}.result-count{margin-bottom:0}
+.grid{gap:16px}.card{padding:8px}
+.flag-stage{block-size:220px;padding:44px 16px 48px}
+.identity{min-block-size:0;padding:14px 10px 12px;justify-content:flex-start}
+.details{flex:0 0 auto;grid-template-rows:none;align-content:start;margin:0 10px 10px;gap:12px 10px}
+.detail-capital,.detail-money{min-block-size:0;padding:10px}
+.detail-money .currency>span{min-width:0}.detail-money .nowrap{white-space:normal}
+.detail .label{margin-bottom:6px}.detail .label svg{padding:3px}
+.detail-cities,.detail-culture{padding:0;align-self:auto}
+.city-chip,.language-chip{padding:3px 7px}.cities,.language-list{gap:5px}
+.fact-note{margin-top:6px}.languages-more{margin-top:0}.languages-more summary{margin:0;min-height:44px}
+.details .detail-religion{padding:12px;margin:0;align-self:auto}.detail-religion .label{margin-bottom:8px}
+.rel-bar{margin-top:8px}.rel-meta{margin-top:4px}.rel-note{margin-top:6px;padding-top:6px}
+.load-area{margin-top:20px}.load-area p{margin-top:8px}.end-note{margin-top:20px}
+.notes{padding-block:24px}.notes-inner{gap:24px}.notes p{margin-bottom:8px}.footer{padding-block:20px}
+@media(min-width:1280px){.shell{padding-inline:32px}}
+@media(max-width:640px){
+ .topbar{padding-block:12px}.header-actions{gap:10px}.hero{padding-block:20px 24px}.eyebrow{margin-bottom:6px}h1{margin-bottom:12px}
+ .hero-aside{margin-top:12px}.hero-aside p{margin-top:0}
+ .controls{padding-block:8px}.controls.is-open .sort{padding-top:8px;margin-top:0}.controls.is-open .filters-row{margin-top:8px}
+ .directory{padding-block:20px 28px}.section-head{margin-bottom:12px}.grid{gap:12px}
+ .card{padding:8px}.flag-stage{block-size:220px;padding:44px 16px 48px}
+ .identity{min-block-size:0;padding:12px 10px 10px}.details{margin-inline:10px;margin-bottom:10px;gap:12px 10px}
+ .detail-capital,.detail-money{padding:10px}.details .detail-religion{padding:12px}
+ .notes{padding-block:24px}.notes-inner{gap:16px}.footer{padding-block:20px}.load-area{margin-top:20px}
+}
+@media(max-width:360px){.flag-stage{block-size:228px;padding-block-end:64px}.identity{padding-inline:8px}.details{margin-inline:8px;gap:10px 8px}.detail-capital,.detail-money{padding:8px}}
+
 </style>
 </head>
 <body id="top">
