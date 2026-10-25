@@ -1,0 +1,1757 @@
+{
+  "AF": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "004",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AL": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "008",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DZ": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "012",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AD": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "020",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AO": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "024",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AG": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "028",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AR": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "032",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AM": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "051",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AU": {
+    "en": "Australia & New Zealand",
+    "fa": "استرالیا و نیوزیلند",
+    "m49": "036",
+    "unSubregion": "Australia and New Zealand",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AT": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "040",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AZ": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "031",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BS": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "044",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BH": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "048",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BD": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "050",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BB": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "052",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BY": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "112",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BE": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "056",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BZ": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "084",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BJ": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "204",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BT": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "064",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BO": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "068",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BA": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "070",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BW": {
+    "en": "Southern Africa",
+    "fa": "جنوب آفریقا",
+    "m49": "072",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Southern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BR": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "076",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BN": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "096",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BG": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "100",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BF": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "854",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "BI": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "108",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KH": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "116",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CM": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "120",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CA": {
+    "en": "North America",
+    "fa": "آمریکای شمالی",
+    "m49": "124",
+    "unSubregion": "Northern America",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CV": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "132",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CF": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "140",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TD": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "148",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CL": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "152",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CN": {
+    "en": "East Asia",
+    "fa": "شرق آسیا",
+    "m49": "156",
+    "unSubregion": "Eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CO": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "170",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KM": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "174",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CG": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "178",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CR": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "188",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "HR": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "191",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CU": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "192",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CY": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "196",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CZ": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "203",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DK": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "208",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DJ": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "262",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DM": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "212",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DO": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "214",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CD": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "180",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "EC": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "218",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "EG": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "818",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SV": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "222",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GQ": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "226",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ER": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "232",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "EE": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "233",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SZ": {
+    "en": "Southern Africa",
+    "fa": "جنوب آفریقا",
+    "m49": "748",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Southern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ET": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "231",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "FJ": {
+    "en": "Melanesia",
+    "fa": "ملانزی",
+    "m49": "242",
+    "unSubregion": "Melanesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "FI": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "246",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "FR": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "250",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GA": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "266",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GM": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "270",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GE": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "268",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "DE": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "276",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GH": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "288",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GR": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "300",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GD": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "308",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GT": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "320",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GN": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "324",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GW": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "624",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GY": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "328",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "HT": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "332",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "HN": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "340",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "HU": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "348",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IS": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "352",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IN": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "356",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ID": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "360",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IR": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "364",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IQ": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "368",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IE": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "372",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IL": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "376",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "IT": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "380",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CI": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "384",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "JM": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "388",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "JP": {
+    "en": "East Asia",
+    "fa": "شرق آسیا",
+    "m49": "392",
+    "unSubregion": "Eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "JO": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "400",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KZ": {
+    "en": "Central Asia",
+    "fa": "آسیای مرکزی",
+    "m49": "398",
+    "unSubregion": "Central Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KE": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "404",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KI": {
+    "en": "Micronesia",
+    "fa": "میکرونزی",
+    "m49": "296",
+    "unSubregion": "Micronesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KW": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "414",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KG": {
+    "en": "Central Asia",
+    "fa": "آسیای مرکزی",
+    "m49": "417",
+    "unSubregion": "Central Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LA": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "418",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LV": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "428",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LB": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "422",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LS": {
+    "en": "Southern Africa",
+    "fa": "جنوب آفریقا",
+    "m49": "426",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Southern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LR": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "430",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LY": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "434",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LI": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "438",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LT": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "440",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LU": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "442",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MG": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "450",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MW": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "454",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MY": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "458",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MV": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "462",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ML": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "466",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MT": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "470",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MH": {
+    "en": "Micronesia",
+    "fa": "میکرونزی",
+    "m49": "584",
+    "unSubregion": "Micronesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MR": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "478",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MU": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "480",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MX": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "484",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "FM": {
+    "en": "Micronesia",
+    "fa": "میکرونزی",
+    "m49": "583",
+    "unSubregion": "Micronesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MD": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "498",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MC": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "492",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MN": {
+    "en": "East Asia",
+    "fa": "شرق آسیا",
+    "m49": "496",
+    "unSubregion": "Eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ME": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "499",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MA": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "504",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MZ": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "508",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MM": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "104",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NA": {
+    "en": "Southern Africa",
+    "fa": "جنوب آفریقا",
+    "m49": "516",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Southern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NR": {
+    "en": "Micronesia",
+    "fa": "میکرونزی",
+    "m49": "520",
+    "unSubregion": "Micronesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NP": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "524",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NL": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "528",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NZ": {
+    "en": "Australia & New Zealand",
+    "fa": "استرالیا و نیوزیلند",
+    "m49": "554",
+    "unSubregion": "Australia and New Zealand",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NI": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "558",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NE": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "562",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NG": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "566",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KP": {
+    "en": "East Asia",
+    "fa": "شرق آسیا",
+    "m49": "408",
+    "unSubregion": "Eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "MK": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "807",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "NO": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "578",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "OM": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "512",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PK": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "586",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PW": {
+    "en": "Micronesia",
+    "fa": "میکرونزی",
+    "m49": "585",
+    "unSubregion": "Micronesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PS": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "275",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PA": {
+    "en": "Central America",
+    "fa": "آمریکای مرکزی",
+    "m49": "591",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Central America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PG": {
+    "en": "Melanesia",
+    "fa": "ملانزی",
+    "m49": "598",
+    "unSubregion": "Melanesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PY": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "600",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PE": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "604",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PH": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "608",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PL": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "616",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "PT": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "620",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "QA": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "634",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "RO": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "642",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "RU": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "643",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "RW": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "646",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KN": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "659",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LC": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "662",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "VC": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "670",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "WS": {
+    "en": "Polynesia",
+    "fa": "پلی‌نزی",
+    "m49": "882",
+    "unSubregion": "Polynesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SM": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "674",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SA": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "682",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SN": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "686",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "RS": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "688",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SC": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "690",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SL": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "694",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SG": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "702",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SK": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "703",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SI": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "705",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SB": {
+    "en": "Melanesia",
+    "fa": "ملانزی",
+    "m49": "090",
+    "unSubregion": "Melanesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SO": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "706",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ZA": {
+    "en": "Southern Africa",
+    "fa": "جنوب آفریقا",
+    "m49": "710",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Southern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "KR": {
+    "en": "East Asia",
+    "fa": "شرق آسیا",
+    "m49": "410",
+    "unSubregion": "Eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SS": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "728",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ES": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "724",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "LK": {
+    "en": "South Asia",
+    "fa": "جنوب آسیا",
+    "m49": "144",
+    "unSubregion": "Southern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SD": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "729",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SR": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "740",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SE": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "752",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "CH": {
+    "en": "Western Europe",
+    "fa": "اروپای غربی",
+    "m49": "756",
+    "unSubregion": "Western Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "SY": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "760",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ST": {
+    "en": "Central Africa",
+    "fa": "آفریقای مرکزی",
+    "m49": "678",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Middle Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TJ": {
+    "en": "Central Asia",
+    "fa": "آسیای مرکزی",
+    "m49": "762",
+    "unSubregion": "Central Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TZ": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "834",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TH": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "764",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TL": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "626",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TG": {
+    "en": "West Africa",
+    "fa": "غرب آفریقا",
+    "m49": "768",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Western Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TO": {
+    "en": "Polynesia",
+    "fa": "پلی‌نزی",
+    "m49": "776",
+    "unSubregion": "Polynesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TT": {
+    "en": "Caribbean",
+    "fa": "کارائیب",
+    "m49": "780",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "Caribbean",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TN": {
+    "en": "North Africa",
+    "fa": "شمال آفریقا",
+    "m49": "788",
+    "unSubregion": "Northern Africa",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TM": {
+    "en": "Central Asia",
+    "fa": "آسیای مرکزی",
+    "m49": "795",
+    "unSubregion": "Central Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TV": {
+    "en": "Polynesia",
+    "fa": "پلی‌نزی",
+    "m49": "798",
+    "unSubregion": "Polynesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "TR": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "792",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "UG": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "800",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "UA": {
+    "en": "Eastern Europe",
+    "fa": "اروپای شرقی",
+    "m49": "804",
+    "unSubregion": "Eastern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "AE": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "784",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "GB": {
+    "en": "Northern Europe",
+    "fa": "اروپای شمالی",
+    "m49": "826",
+    "unSubregion": "Northern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "US": {
+    "en": "North America",
+    "fa": "آمریکای شمالی",
+    "m49": "840",
+    "unSubregion": "Northern America",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "UY": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "858",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "UZ": {
+    "en": "Central Asia",
+    "fa": "آسیای مرکزی",
+    "m49": "860",
+    "unSubregion": "Central Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "VU": {
+    "en": "Melanesia",
+    "fa": "ملانزی",
+    "m49": "548",
+    "unSubregion": "Melanesia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "VA": {
+    "en": "Southern Europe",
+    "fa": "اروپای جنوبی",
+    "m49": "336",
+    "unSubregion": "Southern Europe",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "VE": {
+    "en": "South America",
+    "fa": "آمریکای جنوبی",
+    "m49": "862",
+    "unSubregion": "Latin America and the Caribbean",
+    "unIntermediateRegion": "South America",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "VN": {
+    "en": "Southeast Asia",
+    "fa": "آسیای جنوب‌شرقی",
+    "m49": "704",
+    "unSubregion": "South-eastern Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "YE": {
+    "en": "West Asia",
+    "fa": "غرب آسیا",
+    "m49": "887",
+    "unSubregion": "Western Asia",
+    "unIntermediateRegion": "",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ZM": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "894",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  },
+  "ZW": {
+    "en": "East Africa",
+    "fa": "شرق آفریقا",
+    "m49": "716",
+    "unSubregion": "Sub-Saharan Africa",
+    "unIntermediateRegion": "Eastern Africa",
+    "source": "https://unstats.un.org/unsd/methodology/m49/overview/",
+    "retrieved": "2026-10-25"
+  }
+}

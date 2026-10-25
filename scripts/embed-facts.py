@@ -41,5 +41,11 @@ for country in countries:
 text=re.sub(r'const COUNTRIES\s*=\s*\[.*?\];',lambda _: 'const COUNTRIES = '+json.dumps(countries,ensure_ascii=False,separators=(',',':'))+';',text,count=1)
 text=re.sub(r'const FLAG_FILES = .*?;\n','',text,count=1)
 text=text.replace('const COUNTRY_FACTS = ',f'const FLAG_FILES = {paths};\nconst COUNTRY_FACTS = ',1)
+geography=json.loads((root/'data/country-regions.json').read_text())
+assert set(geography)=={c['code'] for c in countries}, 'Geographic region coverage differs'
+assert all(v['en'] and re.search(r'[\u0600-\u06ff]',v['fa']) and v['source'].startswith('https://unstats.un.org/') for v in geography.values()), 'Missing region translation or source'
+region_payload=json.dumps({code:{'en':v['en'],'fa':v['fa']} for code,v in geography.items()},ensure_ascii=False,separators=(',',':'))
+text=re.sub(r'const COUNTRY_REGIONS = .*?;\n','',text,count=1)
+text=text.replace('const FLAG_FILES = ',f'const COUNTRY_REGIONS = {region_payload};\nconst FLAG_FILES = ',1)
 p.write_text(text)
-print(f'Embedded and validated {len(flags)} local Wikipedia flags.')
+print(f'Embedded and validated {len(flags)} local Wikipedia flags and {len(geography)} geographic regions.')
