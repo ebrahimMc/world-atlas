@@ -118,3 +118,15 @@ Multi-capital entries place each city on its own line with a short role label (o
 - `assets/app.js`: bilingual rendering, search, filters and interactions. Locale formatters and names are cached, country lists are sorted once per language, and region counts are computed once. Show more appends new cards, preserving existing DOM nodes and expanded language disclosures.
 
 No bundler, package installation or network service is required. After updating curated facts, run `python3 scripts/embed-facts.py`; generated output is deterministic.
+
+### 3D globe
+
+The 3D view uses [Globe.gl](https://github.com/vasturiano/globe.gl) 2.46.2 (MIT),
+served locally and loaded as the map approaches the viewport. Country shapes and
+label locations use [Natural Earth Admin 0 Countries, 1:50m](https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_50m_admin_0_countries.geojson)
+(public domain). Map boundaries follow that dataset. The atlas's existing scope
+determines which countries open cards. Small countries also have markers.
+Drag the globe to rotate it. Scroll over the map or pinch to zoom.
+
+To regenerate the map data, download the linked GeoJSON and run
+`python3 scripts/build-globe-geography.py path/to/ne_50m_admin_0_countries.geojson`.
