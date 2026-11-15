@@ -38,7 +38,7 @@ function translate(){
  $('language').textContent=t('فارسی','English');$('language').lang=fa()?'en':'fa';$('language').setAttribute('aria-label',t('Switch to Persian','Switch to English'));
  document.querySelector('.eyebrow').textContent=t('A pocket guide to the planet','راهنمای کوچک سیاره ما');
  $('page-title').innerHTML=t('Every country.<br><em>A little closer.</em>','همه کشورها.<br><em>کمی نزدیک‌تر.</em>');
- document.querySelector('.intro').innerHTML=t('Flags, capitals, currencies, official languages and religion.<br>Find a familiar place. Discover somewhere new.','پرچم‌ها، پایتخت‌ها، واحدهای پول، زبان‌های رسمی و دین.<br>جایی آشنا را پیدا کنید؛ جایی تازه را بشناسید.');
+ document.querySelector('.intro').innerHTML=t('Flags, capitals, currencies, official languages and religion.<br> Find a familiar place. Discover somewhere new.','پرچم‌ها، پایتخت‌ها، واحدهای پول، زبان‌های رسمی و دین.<br> جایی آشنا را پیدا کنید؛ جایی تازه را بشناسید.');
  document.querySelector('.hero-aside').setAttribute('aria-label',t('195 countries across 5 regions','۱۹۵ کشور در ۵ منطقه'));
  document.querySelector('.hero-aside p').innerHTML=t('<strong>195</strong> countries<span> / </span><strong>5</strong> regions','<strong>۱۹۵</strong> کشور<span> / </span><strong>۵</strong> منطقه');
  search.placeholder=t('Search the atlas…','جست‌وجو در اطلس…');search.setAttribute('aria-label',t('Search country, capital, city, currency or language','جست‌وجوی کشور، پایتخت، شهر، واحد پول یا زبان'));
@@ -47,7 +47,6 @@ function translate(){
  sort.options[0].text=t('A–Z','الف–ی');sort.options[1].text=t('Z–A','ی–الف');
  regions.setAttribute('aria-label',t('Filter by region','فیلتر بر اساس منطقه'));
  $('reset').textContent=t('Reset filters','پاک‌کردن فیلترها');
- document.querySelector('.kicker').textContent=t('The country directory','فهرست کشورهای جهان');
  $('source-note').hidden=true;$('source-note').textContent='';
  $('source-note').style.marginBottom='0';
  $('load-more').textContent=t('Show more countries ↓','نمایش کشورهای بیشتر ↓');
@@ -114,7 +113,7 @@ function animateCards(start){
   element.animate(reduce?[{opacity:.85},{opacity:1}]:[{opacity:0,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],{duration:reduce?120:240,delay:reduce?0:Math.min(index,3)*40,fill:'backwards',easing:'cubic-bezier(.23,1,.32,1)'});
  });
 }
-function render({more=false,updateURL=true,animate=false}={}){
+function render({more=false,updateURL=true,animate=false,print=false}={}){
  const query=plain(search.value.trim());
  const escaped=query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
  const pattern=new RegExp('(^|[^\\p{L}\\p{N}])'+escaped,'u');
@@ -124,15 +123,17 @@ function render({more=false,updateURL=true,animate=false}={}){
  const filtered=!!query||activeRegion!=='All regions';
  $('directory-title').textContent=query?t('Search results','نتایج جست‌وجو'):activeRegion==='All regions'?t('Explore the world','جهان را کشف کنید'):t(`Explore ${activeRegion}`,`کشورهای ${regionFa[activeRegion]}`);
  $('count').textContent=fa()?`${num(matches.length)} کشور${filtered?' پیدا شد':' برای کشف'}${query?` برای «${search.value.trim()}»`:''}`:`${matches.length} ${matches.length===1?'country':'countries'}${filtered?' found':' to discover'}${query?` for “${search.value.trim()}”`:''}`;
- if(more)grid.insertAdjacentHTML('beforeend',shown.slice(prior).map(card).join(''));
- else grid.innerHTML=shown.length?shown.map(card).join(''):`<div class="empty"><h3>${t('No countries found','کشوری پیدا نشد')}</h3><p>${t('Try a different spelling, a currency code, or another region.','املای دیگری، کد واحد پول یا منطقه‌ای دیگر را امتحان کنید.')}</p><button type="button" class="primary" id="empty-reset">${t('Clear all filters','پاک‌کردن همه فیلترها')}</button></div>`;
  $('clear-search').hidden=!search.value;$('reset').hidden=!filtered&&sort.value==='asc';
- $('load-area').hidden=shown.length>=matches.length;$('progress').textContent=t(`Showing ${shown.length} of ${matches.length} countries`,`نمایش ${num(shown.length)} از ${num(matches.length)} کشور`);
- $('end-note').hidden=!matches.length||shown.length<matches.length;
- $('end-note').textContent=t(`You’re all caught up · ${matches.length} ${matches.length===1?'country':'countries'}`,`همه نتایج نمایش داده شد · ${num(matches.length)} کشور`);
+ if(print||atlasGlobe.showsCards()){
+  if(more)grid.insertAdjacentHTML('beforeend',shown.slice(prior).map(card).join(''));
+  else grid.innerHTML=shown.length?shown.map(card).join(''):`<div class="empty"><h3>${t('No countries found','کشوری پیدا نشد')}</h3><p>${t('Try a different spelling, a currency code, or another region.','املای دیگری، کد واحد پول یا منطقه‌ای دیگر را امتحان کنید.')}</p><button type="button" class="primary" id="empty-reset">${t('Clear all filters','پاک‌کردن همه فیلترها')}</button></div>`;
+  $('load-area').hidden=shown.length>=matches.length;$('progress').textContent=t(`Showing ${shown.length} of ${matches.length} countries`,`نمایش ${num(shown.length)} از ${num(matches.length)} کشور`);
+  $('end-note').hidden=!matches.length||shown.length<matches.length;
+  $('end-note').textContent=t(`You’re all caught up · ${matches.length} ${matches.length===1?'country':'countries'}`,`همه نتایج نمایش داده شد · ${num(matches.length)} کشور`);
+ }
  regions.querySelectorAll('button').forEach(b=>{b.classList.toggle('active',b.dataset.region===activeRegion);b.setAttribute('aria-pressed',String(b.dataset.region===activeRegion));});
  if(animate)animateCards(more?prior:0);
- atlasGlobe?.update(matches,{query,activeRegion});
+ if(!more)atlasGlobe.update(matches,{query,activeRegion});
  updateFilterToggle();
  if(updateURL)saveURL();
  if(more&&grid.children[prior])grid.children[prior].focus({preventScroll:true});
@@ -164,6 +165,7 @@ grid.addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset();})
 $('load-more').addEventListener('click',e=>{limit+=24;render({more:true,animate:e.detail>0});});
 $('language').addEventListener('click',()=>{lang=fa()?'en':'fa';limit=24;translate();drawFilters();render();});
 window.addEventListener('popstate',()=>{readURL();limit=24;translate();drawFilters();render({updateURL:false});});
+window.addEventListener('beforeprint',()=>{if(!atlasGlobe.showsCards())render({print:true,updateURL:false});});
 readURL();
-atlasGlobe=createAtlasGlobe({card,t,faName});
+atlasGlobe=createAtlasGlobe({card,t,faName,showCards:()=>render({updateURL:false})});
 translate();drawFilters();render({updateURL:false,animate:true});

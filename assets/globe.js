@@ -1,4 +1,4 @@
-function createAtlasGlobe({card,t,faName}) {
+function createAtlasGlobe({card,t,faName,showCards}) {
  const view = document.getElementById('atlas-view');
  const panel = document.getElementById('atlas-globe');
  const stage = document.getElementById('globe-stage');
@@ -10,7 +10,10 @@ function createAtlasGlobe({card,t,faName}) {
  const grid = document.getElementById('grid');
  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
  const colors = {Africa:'#8ba891',Americas:'#7cabb8',Asia:'#c0aa83',Europe:'#a5adb9',Oceania:'#b4948a'};
- const baseView = {lat:23,lng:19,altitude:2.45};
+ const selectionColor = '#bc94ff';
+ const baseView = {lat:23,lng:19,altitude:2.04};
+ const minAltitude = .16;
+ const maxAltitude = 3.35;
  const scripts = ['assets/vendor/globe.gl-2.46.2.min.js','assets/globe-geography.js'];
 
  const allCountries = new Map(COUNTRIES.map(country => [country.code,country]));
@@ -19,14 +22,17 @@ function createAtlasGlobe({card,t,faName}) {
  let lastQuery, lastRegion;
 
  const name = country => t(country.name,faName(country));
- const duration = () => reducedMotion.matches ? 0 : 560;
+ const duration = () => reducedMotion.matches ? 0 : 320;
 
  function labels() {
   view.setAttribute('aria-label',t('Atlas view','نمای اطلس'));
   view.querySelector('[data-view="globe"]').textContent = t('3D globe','کرهٔ سه‌بعدی');
   view.querySelector('[data-view="cards"]').textContent = t('Country cards','کارت کشورها');
   document.getElementById('globe-country-label').textContent = t('Find a country on the globe','انتخاب کشور روی کره');
-  document.getElementById('globe-guide').textContent = t('Drag to rotate · Select a country for its details','برای چرخاندن بکشید · برای دیدن اطلاعات، کشور را انتخاب کنید');
+  document.getElementById('globe-guide').textContent = t(
+   'Drag to rotate · Scroll or pinch to zoom',
+   'برای چرخاندن بکشید · برای زوم از چرخ ماوس یا دو انگشت استفاده کنید',
+  );
   details.setAttribute('aria-label',t('Country details','اطلاعات کشور'));
   tools.setAttribute('aria-label',t('Globe controls','کنترل‌های کره'));
   document.getElementById('globe-zoom-in').setAttribute('aria-label',t('Zoom in','بزرگ‌نمایی'));
@@ -44,7 +50,7 @@ function createAtlasGlobe({card,t,faName}) {
  }
 
  function color(code) {
-  if (code && code === selected) return '#ffce86';
+  if (code && code === selected) return selectionColor;
   if (matches.has(code)) return colors[allCountries.get(code).region];
   return allCountries.has(code) ? '#36576a' : '#496273';
  }
@@ -52,30 +58,29 @@ function createAtlasGlobe({card,t,faName}) {
  function refreshMap() {
   if (!globe) return;
   globe.polygonCapColor(shape => color(shape.code))
-   .pointColor(point => matches.has(point.code) ? color(point.code) : '#36576a');
+   .polygonStrokeColor(shape => shape.code && shape.code === selected ? '#f0e4ff' : '#183849')
+   .pointColor(point => color(point.code));
  }
 
- function focusCountry(code, clickedAt) {
+ function focusCountry(code) {
   const anchor = geography?.anchors[code];
   if (!globe || !anchor) return;
-  const altitude = globe.pointOfView().altitude;
-  const position = clickedAt || anchor;
   globe.pointOfView({
-   lat:Math.max(-85,Math.min(85,position.lat)),
-   lng:position.lng,
-   altitude:clickedAt ? altitude : anchor.marker ? .42 : 1.25,
+   lat:Math.max(-85,Math.min(85,anchor.lat)),
+   lng:anchor.lng,
+   altitude:anchor.marker ? .46 : 1.64,
   },duration());
  }
 
- function choose(code, clickedAt) {
+ function choose(code, fromMap = false) {
   if (code && !matches.has(code)) return;
   selected = code;
   showDetails();
   refreshMap();
   if (!code) return;
   announce.textContent = name(matches.get(code));
-  focusCountry(code,clickedAt);
-  if (clickedAt && matchMedia('(max-width: 720px)').matches) {
+  if (!fromMap) focusCountry(code);
+  if (fromMap && matchMedia('(max-width: 760px)').matches) {
    details.querySelector('.card').focus({preventScroll:true});
    details.scrollIntoView({block:'start',behavior:reducedMotion.matches ? 'instant' : 'smooth'});
   }
@@ -127,25 +132,25 @@ function createAtlasGlobe({card,t,faName}) {
     .polygonAltitude(.003)
     .polygonCapCurvatureResolution(3)
     .polygonSideColor(() => '#294556')
-    .polygonStrokeColor(() => '#183849')
     .polygonsTransitionDuration(0)
     .polygonsData(geography.shapes)
     .polygonLabel(shape => matches.has(shape.code) ? name(matches.get(shape.code)) : '')
-    .onPolygonClick((shape,event,point) => {
-     if (shape.code) choose(shape.code,point);
+    .onPolygonClick(shape => {
+     if (shape.code) choose(shape.code,true);
     })
     .pointAltitude(.012).pointRadius(.62)
     .pointsTransitionDuration(0)
     .pointsData(Object.values(geography.anchors).filter(point => point.marker))
     .pointLabel(point => matches.has(point.code) ? name(matches.get(point.code)) : '')
-    .onPointClick((point,event,position) => choose(point.code,position))
+    .onPointClick(point => choose(point.code,true))
     .showPointerCursor((type,datum) => matches.has(datum?.code));
    globe.globeMaterial().color.set('#203f56');
    const controls = globe.controls();
    controls.enablePan = false;
-   controls.enableZoom = false;
-   controls.minDistance = globe.getGlobeRadius() * 1.12;
-   controls.maxDistance = globe.getGlobeRadius() * 4.4;
+   controls.enableZoom = true;
+   controls.zoomSpeed = .8;
+   controls.minDistance = globe.getGlobeRadius() * (1 + minAltitude);
+   controls.maxDistance = globe.getGlobeRadius() * (1 + maxAltitude);
    globe.renderer().setPixelRatio(Math.min(devicePixelRatio,1.5));
    globe.renderer().domElement.addEventListener('webglcontextlost',mapUnavailable,{once:true});
    globe.pointOfView(baseView);
@@ -163,7 +168,7 @@ function createAtlasGlobe({card,t,faName}) {
 
  function zoom(factor) {
   const altitude = globe.pointOfView().altitude;
-  globe.pointOfView({altitude:Math.max(.16,Math.min(3.35,altitude*factor))},duration());
+  globe.pointOfView({altitude:Math.max(minAltitude,Math.min(maxAltitude,altitude*factor))});
  }
 
  function drawView() {
@@ -184,6 +189,7 @@ function createAtlasGlobe({card,t,faName}) {
   if (!button || mode === button.dataset.view) return;
   mode = button.dataset.view;
   drawView();
+  if (mode === 'cards') showCards();
  });
  select.addEventListener('change',() => choose(select.value));
  document.getElementById('globe-zoom-in').addEventListener('click',() => zoom(.72));
@@ -200,6 +206,7 @@ function createAtlasGlobe({card,t,faName}) {
  view.hidden = false;
  drawView();
  return {
+  showsCards: () => mode === 'cards',
   update(countries,{query,activeRegion}) {
    const filtersChanged = query !== lastQuery || activeRegion !== lastRegion;
    lastQuery = query;
@@ -213,7 +220,7 @@ function createAtlasGlobe({card,t,faName}) {
    select.disabled = !countries.length;
    labels();
    showDetails();
-   refreshMap();
+   if (filtersChanged) refreshMap();
    if (soleResult) focusCountry(selected);
   },
  };

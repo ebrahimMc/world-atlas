@@ -19,11 +19,18 @@
 <div class="hero"><div><p class="eyebrow">A pocket guide to the planet</p><h1 id="page-title">Every country.<br><em>A little closer.</em></h1><p class="intro">Flags, capitals, currencies, official languages and religion.<br>Find a familiar place. Discover somewhere new.</p></div><div class="hero-aside" aria-label="195 countries across 5 regions"><svg class="globe" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-width=".8" aria-hidden="true"><circle cx="90" cy="90" r="77"/><ellipse cx="90" cy="90" rx="48" ry="77"/><ellipse cx="90" cy="90" rx="19" ry="77"/><ellipse cx="90" cy="90" rx="77" ry="26"/><path d="M13 90h154M23 53c36 19 98 19 134 0M23 127c36-19 98-19 134 0M90 13v154"/><circle cx="90" cy="90" r="87" stroke-dasharray="1 5" opacity=".5"/></svg><p><strong>195</strong> countries<span> / </span><strong>5</strong> regions</p></div></div></div></header>
 <main>
 <div class="controls-wrap"><div class="shell controls"><div class="search-row"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search the atlas…" aria-label="Search country, capital, city, currency or language" autocomplete="off" spellcheck="false"><button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button></div><button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="sort-control filter-controls"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="currentColor"/><circle cx="15" cy="17" r="3" fill="currentColor"/></svg><span id="filter-toggle-label">Filters</span><span id="filter-active-count" class="filter-active-count" hidden></span></button><label class="sort" id="sort-control"><span class="sort-label">Sort</span><select id="sort" aria-label="Sort countries"><option value="asc">A–Z</option><option value="desc">Z–A</option></select></label></div><div class="filters-row" id="filter-controls"><nav class="filter" aria-label="Filter by region" id="regions"></nav><button id="reset" class="reset" type="button" hidden>Reset filters</button></div></div></div>
-<section class="shell directory" id="directory" aria-labelledby="directory-title"><div class="section-head"><div><div class="kicker">The country directory</div><h2 id="directory-title">Explore the world</h2></div><p class="result-count" id="count" role="status" aria-live="polite" aria-atomic="true"></p></div><p class="source-note" id="source-note" hidden></p>
-<div class="atlas-view" id="atlas-view" role="group" aria-label="Atlas view" hidden>
-  <button type="button" data-view="globe" aria-pressed="true">3D globe</button>
-  <button type="button" data-view="cards" aria-pressed="false">Country cards</button>
+<section class="shell directory" id="directory" aria-labelledby="directory-title">
+<div class="section-head">
+  <div class="atlas-heading">
+    <h2 id="directory-title">Explore the world</h2>
+    <p class="result-count" id="count" role="status" aria-live="polite" aria-atomic="true"></p>
+  </div>
+  <div class="atlas-view" id="atlas-view" role="group" aria-label="Atlas view" hidden>
+    <button type="button" data-view="globe" aria-pressed="true">3D globe</button>
+    <button type="button" data-view="cards" aria-pressed="false">Country cards</button>
+  </div>
 </div>
+<p class="source-note" id="source-note" hidden></p>
 <div class="atlas-globe" id="atlas-globe" hidden>
   <div class="atlas-globe-map">
     <div id="globe-stage" class="atlas-globe-stage" aria-hidden="true"></div>
@@ -34,7 +41,7 @@
       <button id="globe-reset" type="button" aria-label="Reset globe view">↺</button>
     </div>
     <div class="atlas-globe-caption">
-      <p id="globe-guide">Drag to rotate. Select a country for its details.</p>
+      <p id="globe-guide">Drag to rotate · Scroll to zoom</p>
       <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener" lang="en" dir="ltr">Natural Earth</a>
     </div>
   </div>

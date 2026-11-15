@@ -126,6 +126,7 @@ served locally and loaded as the map approaches the viewport. Country shapes and
 label locations use [Natural Earth Admin 0 Countries, 1:50m](https://github.com/nvkelso/natural-earth-vector/blob/v5.1.2/geojson/ne_50m_admin_0_countries.geojson)
 (public domain). Map boundaries follow that dataset. The atlas's existing scope
 determines which countries open cards. Small countries also have markers.
+Drag the globe to rotate it. Scroll over the map or pinch to zoom.
 
 To regenerate the map data, download the linked GeoJSON and run
 `python3 scripts/build-globe-geography.py path/to/ne_50m_admin_0_countries.geojson`.
