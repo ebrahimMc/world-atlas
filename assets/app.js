@@ -21,7 +21,7 @@ const regionTotals=Object.fromEntries(regionNames.map(name=>[name,name==='All re
 const numberFormats=Object.fromEntries(['en','fa'].map(locale=>[locale,{
  count:new Intl.NumberFormat(locale),share:new Intl.NumberFormat(locale,{maximumFractionDigits:1}),year:new Intl.NumberFormat(locale,{useGrouping:false})
 }]));
-let activeRegion='All regions',limit=24,lang='en';
+let activeRegion='All regions',limit=24,lang='en',atlasGlobe;
 const fa=()=>lang==='fa';
 const t=(en,faText)=>fa()?faText:en;
 const num=n=>numberFormats[lang].count.format(n);
@@ -132,6 +132,7 @@ function render({more=false,updateURL=true,animate=false}={}){
  $('end-note').textContent=t(`You’re all caught up · ${matches.length} ${matches.length===1?'country':'countries'}`,`همه نتایج نمایش داده شد · ${num(matches.length)} کشور`);
  regions.querySelectorAll('button').forEach(b=>{b.classList.toggle('active',b.dataset.region===activeRegion);b.setAttribute('aria-pressed',String(b.dataset.region===activeRegion));});
  if(animate)animateCards(more?prior:0);
+ atlasGlobe?.update(matches,{query,activeRegion});
  updateFilterToggle();
  if(updateURL)saveURL();
  if(more&&grid.children[prior])grid.children[prior].focus({preventScroll:true});
@@ -163,4 +164,6 @@ grid.addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset();})
 $('load-more').addEventListener('click',e=>{limit+=24;render({more:true,animate:e.detail>0});});
 $('language').addEventListener('click',()=>{lang=fa()?'en':'fa';limit=24;translate();drawFilters();render();});
 window.addEventListener('popstate',()=>{readURL();limit=24;translate();drawFilters();render({updateURL:false});});
-readURL();translate();drawFilters();render({updateURL:false,animate:true});
+readURL();
+atlasGlobe=createAtlasGlobe({card,t,faName});
+translate();drawFilters();render({updateURL:false,animate:true});
