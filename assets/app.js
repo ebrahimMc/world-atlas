@@ -29,6 +29,7 @@ const originalNotes=document.querySelector('.notes-inner').innerHTML;
 function readURL(){const p=new URLSearchParams(location.search);search.value=p.get('q')||'';activeRegion=regionNames.includes(p.get('region'))?p.get('region'):'All regions';sort.value=p.get('sort')==='desc'?'desc':'asc';lang=p.get('lang')==='fa'?'fa':'en';}
 function saveURL(){try{const u=new URL(location.href);u.search='';if(fa())u.searchParams.set('lang','fa');if(search.value.trim())u.searchParams.set('q',search.value.trim());if(activeRegion!=='All regions')u.searchParams.set('region',activeRegion);if(sort.value==='desc')u.searchParams.set('sort','desc');history.replaceState(null,'',u);}catch{}}
 function translate(){
+ updateExploreLabels();
  document.documentElement.lang=lang;document.documentElement.dir=fa()?'rtl':'ltr';
  document.title=t('World Atlas — A pocket guide to the planet','اطلس جهان — راهنمای کوچک سیاره ما');
  document.querySelector('.skip').textContent=t('Skip to countries','رفتن به فهرست کشورها');
@@ -36,24 +37,17 @@ function translate(){
  document.querySelector('.brand').setAttribute('aria-label',t('World Atlas home','صفحه اصلی اطلس جهان'));
  document.querySelector('.toplink').textContent=t('About the atlas ↗','درباره اطلس ↖');
  $('language').textContent=t('فارسی','English');$('language').lang=fa()?'en':'fa';$('language').setAttribute('aria-label',t('Switch to Persian','Switch to English'));
- document.querySelector('.eyebrow').textContent=t('A pocket guide to the planet','راهنمای کوچک سیاره ما');
- $('page-title').innerHTML=t('Every country.<br><em>A little closer.</em>','همه کشورها.<br><em>کمی نزدیک‌تر.</em>');
- document.querySelector('.intro').innerHTML=t('Flags, capitals, currencies, official languages and religion.<br> Find a familiar place. Discover somewhere new.','پرچم‌ها، پایتخت‌ها، واحدهای پول، زبان‌های رسمی و دین.<br> جایی آشنا را پیدا کنید؛ جایی تازه را بشناسید.');
- document.querySelector('.hero-aside').setAttribute('aria-label',t('195 countries across 5 regions','۱۹۵ کشور در ۵ منطقه'));
- document.querySelector('.hero-aside p').innerHTML=t('<strong>195</strong> countries<span> / </span><strong>5</strong> regions','<strong>۱۹۵</strong> کشور<span> / </span><strong>۵</strong> منطقه');
  search.placeholder=t('Search the atlas…','جست‌وجو در اطلس…');search.setAttribute('aria-label',t('Search country, capital, city, currency or language','جست‌وجوی کشور، پایتخت، شهر، واحد پول یا زبان'));
  $('clear-search').setAttribute('aria-label',t('Clear search','پاک‌کردن جست‌وجو'));
  document.querySelector('.sort-label').textContent=t('Sort','ترتیب');sort.setAttribute('aria-label',t('Sort countries','مرتب‌سازی کشورها'));
  sort.options[0].text=t('A–Z','الف–ی');sort.options[1].text=t('Z–A','ی–الف');
  regions.setAttribute('aria-label',t('Filter by region','فیلتر بر اساس منطقه'));
  $('reset').textContent=t('Reset filters','پاک‌کردن فیلترها');
- $('source-note').hidden=true;$('source-note').textContent='';
- $('source-note').style.marginBottom='0';
  $('load-more').textContent=t('Show more countries ↓','نمایش کشورهای بیشتر ↓');
  document.querySelector('.footer-brand').textContent=t('WORLD ATLAS','اطلس جهان');
  document.querySelector('.footer-right span').textContent=t('For curious minds, everywhere.','برای ذهن‌های کنجکاو، در هر جای جهان.');
  document.querySelector('.footer-right a').textContent=t('Back to top ↑','بازگشت به بالا ↑');
- document.querySelector('.notes-inner').innerHTML=fa()?`<h2 id="about-title">درباره اطلس</h2><div><p>این اطلس شامل ۱۹۳ کشور عضو سازمان ملل متحد و دو دولت ناظر، سریر مقدس و دولت فلسطین، است. «شهرهای مهم» گزیده‌ای از شهرهاست که معمولاً پایتخت و چند مرکز شهری بزرگ را در بر می‌گیرد. برای کشورهای کوچک ممکن است فقط یک شهر درج شده باشد. در صورت نیاز، نقش‌های متفاوت پایتخت‌ها در متن اصلی توضیح داده شده‌اند.</p><p>داده‌های نام کشورها، پایتخت‌ها و واحدهای پول: <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a>. تصاویر پرچم‌ها از جعبه اطلاعات کشورها در <a href="https://en.wikipedia.org/" target="_blank" rel="noopener">ویکی‌پدیا</a> و فایل‌های ویکی‌مدیا کامانز ذخیره شده‌اند؛ <a href="https://github.com/ebrahimMc/world-atlas#wikipedia-flag-artwork" target="_blank" rel="noopener">منابع و مجوزهای پرچم‌ها</a> در مخزن پروژه آمده‌اند. داده‌های شهرها: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> با مجوز CC BY 4.0 و اصلاحات تحریریه. دامنه کشورها: <a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">سازمان ملل متحد</a>. برای پیوند اصلاحات پایتخت گینه استوایی و واحد پول زیمبابوه، نسخه انگلیسی را ببینید. داده‌ها در سپتامبر ۲۰۲۶ گردآوری شده‌اند؛ اطلاعات جغرافیایی و پولی ممکن است تغییر کند. نام فارسی کشورها و واحدهای پول از داده‌های بومی‌سازی مرورگر استفاده می‌کند. نام پایتخت‌ها و شهرهای مهم فارسی‌سازی شده‌اند.</p><p>زبان‌های رسمی، وضعیت ملی یا فدرال را بیان می‌کنند. در بخش دین، دین یا مذهب رسمی نمایش داده می‌شود؛ برای کشورهای بدون دین رسمی، بزرگ‌ترین گرایش دینی جمعیت، از جمله گروه بدون وابستگی دینی، آمده است. برآوردها از داده‌های ۲۰۲۰ مرکز پژوهشی Pew و گزارش‌های آزادی دینی ۲۰۲۳ برای هشت کشور کوچک خارج از آن مجموعه گرفته شده‌اند. بزرگ‌ترین گروه لزوماً اکثریت نیست. منابع در مخزن پروژه نگهداری می‌شوند. منطقه جغرافیایی بر اساس جزئی‌ترین گروه‌بندی منطقه‌ای <a href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener">طبقه‌بندی M49 سازمان ملل</a> نوشته شده است. رنگ قاره‌ها راهنمای اختصاصی اطلس با الهام از پنج رنگ المپیک است.</p></div>`:originalNotes;
+ document.querySelector('.notes-inner').innerHTML=fa()?`<h2 id="about-title">درباره اطلس</h2><div><p>این اطلس شامل ۱۹۳ کشور عضو سازمان ملل متحد و دو دولت ناظر، سریر مقدس و دولت فلسطین، است. «شهرهای مهم» گزیده‌ای از شهرهاست که معمولاً پایتخت و چند مرکز شهری بزرگ را در بر می‌گیرد. برای کشورهای کوچک ممکن است فقط یک شهر درج شده باشد. در صورت نیاز، نقش‌های متفاوت پایتخت‌ها در متن اصلی توضیح داده شده‌اند.</p><p>داده‌های نام کشورها، پایتخت‌ها و واحدهای پول: <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a>. تصاویر پرچم‌ها از جعبه اطلاعات کشورها در <a href="https://en.wikipedia.org/" target="_blank" rel="noopener">ویکی‌پدیا</a> و فایل‌های ویکی‌مدیا کامانز ذخیره شده‌اند؛ <a href="https://github.com/ebrahimMc/world-atlas#wikipedia-flag-artwork" target="_blank" rel="noopener">منابع و مجوزهای پرچم‌ها</a> در مخزن پروژه آمده‌اند. داده‌های شهرها: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> با مجوز CC BY 4.0 و اصلاحات تحریریه. دامنه کشورها: <a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">سازمان ملل متحد</a>. برای پیوند اصلاحات پایتخت گینه استوایی و واحد پول زیمبابوه، نسخه انگلیسی را ببینید. داده‌ها در سپتامبر ۲۰۲۶ گردآوری شده‌اند؛ اطلاعات جغرافیایی و پولی ممکن است تغییر کند. نام فارسی کشورها و واحدهای پول از داده‌های بومی‌سازی مرورگر استفاده می‌کند. نام پایتخت‌ها و شهرهای مهم فارسی‌سازی شده‌اند.</p><p>زبان‌های رسمی، وضعیت ملی یا فدرال را بیان می‌کنند. در بخش دین، دین یا مذهب رسمی نمایش داده می‌شود؛ برای کشورهای بدون دین رسمی، بزرگ‌ترین گرایش دینی جمعیت، از جمله گروه بدون وابستگی دینی، آمده است. برآوردها از داده‌های ۲۰۲۰ مرکز پژوهشی Pew و گزارش‌های آزادی دینی ۲۰۲۳ برای هشت کشور کوچک خارج از آن مجموعه گرفته شده‌اند. بزرگ‌ترین گروه لزوماً اکثریت نیست. منابع در مخزن پروژه نگهداری می‌شوند. منطقه جغرافیایی بر اساس جزئی‌ترین گروه‌بندی منطقه‌ای <a href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener">طبقه‌بندی M49 سازمان ملل</a> نوشته شده است. کره، فیلترها و کارت‌ها از پنج رنگ یکسان برای قاره‌ها استفاده می‌کنند.</p></div>`:originalNotes;
 }
 function drawFilters(){regions.innerHTML=regionNames.map(name=>{const total=regionTotals[name];return `<button type="button" data-region="${name}" aria-pressed="${name===activeRegion}" class="${name===activeRegion?'active':''}">${fa()?regionFa[name]:name==='All regions'?'All countries':name}<span class="region-count" aria-hidden="true">${num(total)}</span></button>`}).join('');}
 function languageValue(c){
@@ -80,8 +74,6 @@ function currencyName(name,code){
  const tail=`<span class="nowrap">${escapeHTML(name.slice(i+1))} <bdi class="code-inline">${escapeHTML(code)}</bdi></span>`;
  return i<0?tail:`${escapeHTML(name.slice(0,i))} ${tail}`;
 }
-const CARD_ICONS={pin:'<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',money:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M16 10h5v5h-5a2.5 2.5 0 0 1 0-5Z"/>',cities:'<path d="M3 21V9h7v12M10 21V3h8v18M18 21v-8h3v8M1 21h22M6 12v2m0 3v1m8-11v2m0 3v2m0 3v1"/>',language:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z"/>',culture:'<path d="M12 6C9 3 5 4 3 5v15c3-2 6-2 9 0 3-2 6-2 9 0V5c-2-1-6-2-9 1Zm0 0v14"/>'};
-function cardIcon(name){return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${CARD_ICONS[name]}</svg>`;}
 // Presentation abbreviations only; the complete capital wording stays searchable and accessible.
 const CAPITAL_ROLES={
  'official':'off.','seat of government':'govt.','administrative':'admin.',
@@ -100,10 +92,40 @@ function capitalValue(c){
  const entries=parts.map(([,city,role])=>`<span class="capital-entry"><span>${escapeHTML(city.trim())}</span> <span class="capital-role">· ${escapeHTML(CAPITAL_ROLES[role]||role)}</span></span>`).join('');
  return `<span class="capital-summary" tabindex="0" title="${escapeHTML(full)}" aria-label="${escapeHTML(full)}" data-full="${escapeHTML(full)}">${entries}</span>`;
 }
-function card(c){
- const religionLabel=c.religion.official?t('Official religion / denomination','دین و مذهب رسمی'):c.populationReligion.group==='Religiously_unaffiliated'?t('Predominant affiliation','گرایش غالب مردم'):t('Predominant religion','دین غالب مردم');
- const cities=fa()?c.citiesFa:c.cities;
- return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}"><div class="card-top"><div class="flag-stage"><span class="flag-caption" aria-hidden="true">${t('NATIONAL FLAG','پرچم کشور')}</span><span class="flag"><img src="${escapeHTML(FLAG_FILES[c.code])}" alt="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}" width="320" height="200" loading="lazy" decoding="async"></span><div class="country-meta"><span class="continent-tag" data-region="${c.region}">${escapeHTML(fa()?regionFa[c.region]:c.region)}</span><span class="region-tag" data-region="${c.region}">${escapeHTML(COUNTRY_REGIONS[c.code][fa()?'fa':'en'])}</span><bdi class="country-code" title="${t('ISO country code','کد ایزوی کشور')}" aria-label="${t('Country code: ','کد کشور: ')}${c.code}">${c.code}</bdi></div></div><div class="identity"><h3>${escapeHTML(fa()?faName(c):c.name)}</h3></div></div><dl class="details"><div class="detail detail-capital"><dt class="label">${cardIcon('pin')}${t('Capital','پایتخت')}</dt><dd class="value${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${capitalValue(c)}</dd></div><div class="detail detail-money"><dt class="label">${cardIcon('money')}${t('Currency','واحد پول')}</dt><dd class="value">${c.currencies.map(v=>`<span class="currency"><bdi class="currency-symbol" aria-hidden="true">${escapeHTML(CURRENCY_SYMBOLS[v.code]||v.code)}</bdi><span>${currencyName(fa()?faCurrency(v):v.name,v.code)}</span></span>`).join('')}</dd></div><div class="detail detail-cities"><dt class="label">${cardIcon('cities')}${t('Key cities','شهرهای مهم')}</dt><dd class="value cities${fa()?'':' source-value'}" lang="${fa()?'fa':'en'}">${cities.map(city=>`<span class="city-chip">${escapeHTML(city)}</span>`).join('')}</dd></div><div class="detail detail-culture"><dt class="label">${cardIcon('language')}${t('Official Languages','زبان‌های رسمی')}</dt><dd class="value">${languageValue(c)}</dd></div><div class="detail detail-religion" data-kind="${c.religion.official?'official':'population'}"><dt class="label">${cardIcon('culture')}${religionLabel}</dt><dd class="value">${religionValue(c)}</dd></div></dl></article>`;
+function matchReason(c) {
+ const query = plain(search.value.trim());
+ if (!query) return '';
+ const test = (...terms) => terms.some(term => plain(term).startsWith(query));
+ if (test(c.name, faName(c))) return '';
+ const pair = (en, persian) => escapeHTML(t(en, persian));
+ if (test(c.capital, c.capitalFa)) return pair(c.capital + ' · capital', c.capitalFa + ' · پایتخت');
+ const city = c.cities.findIndex((v,i) => test(v,c.citiesFa[i]));
+ if (city >= 0) return pair(c.cities[city] + ' · city', c.citiesFa[city] + ' · شهر');
+ const currency = c.currencies.find(v => test(v.code,v.name,faCurrency(v)));
+ if (currency) return pair(currency.name + ' · currency', faCurrency(currency) + ' · واحد پول');
+ const language = c.languages.find(v => test(v.en,v.fa));
+ return language ? pair(language.en + ' · language', language.fa + ' · زبان') : '';
+}
+function card(c) {
+ const region = COUNTRY_REGIONS[c.code][lang];
+ const flag = escapeHTML(FLAG_FILES[c.code]);
+ const title = escapeHTML(t(c.name,faName(c)));
+ const religion = c.religion.official ? t('Official religion / denomination','دین و مذهب رسمی') : c.populationReligion.group === 'Religiously_unaffiliated' ? t('Predominant affiliation','گرایش غالب مردم') : t('Predominant religion','دین غالب مردم');
+ const reason = matchReason(c);
+ return `<article class="card" tabindex="-1" data-code="${c.code}" data-region="${c.region}">
+   <div class="identity"><img src="${flag}" alt="${escapeHTML(t('Flag of '+c.name,'پرچم '+faName(c)))}" width="64" height="46">
+    <div><small>${escapeHTML(t(c.region,regionFa[c.region]))} · ${escapeHTML(region)}</small><h3>${title}</h3></div><bdi class="iso">${c.code}</bdi></div>
+   ${reason ? `<p class="reason">${reason}</p>` : ''}
+   <dl class="facts"><div><dt><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-pin"/></svg>${t('Capital','پایتخت')}</dt><dd>${capitalValue(c)}</dd></div>
+   <div><dt><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-coins"/></svg>${t('Currency','واحد پول')}</dt><dd>${c.currencies.map(v=>currencyName(t(v.name,faCurrency(v)),v.code)).join(' · ')}</dd></div></dl>
+   ${metricsMarkup(c.code)}
+   <details class="profile"><summary>${t('Country details','جزئیات کشور')}</summary>
+   <div class="geo-note"><strong>${t('Capital clock','ساعت پایتخت')}</strong><div data-clock="${c.code}">${localClock(c.code)}</div>
+   <p>${COUNTRY_METRICS[c.code].landlocked?t('Landlocked','محصور در خشکی'):t('Access to the open sea','دارای دسترسی به آب‌های آزاد')} · ${COUNTRY_METRICS[c.code].borders.length?t('Land neighbors in this atlas','همسایه‌های زمینی در اطلس')+' '+num(COUNTRY_METRICS[c.code].borders.length):t('No land neighbors in this atlas','در این اطلس همسایهٔ زمینی ندارد')}</p></div>
+   <img class="full-flag" src="${flag}" alt="" loading="lazy">
+   <dl><dt>${t('Key cities','شهرهای مهم')}</dt><dd>${(fa()?c.citiesFa:c.cities).map(escapeHTML).join(t(', ','، '))}</dd>
+   <dt>${t('Official languages','زبان‌های رسمی')}</dt><dd>${languageValue(c)}</dd>
+   <dt>${religion}</dt><dd>${religionValue(c)}</dd></dl></details><button class="on-map" type="button" data-locate="${c.code}">${t('Locate on globe','نمایش روی کره')}</button></article>`;
 }
 
 function animateCards(start){
@@ -121,12 +143,13 @@ function render({more=false,updateURL=true,animate=false,print=false}={}){
  if(sort.value==='desc')matches.reverse();
  const shown=matches.slice(0,limit),prior=grid.children.length;
  const filtered=!!query||activeRegion!=='All regions';
- $('directory-title').textContent=query?t('Search results','نتایج جست‌وجو'):activeRegion==='All regions'?t('Explore the world','جهان را کشف کنید'):t(`Explore ${activeRegion}`,`کشورهای ${regionFa[activeRegion]}`);
+ $('page-title').textContent=query?t('Search results','نتایج جست‌وجو'):activeRegion==='All regions'?t('A world to explore','جهان را کشف کنید'):t(`Explore ${activeRegion}`,`کشورهای ${regionFa[activeRegion]}`);
  $('count').textContent=fa()?`${num(matches.length)} کشور${filtered?' پیدا شد':' برای کشف'}${query?` برای «${search.value.trim()}»`:''}`:`${matches.length} ${matches.length===1?'country':'countries'}${filtered?' found':' to discover'}${query?` for “${search.value.trim()}”`:''}`;
  $('clear-search').hidden=!search.value;$('reset').hidden=!filtered&&sort.value==='asc';
- if(print||atlasGlobe.showsCards()){
+ grid.classList.toggle('single',matches.length===1);
+ if(print||!matches.length||atlasGlobe.showsCards()){
   if(more)grid.insertAdjacentHTML('beforeend',shown.slice(prior).map(card).join(''));
-  else grid.innerHTML=shown.length?shown.map(card).join(''):`<div class="empty"><h3>${t('No countries found','کشوری پیدا نشد')}</h3><p>${t('Try a different spelling, a currency code, or another region.','املای دیگری، کد واحد پول یا منطقه‌ای دیگر را امتحان کنید.')}</p><button type="button" class="primary" id="empty-reset">${t('Clear all filters','پاک‌کردن همه فیلترها')}</button></div>`;
+  else grid.innerHTML=shown.length?shown.map(card).join(''):`<div class="empty"><h3>${t('No countries found','کشوری پیدا نشد')}</h3><p>${t('Try Tokyo, EUR, or a different region.','«توکیو»، EUR یا منطقه‌ای دیگر را امتحان کنید.')}</p><button type="button" class="primary" id="empty-reset">${t('Clear all filters','پاک‌کردن همه فیلترها')}</button></div>`;
   $('load-area').hidden=shown.length>=matches.length;$('progress').textContent=t(`Showing ${shown.length} of ${matches.length} countries`,`نمایش ${num(shown.length)} از ${num(matches.length)} کشور`);
   $('end-note').hidden=!matches.length||shown.length<matches.length;
   $('end-note').textContent=t(`You’re all caught up · ${matches.length} ${matches.length===1?'country':'countries'}`,`همه نتایج نمایش داده شد · ${num(matches.length)} کشور`);
@@ -161,11 +184,11 @@ search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';limit
 sort.addEventListener('change',()=>{limit=24;render();closeFilters({focus:true});});
 $('clear-search').addEventListener('click',()=>{search.value='';limit=24;render();search.focus();});
 $('reset').addEventListener('click',reset);
-grid.addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset();});
+grid.addEventListener('click',e=>{if(e.target.closest('#empty-reset'))reset(); const link=e.target.closest('[data-locate]'); if(link){atlasGlobe.openCountry(link.dataset.locate); $('globe-country').focus({preventScroll:true}); $('directory').scrollIntoView({block:'start'});}});
 $('load-more').addEventListener('click',e=>{limit+=24;render({more:true,animate:e.detail>0});});
 $('language').addEventListener('click',()=>{lang=fa()?'en':'fa';limit=24;translate();drawFilters();render();});
 window.addEventListener('popstate',()=>{readURL();limit=24;translate();drawFilters();render({updateURL:false});});
 window.addEventListener('beforeprint',()=>{if(!atlasGlobe.showsCards())render({print:true,updateURL:false});});
 readURL();
-atlasGlobe=createAtlasGlobe({card,t,faName,showCards:()=>render({updateURL:false})});
+atlasGlobe=createAtlasGlobe({card,t,faName,countries:searchable,showCards:()=>render({updateURL:false})});
 translate();drawFilters();render({updateURL:false,animate:true});

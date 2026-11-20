@@ -4,56 +4,68 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light">
-<meta name="theme-color" content="#193d55">
+<meta name="theme-color" content="#152c3b">
 <meta name="description" content="Your pocket guide to 195 countries. Explore flags, capitals, cities, currencies, official languages and religion in a searchable bilingual world atlas.">
 <title>World Atlas — A pocket guide to the planet</title>
 <link rel="stylesheet" href="assets/styles.css">
 <script defer src="assets/data.js"></script>
+<script defer src="assets/explore-data.js"></script>
+<script defer src="assets/explore.js"></script>
 <script defer src="assets/globe.js"></script>
 <script defer src="assets/app.js"></script>
 </head>
 <body id="top">
+<svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs>
+<symbol id="icon-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+<symbol id="icon-cards" viewBox="0 0 24 24"><rect x="3" y="4" width="7" height="16" rx="2"/><rect x="14" y="4" width="7" height="16" rx="2"/></symbol>
+<symbol id="icon-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+<symbol id="icon-coins" viewBox="0 0 24 24"><ellipse cx="10" cy="7" rx="7" ry="3"/><path d="M3 7v4c0 4 14 4 14 0V7M7 15v2c0 4 14 4 14 0v-5c0-1-1.5-2-4-2.6"/></symbol>
+<symbol id="icon-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+<symbol id="icon-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+<symbol id="icon-reset" viewBox="0 0 24 24"><path d="M4 10a8 8 0 1 1 1.4 7M4 4v6h6"/></symbol>
+<symbol id="icon-layers" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5-9 5-9-5Zm0 4 9 5 9-5M3 16l9 5 9-5"/></symbol>
+</defs></svg>
 <a class="skip" href="#directory">Skip to countries</a>
 <header class="masthead"><div class="shell">
 <div class="topbar"><a class="brand" href="./" aria-label="World Atlas home"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="16" cy="16" r="13"/><ellipse cx="16" cy="16" rx="6" ry="13"/><path d="M3 16h26M6 8.5c6 4 14 4 20 0M6 23.5c6-4 14-4 20 0"/></svg>WORLD ATLAS</a><div class="header-actions"><a class="toplink" href="#about">About the atlas ↗</a><button class="language-toggle" id="language" type="button" lang="fa" aria-label="Switch to Persian">فارسی</button></div></div>
-<div class="hero"><div><p class="eyebrow">A pocket guide to the planet</p><h1 id="page-title">Every country.<br><em>A little closer.</em></h1><p class="intro">Flags, capitals, currencies, official languages and religion.<br>Find a familiar place. Discover somewhere new.</p></div><div class="hero-aside" aria-label="195 countries across 5 regions"><svg class="globe" viewBox="0 0 180 180" fill="none" stroke="currentColor" stroke-width=".8" aria-hidden="true"><circle cx="90" cy="90" r="77"/><ellipse cx="90" cy="90" rx="48" ry="77"/><ellipse cx="90" cy="90" rx="19" ry="77"/><ellipse cx="90" cy="90" rx="77" ry="26"/><path d="M13 90h154M23 53c36 19 98 19 134 0M23 127c36-19 98-19 134 0M90 13v154"/><circle cx="90" cy="90" r="87" stroke-dasharray="1 5" opacity=".5"/></svg><p><strong>195</strong> countries<span> / </span><strong>5</strong> regions</p></div></div></div></header>
+</div></header>
 <main>
-<div class="controls-wrap"><div class="shell controls"><div class="search-row"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search the atlas…" aria-label="Search country, capital, city, currency or language" autocomplete="off" spellcheck="false"><button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button></div><button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="sort-control filter-controls"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="currentColor"/><circle cx="15" cy="17" r="3" fill="currentColor"/></svg><span id="filter-toggle-label">Filters</span><span id="filter-active-count" class="filter-active-count" hidden></span></button><label class="sort" id="sort-control"><span class="sort-label">Sort</span><select id="sort" aria-label="Sort countries"><option value="asc">A–Z</option><option value="desc">Z–A</option></select></label></div><div class="filters-row" id="filter-controls"><nav class="filter" aria-label="Filter by region" id="regions"></nav><button id="reset" class="reset" type="button" hidden>Reset filters</button></div></div></div>
-<section class="shell directory" id="directory" aria-labelledby="directory-title">
-<div class="section-head">
-  <div class="atlas-heading">
-    <h2 id="directory-title">Explore the world</h2>
-    <p class="result-count" id="count" role="status" aria-live="polite" aria-atomic="true"></p>
-  </div>
-  <div class="atlas-view" id="atlas-view" role="group" aria-label="Atlas view" hidden>
-    <button type="button" data-view="globe" aria-pressed="true">3D globe</button>
-    <button type="button" data-view="cards" aria-pressed="false">Country cards</button>
+<section class="shell directory" id="directory" aria-labelledby="page-title">
+<div class="section-head"><div><h1 id="page-title">Explore the world</h1><p class="result-count" id="count" role="status"></p></div>
+<div class="atlas-view" id="atlas-view" role="group" aria-label="Atlas view" hidden>
+    <button type="button" data-view="globe" aria-pressed="true"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-globe"/></svg><span>3D globe</span></button>
+    <button type="button" data-view="cards" aria-pressed="false"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-cards"/></svg><span>Country cards</span></button>
   </div>
 </div>
-<p class="source-note" id="source-note" hidden></p>
+<div class="studio">
+<div class="controls-wrap"><div class="controls"><div class="search-row"><div class="searchbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Search the atlas…" aria-label="Search country, capital, city, currency or language" autocomplete="off" spellcheck="false"><button id="clear-search" class="clear-search" type="button" aria-label="Clear search" hidden>×</button></div><button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="sort-control filter-controls"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="currentColor"/><circle cx="15" cy="17" r="3" fill="currentColor"/></svg><span id="filter-toggle-label">Filters</span><span id="filter-active-count" class="filter-active-count" hidden></span></button><label class="sort" id="sort-control"><span class="sort-label">Sort</span><select id="sort" aria-label="Sort countries"><option value="asc">A–Z</option><option value="desc">Z–A</option></select></label></div><div class="filters-row" id="filter-controls"><nav class="filter" aria-label="Filter by region" id="regions"></nav><button id="reset" class="reset" type="button" hidden>Reset filters</button></div></div></div>
 <div class="atlas-globe" id="atlas-globe" hidden>
+  <div class="map-workspace"><div class="layer-bar"><label for="atlas-layer" id="layer-title">Map layer</label><select id="atlas-layer"><option value="countries">Countries</option><option value="day">Day and night</option><option value="ports">Ports</option></select></div>
   <div class="atlas-globe-map">
+    <div class="map-tools"><button id="map-colors" type="button" aria-pressed="true"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-layers"/></svg><span>Continents</span></button><bdi id="coordinates" dir="ltr"></bdi></div>
     <div id="globe-stage" class="atlas-globe-stage" aria-hidden="true"></div>
     <p id="globe-status" class="atlas-globe-status" role="status"></p>
     <div id="globe-tools" class="atlas-globe-tools" role="group" aria-label="Globe controls" hidden>
-      <button id="globe-zoom-in" type="button" aria-label="Zoom in">+</button>
-      <button id="globe-zoom-out" type="button" aria-label="Zoom out">−</button>
-      <button id="globe-reset" type="button" aria-label="Reset globe view">↺</button>
+      <button id="globe-zoom-in" type="button" aria-label="Zoom in"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-plus"/></svg></button>
+      <button id="globe-zoom-out" type="button" aria-label="Zoom out"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-minus"/></svg></button>
+      <button id="globe-reset" type="button" aria-label="Reset globe view"><svg class="ui-icon" aria-hidden="true" focusable="false"><use href="#icon-reset"/></svg></button>
     </div>
     <div class="atlas-globe-caption">
       <p id="globe-guide">Drag to rotate · Scroll to zoom</p>
       <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener" lang="en" dir="ltr">Natural Earth</a>
     </div>
   </div>
-  <div class="atlas-globe-panel">
+  </div><div class="atlas-globe-panel">
+    <div id="layer-detail"></div>
     <label for="globe-country" id="globe-country-label">Find a country on the globe</label>
     <select id="globe-country"></select>
     <div id="globe-details" role="region" aria-label="Country details"></div>
     <span id="globe-announcement" class="atlas-sr-only" role="status"></span>
   </div>
 </div>
-<div class="grid" id="grid"></div><div class="load-area" id="load-area"><button id="load-more" class="load-more" type="button">Show more countries ↓</button><p id="progress"></p></div><p class="end-note" id="end-note" hidden></p></section>
+</div><div class="grid" id="grid"></div><div class="load-area" id="load-area"><button id="load-more" class="load-more" type="button">Show more countries ↓</button><p id="progress"></p></div><p class="end-note" id="end-note" hidden></p></section>
 <noscript><p class="shell noscript">Please enable JavaScript to search and browse the country directory. All country data is included in this page.</p></noscript>
-<section class="notes" id="about" aria-labelledby="about-title"><div class="shell notes-inner"><h2 id="about-title">About the atlas</h2><div><p>Scope: 193 United Nations member states and two UN observer states (the Holy See and the State of Palestine). “Key cities” is a short editorial selection, generally including the capital and other major urban centres. Small states may have only one listed city. Capital descriptions note split roles where useful.</p><p>Country names, capitals and base currencies: <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a>. Flag images: locally saved from <a href="https://en.wikipedia.org/" target="_blank" rel="noopener">Wikipedia country infoboxes</a>, via Wikimedia Commons. <a href="https://github.com/ebrahimMc/world-atlas#wikipedia-flag-artwork" target="_blank" rel="noopener">Flag credits and licenses</a> are recorded in the repository. City data: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0), with editorial corrections. Scope: <a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">United Nations</a>. Recent corrections: <a href="https://www.guineaecuatorialpress.com/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley" target="_blank" rel="noopener">Equatorial Guinea’s capital</a> and <a href="https://www.rbz.co.zw/documents/mps/2024/CONSOLIDATED_MPS_Review_-_August_2024.pdf" target="_blank" rel="noopener">Zimbabwe’s currency</a>. Compiled September 2026; geography and currency details may change.</p><p>Official languages describe national or federal legal status. Religion shows official status where designated; otherwise it shows the largest population affiliation, including unaffiliated people. Population estimates use <a href="https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/" target="_blank" rel="noopener">Pew Research Center’s 2020 dataset</a> and 2023 religious freedom reports for eight small states outside that dataset. A largest group is not necessarily a majority. References are retained in the repository. Geographic regions use the <a href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener">UN M49 classification</a>, using its most specific regional grouping. Continent colors are an atlas key inspired by the five Olympic colors.</p></div></div></section>
+<details class="shell source-guide"><summary id="dataset-title">Data and methods</summary><div id="dataset-notes"></div></details>
+<section class="notes" id="about" aria-labelledby="about-title"><div class="shell notes-inner"><h2 id="about-title">About the atlas</h2><div><p>Scope: 193 United Nations member states and two UN observer states (the Holy See and the State of Palestine). “Key cities” is a short editorial selection, generally including the capital and other major urban centres. Small states may have only one listed city. Capital descriptions note split roles where useful.</p><p>Country names, capitals and base currencies: <a href="https://github.com/mledoze/countries" target="_blank" rel="noopener">mledoze/countries</a>. Flag images: locally saved from <a href="https://en.wikipedia.org/" target="_blank" rel="noopener">Wikipedia country infoboxes</a>, via Wikimedia Commons. <a href="https://github.com/ebrahimMc/world-atlas#wikipedia-flag-artwork" target="_blank" rel="noopener">Flag credits and licenses</a> are recorded in the repository. City data: <a href="https://www.geonames.org/" target="_blank" rel="noopener">GeoNames</a> (CC BY 4.0), with editorial corrections. Scope: <a href="https://www.un.org/en/about-us/member-states" target="_blank" rel="noopener">United Nations</a>. Recent corrections: <a href="https://www.guineaecuatorialpress.com/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley" target="_blank" rel="noopener">Equatorial Guinea’s capital</a> and <a href="https://www.rbz.co.zw/documents/mps/2024/CONSOLIDATED_MPS_Review_-_August_2024.pdf" target="_blank" rel="noopener">Zimbabwe’s currency</a>. Compiled September 2026; geography and currency details may change.</p><p>Official languages describe national or federal legal status. Religion shows official status where designated; otherwise it shows the largest population affiliation, including unaffiliated people. Population estimates use <a href="https://www.pewresearch.org/religion/feature/religious-composition-by-country-2010-2020/" target="_blank" rel="noopener">Pew Research Center’s 2020 dataset</a> and 2023 religious freedom reports for eight small states outside that dataset. A largest group is not necessarily a majority. References are retained in the repository. Geographic regions use the <a href="https://unstats.un.org/unsd/methodology/m49/overview/" target="_blank" rel="noopener">UN M49 classification</a>, using its most specific regional grouping. The map, filters and cards use the same five continent colors.</p></div></div></section>
 </main><footer class="footer"><div class="shell footer-inner"><span class="footer-brand">WORLD ATLAS</span><div class="footer-right"><span>For curious minds, everywhere.</span><a href="#top">Back to top ↑</a></div></div></footer>
 </body></html>
